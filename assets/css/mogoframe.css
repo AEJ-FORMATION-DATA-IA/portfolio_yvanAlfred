@@ -1,0 +1,5098 @@
+@charset "UTF-8";
+/* 
+*mogoframe v1
+*element importent
+*/
+
+.igs-textaligncenter{text-align:center;}
+
+.igs-letterspacing{letter-spacing: 2px;}
+.igs-decorationnone{text-decoration: none;}
+
+.igs-textupper{text-transform: uppercase;}
+
+.igs-textlower{text-transform: lowercase;}
+
+
+
+/* Annimation */
+
+.igs-hoverscale:hover{transform: scale(1.5);}
+
+.igs-hoverbackground:hover{background-color: blanchedalmond;}
+
+
+
+/*
+*igsframework v1
+*color
+
+*/
+.igs-0255149{color:rgb(0, 255, 149);}
+
+.igs-colorgold{color:  #FFD700;}
+
+.igs-colorwhite{color: #ffffff;}
+
+.igs-colorblack{color:rgb(0, 0, 0);}
+
+.igs-colorblue{color:rgb(0, 0, 255);}
+
+.igs-colorligthcoral{color:  #F08080;}
+
+
+
+/*
+*igsframework v1
+*background
+*les background sont dites "bg"
+
+*/
+
+.igs-bg0255149{background-color:rgb(0, 255, 149);}
+
+.igs-bgaqua{background-color:aqua}
+
+.igs-bgblack{ background-color: rgb(0, 0, 0);}
+
+.igs-bgnorepeat{ background-repeat: no-repeat;}
+
+.igs-bgcover{ background-size: cover;}
+
+.igs-bgsalutation{background-image: url("../images/f818eb3710_119299_intelligence-artificielle.jpg") ;}
+
+
+/*
+*mogoléframe v1
+*police
+
+*/
+
+
+.igs-bolder{font-weight: bolder;}
+
+.igs-bold{font-weight: bold;}
+
+.igs-fontcursive{font-family: cursive;}
+
+.igs-trebuchet{font-family: 'Trebuchet MS';}
+
+.igs-helvetica{font-family: Helvetica;}
+
+/*mogoléframe
+* les grids
+*/
+
+.igs-grid3_1{
+    
+    grid-template-areas: 
+    "header "
+    "article "
+    "footer ";
+
+}
+
+.igs-grid2_3{
+
+    grid-template-areas: 
+       "un space deux space trois"
+    "quatre quatre quatre quatre quatre"
+    ;
+}
+
+.igs-gridun{grid-area: un;}
+.igs-griddeux{grid-area: deux;}
+.igs-gridtrois{grid-area: trois;}
+.igs-gridquatre{grid-area: quatre;}
+.igs-gridspace{grid-area: space;}
+
+
+.igs-gridrowdim{grid-template-rows: 500px 500px ;}
+
+.igs-gridcolumndim{grid-template-columns: 1px 20px 1px 20px 1px;}
+
+.igs-gridnavbodyfooter{grid-template-rows: 500px 5fr 0.5fr;}
+
+.igs-column1{grid-template-columns: 1fr;}
+
+.igs-displaygrid{display:grid;}
+
+.igs-headergrid{grid-area: header;}
+
+.igs-asidegrid{grid-area: aside;}
+
+.igs-articlegrid{grid-area: article;}
+
+.igs-footergrid{grid-area: footer;}
+
+.igs-displayblock{display:block;}
+
+.igs-displayinline{display:inline;}
+
+/*flex*/
+
+.igs-displayflex{display:flex;}
+.igs-justifycontentleft{justify-content:left;}
+.igs-justifycontentright{justify-content:right;}
+.igs-justifycontentcenter{justify-content:center;}
+.igs-jc-spacearound{justify-content: space-around;}
+.igs-jc-spacebetween{justify-content: space-between;}
+/*position*/
+
+.igs-posabsolute{position:absolute;}
+.igs-posrelative{position:relative;}
+.igs-posfixed{position:fixed;}
+/*
+*igsframework v1
+*float
+
+*/
+
+.igs-floatleft{ float:left;}
+
+.igs-floatright{   float:right;}
+/*border radius en pourcentage*/
+
+.igs-borderadius0p{ border-radius: 0%; }
+.igs-borderadius1p{ border-radius: 1%; }
+.igs-borderadius2p{ border-radius: 2%; }
+.igs-borderadius3p{ border-radius: 3%; }
+.igs-borderadius4p{ border-radius: 4%; }
+.igs-borderadius5p{ border-radius: 5%; }
+.igs-borderadius6p{ border-radius: 6%; }
+.igs-borderadius7p{ border-radius: 7%; }
+.igs-borderadius8p{ border-radius: 8%; }
+.igs-borderadius9p{ border-radius: 9%; }
+.igs-borderadius10p{ border-radius: 10%; }
+.igs-borderadius11p{ border-radius: 11%; }
+.igs-borderadius12p{ border-radius: 12%; }
+.igs-borderadius13p{ border-radius: 13%; }
+.igs-borderadius14p{ border-radius: 14%; }
+.igs-borderadius15p{ border-radius: 15%; }
+.igs-borderadius16p{ border-radius: 16%; }
+.igs-borderadius17p{ border-radius: 17%; }
+.igs-borderadius18p{ border-radius: 18%; }
+.igs-borderadius19p{ border-radius: 19%; }
+.igs-borderadius20p{ border-radius: 20%; }
+.igs-borderadius21p{ border-radius: 21%; }
+.igs-borderadius22p{ border-radius: 22%; }
+.igs-borderadius23p{ border-radius: 23%; }
+.igs-borderadius24p{ border-radius: 24%; }
+.igs-borderadius25p{ border-radius: 25%; }
+.igs-borderadius26p{ border-radius: 26%; }
+.igs-borderadius27p{ border-radius: 27%; }
+.igs-borderadius28p{ border-radius: 28%; }
+.igs-borderadius29p{ border-radius: 29%; }
+.igs-borderadius30p{ border-radius: 30%; }
+.igs-borderadius31p{ border-radius: 31%; }
+.igs-borderadius32p{ border-radius: 32%; }
+.igs-borderadius33p{ border-radius: 33%; }
+.igs-borderadius34p{ border-radius: 34%; }
+.igs-borderadius35p{ border-radius: 35%; }
+.igs-borderadius36p{ border-radius: 36%; }
+.igs-borderadius37p{ border-radius: 37%; }
+.igs-borderadius38p{ border-radius: 38%; }
+.igs-borderadius39p{ border-radius: 39%; }
+.igs-borderadius40p{ border-radius: 40%; }
+.igs-borderadius41p{ border-radius: 41%; }
+.igs-borderadius42p{ border-radius: 42%; }
+.igs-borderadius43p{ border-radius: 43%; }
+.igs-borderadius44p{ border-radius: 44%; }
+.igs-borderadius45p{ border-radius: 45%; }
+.igs-borderadius46p{ border-radius: 46%; }
+.igs-borderadius47p{ border-radius: 47%; }
+.igs-borderadius48p{ border-radius: 48%; }
+.igs-borderadius49p{ border-radius: 49%; }
+.igs-borderadius50p{ border-radius: 50%; }
+.igs-borderadius51p{ border-radius: 51%; }
+.igs-borderadius52p{ border-radius: 52%; }
+.igs-borderadius53p{ border-radius: 53%; }
+.igs-borderadius54p{ border-radius: 54%; }
+.igs-borderadius55p{ border-radius: 55%; }
+.igs-borderadius56p{ border-radius: 56%; }
+.igs-borderadius57p{ border-radius: 57%; }
+.igs-borderadius58p{ border-radius: 58%; }
+.igs-borderadius59p{ border-radius: 59%; }
+.igs-borderadius60p{ border-radius: 60%; }
+.igs-borderadius61p{ border-radius: 61%; }
+.igs-borderadius62p{ border-radius: 62%; }
+.igs-borderadius63p{ border-radius: 63%; }
+.igs-borderadius64p{ border-radius: 64%; }
+.igs-borderadius65p{ border-radius: 65%; }
+.igs-borderadius66p{ border-radius: 66%; }
+.igs-borderadius67p{ border-radius: 67%; }
+.igs-borderadius68p{ border-radius: 68%; }
+.igs-borderadius69p{ border-radius: 69%; }
+.igs-borderadius70p{ border-radius: 70%; }
+.igs-borderadius71p{ border-radius: 71%; }
+.igs-borderadius72p{ border-radius: 72%; }
+.igs-borderadius73p{ border-radius: 73%; }
+.igs-borderadius74p{ border-radius: 74%; }
+.igs-borderadius75p{ border-radius: 75%; }
+.igs-borderadius76p{ border-radius: 76%; }
+.igs-borderadius77p{ border-radius: 77%; }
+.igs-borderadius78p{ border-radius: 78%; }
+.igs-borderadius79p{ border-radius: 79%; }
+.igs-borderadius80p{ border-radius: 80%; }
+.igs-borderadius81p{ border-radius: 81%; }
+.igs-borderadius82p{ border-radius: 82%; }
+.igs-borderadius83p{ border-radius: 83%; }
+.igs-borderadius84p{ border-radius: 84%; }
+.igs-borderadius85p{ border-radius: 85%; }
+.igs-borderadius86p{ border-radius: 86%; }
+.igs-borderadius87p{ border-radius: 87%; }
+.igs-borderadius88p{ border-radius: 88%; }
+.igs-borderadius89p{ border-radius: 89%; }
+.igs-borderadius90p{ border-radius: 90%; }
+.igs-borderadius91p{ border-radius: 91%; }
+.igs-borderadius92p{ border-radius: 92%; }
+.igs-borderadius93p{ border-radius: 93%; }
+.igs-borderadius94p{ border-radius: 94%; }
+.igs-borderadius95p{ border-radius: 95%; }
+.igs-borderadius96p{ border-radius: 96%; }
+.igs-borderadius97p{ border-radius: 97%; }
+.igs-borderadius98p{ border-radius: 98%; }
+.igs-borderadius99p{ border-radius: 99%; }
+.igs-borderadius100p{ border-radius: 100%; }
+
+/*border style */
+.igs-bordersolide{border:solid;}
+
+
+
+
+
+/*padding*/
+.igs-padding0{ padding: 0px ; }
+.igs-padding1{ padding: 1px ; }
+.igs-padding2{ padding: 2px ; }
+.igs-padding3{ padding: 3px ; }
+.igs-padding4{ padding: 4px ; }
+.igs-padding5{ padding: 5px ; }
+.igs-padding6{ padding: 6px ; }
+.igs-padding7{ padding: 7px ; }
+.igs-padding8{ padding: 8px ; }
+.igs-padding9{ padding: 9px ; }
+.igs-padding10{ padding: 10px ; }
+.igs-padding11{ padding: 11px ; }
+.igs-padding12{ padding: 12px ; }
+.igs-padding13{ padding: 13px ; }
+.igs-padding14{ padding: 14px ; }
+.igs-padding15{ padding: 15px ; }
+.igs-padding16{ padding: 16px ; }
+.igs-padding17{ padding: 17px ; }
+.igs-padding18{ padding: 18px ; }
+.igs-padding19{ padding: 19px ; }
+.igs-padding20{ padding: 20px ; }
+.igs-padding21{ padding: 21px ; }
+.igs-padding22{ padding: 22px ; }
+.igs-padding23{ padding: 23px ; }
+.igs-padding24{ padding: 24px ; }
+.igs-padding25{ padding: 25px ; }
+.igs-padding26{ padding: 26px ; }
+.igs-padding27{ padding: 27px ; }
+.igs-padding28{ padding: 28px ; }
+.igs-padding29{ padding: 29px ; }
+.igs-padding30{ padding: 30px ; }
+.igs-padding31{ padding: 31px ; }
+.igs-padding32{ padding: 32px ; }
+.igs-padding33{ padding: 33px ; }
+.igs-padding34{ padding: 34px ; }
+.igs-padding35{ padding: 35px ; }
+.igs-padding36{ padding: 36px ; }
+.igs-padding37{ padding: 37px ; }
+.igs-padding38{ padding: 38px ; }
+.igs-padding39{ padding: 39px ; }
+.igs-padding40{ padding: 40px ; }
+.igs-padding41{ padding: 41px ; }
+.igs-padding42{ padding: 42px ; }
+.igs-padding43{ padding: 43px ; }
+.igs-padding44{ padding: 44px ; }
+.igs-padding45{ padding: 45px ; }
+.igs-padding46{ padding: 46px ; }
+.igs-padding47{ padding: 47px ; }
+.igs-padding48{ padding: 48px ; }
+.igs-padding49{ padding: 49px ; }
+.igs-padding50{ padding: 50px ; }
+.igs-padding51{ padding: 51px ; }
+.igs-padding52{ padding: 52px ; }
+.igs-padding53{ padding: 53px ; }
+.igs-padding54{ padding: 54px ; }
+.igs-padding55{ padding: 55px ; }
+.igs-padding56{ padding: 56px ; }
+.igs-padding57{ padding: 57px ; }
+.igs-padding58{ padding: 58px ; }
+.igs-padding59{ padding: 59px ; }
+.igs-padding60{ padding: 60px ; }
+.igs-padding61{ padding: 61px ; }
+.igs-padding62{ padding: 62px ; }
+.igs-padding63{ padding: 63px ; }
+.igs-padding64{ padding: 64px ; }
+.igs-padding65{ padding: 65px ; }
+.igs-padding66{ padding: 66px ; }
+.igs-padding67{ padding: 67px ; }
+.igs-padding68{ padding: 68px ; }
+.igs-padding69{ padding: 69px ; }
+.igs-padding70{ padding: 70px ; }
+.igs-padding71{ padding: 71px ; }
+.igs-padding72{ padding: 72px ; }
+.igs-padding73{ padding: 73px ; }
+.igs-padding74{ padding: 74px ; }
+.igs-padding75{ padding: 75px ; }
+.igs-padding76{ padding: 76px ; }
+.igs-padding77{ padding: 77px ; }
+.igs-padding78{ padding: 78px ; }
+.igs-padding79{ padding: 79px ; }
+.igs-padding80{ padding: 80px ; }
+.igs-padding81{ padding: 81px ; }
+.igs-padding82{ padding: 82px ; }
+.igs-padding83{ padding: 83px ; }
+.igs-padding84{ padding: 84px ; }
+.igs-padding85{ padding: 85px ; }
+.igs-padding86{ padding: 86px ; }
+.igs-padding87{ padding: 87px ; }
+.igs-padding88{ padding: 88px ; }
+.igs-padding89{ padding: 89px ; }
+.igs-padding90{ padding: 90px ; }
+.igs-padding91{ padding: 91px ; }
+.igs-padding92{ padding: 92px ; }
+.igs-padding93{ padding: 93px ; }
+.igs-padding94{ padding: 94px ; }
+.igs-padding95{ padding: 95px ; }
+.igs-padding96{ padding: 96px ; }
+.igs-padding97{ padding: 97px ; }
+.igs-padding98{ padding: 98px ; }
+.igs-padding99{ padding: 99px ; }
+.igs-padding100{ padding: 100px ; }
+.igs-padding101{ padding: 101px ; }
+.igs-padding102{ padding: 102px ; }
+.igs-padding103{ padding: 103px ; }
+.igs-padding104{ padding: 104px ; }
+.igs-padding105{ padding: 105px ; }
+.igs-padding106{ padding: 106px ; }
+.igs-padding107{ padding: 107px ; }
+.igs-padding108{ padding: 108px ; }
+.igs-padding109{ padding: 109px ; }
+.igs-padding110{ padding: 110px ; }
+.igs-padding111{ padding: 111px ; }
+.igs-padding112{ padding: 112px ; }
+.igs-padding113{ padding: 113px ; }
+.igs-padding114{ padding: 114px ; }
+.igs-padding115{ padding: 115px ; }
+.igs-padding116{ padding: 116px ; }
+.igs-padding117{ padding: 117px ; }
+.igs-padding118{ padding: 118px ; }
+.igs-padding119{ padding: 119px ; }
+.igs-padding120{ padding: 120px ; }
+.igs-padding121{ padding: 121px ; }
+.igs-padding122{ padding: 122px ; }
+.igs-padding123{ padding: 123px ; }
+.igs-padding124{ padding: 124px ; }
+.igs-padding125{ padding: 125px ; }
+.igs-padding126{ padding: 126px ; }
+.igs-padding127{ padding: 127px ; }
+.igs-padding128{ padding: 128px ; }
+.igs-padding129{ padding: 129px ; }
+.igs-padding130{ padding: 130px ; }
+.igs-padding131{ padding: 131px ; }
+.igs-padding132{ padding: 132px ; }
+.igs-padding133{ padding: 133px ; }
+.igs-padding134{ padding: 134px ; }
+.igs-padding135{ padding: 135px ; }
+.igs-padding136{ padding: 136px ; }
+.igs-padding137{ padding: 137px ; }
+.igs-padding138{ padding: 138px ; }
+.igs-padding139{ padding: 139px ; }
+.igs-padding140{ padding: 140px ; }
+.igs-padding141{ padding: 141px ; }
+.igs-padding142{ padding: 142px ; }
+.igs-padding143{ padding: 143px ; }
+.igs-padding144{ padding: 144px ; }
+.igs-padding145{ padding: 145px ; }
+.igs-padding146{ padding: 146px ; }
+.igs-padding147{ padding: 147px ; }
+.igs-padding148{ padding: 148px ; }
+.igs-padding149{ padding: 149px ; }
+.igs-padding150{ padding: 150px ; }
+.igs-padding151{ padding: 151px ; }
+.igs-padding152{ padding: 152px ; }
+.igs-padding153{ padding: 153px ; }
+.igs-padding154{ padding: 154px ; }
+.igs-padding155{ padding: 155px ; }
+.igs-padding156{ padding: 156px ; }
+.igs-padding157{ padding: 157px ; }
+.igs-padding158{ padding: 158px ; }
+.igs-padding159{ padding: 159px ; }
+.igs-padding160{ padding: 160px ; }
+.igs-padding161{ padding: 161px ; }
+.igs-padding162{ padding: 162px ; }
+.igs-padding163{ padding: 163px ; }
+.igs-padding164{ padding: 164px ; }
+.igs-padding165{ padding: 165px ; }
+.igs-padding166{ padding: 166px ; }
+.igs-padding167{ padding: 167px ; }
+.igs-padding168{ padding: 168px ; }
+.igs-padding169{ padding: 169px ; }
+.igs-padding170{ padding: 170px ; }
+.igs-padding171{ padding: 171px ; }
+.igs-padding172{ padding: 172px ; }
+.igs-padding173{ padding: 173px ; }
+.igs-padding174{ padding: 174px ; }
+.igs-padding175{ padding: 175px ; }
+.igs-padding176{ padding: 176px ; }
+.igs-padding177{ padding: 177px ; }
+.igs-padding178{ padding: 178px ; }
+.igs-padding179{ padding: 179px ; }
+.igs-padding180{ padding: 180px ; }
+.igs-padding181{ padding: 181px ; }
+.igs-padding182{ padding: 182px ; }
+.igs-padding183{ padding: 183px ; }
+.igs-padding184{ padding: 184px ; }
+.igs-padding185{ padding: 185px ; }
+.igs-padding186{ padding: 186px ; }
+.igs-padding187{ padding: 187px ; }
+.igs-padding188{ padding: 188px ; }
+.igs-padding189{ padding: 189px ; }
+.igs-padding190{ padding: 190px ; }
+.igs-padding191{ padding: 191px ; }
+.igs-padding192{ padding: 192px ; }
+.igs-padding193{ padding: 193px ; }
+.igs-padding194{ padding: 194px ; }
+.igs-padding195{ padding: 195px ; }
+.igs-padding196{ padding: 196px ; }
+.igs-padding197{ padding: 197px ; }
+.igs-padding198{ padding: 198px ; }
+.igs-padding199{ padding: 199px ; }
+.igs-padding200{ padding: 200px ; }
+.igs-padding201{ padding: 201px ; }
+.igs-padding202{ padding: 202px ; }
+.igs-padding203{ padding: 203px ; }
+.igs-padding204{ padding: 204px ; }
+.igs-padding205{ padding: 205px ; }
+.igs-padding206{ padding: 206px ; }
+.igs-padding207{ padding: 207px ; }
+.igs-padding208{ padding: 208px ; }
+.igs-padding209{ padding: 209px ; }
+.igs-padding210{ padding: 210px ; }
+.igs-padding211{ padding: 211px ; }
+.igs-padding212{ padding: 212px ; }
+.igs-padding213{ padding: 213px ; }
+.igs-padding214{ padding: 214px ; }
+.igs-padding215{ padding: 215px ; }
+.igs-padding216{ padding: 216px ; }
+.igs-padding217{ padding: 217px ; }
+.igs-padding218{ padding: 218px ; }
+.igs-padding219{ padding: 219px ; }
+.igs-padding220{ padding: 220px ; }
+.igs-padding221{ padding: 221px ; }
+.igs-padding222{ padding: 222px ; }
+.igs-padding223{ padding: 223px ; }
+.igs-padding224{ padding: 224px ; }
+.igs-padding225{ padding: 225px ; }
+.igs-padding226{ padding: 226px ; }
+.igs-padding227{ padding: 227px ; }
+.igs-padding228{ padding: 228px ; }
+.igs-padding229{ padding: 229px ; }
+.igs-padding230{ padding: 230px ; }
+.igs-padding231{ padding: 231px ; }
+.igs-padding232{ padding: 232px ; }
+.igs-padding233{ padding: 233px ; }
+.igs-padding234{ padding: 234px ; }
+.igs-padding235{ padding: 235px ; }
+.igs-padding236{ padding: 236px ; }
+.igs-padding237{ padding: 237px ; }
+.igs-padding238{ padding: 238px ; }
+.igs-padding239{ padding: 239px ; }
+.igs-padding240{ padding: 240px ; }
+.igs-padding241{ padding: 241px ; }
+.igs-padding242{ padding: 242px ; }
+.igs-padding243{ padding: 243px ; }
+.igs-padding244{ padding: 244px ; }
+.igs-padding245{ padding: 245px ; }
+.igs-padding246{ padding: 246px ; }
+.igs-padding247{ padding: 247px ; }
+.igs-padding248{ padding: 248px ; }
+.igs-padding249{ padding: 249px ; }
+.igs-padding250{ padding: 250px ; }
+.igs-padding251{ padding: 251px ; }
+.igs-padding252{ padding: 252px ; }
+.igs-padding253{ padding: 253px ; }
+.igs-padding254{ padding: 254px ; }
+.igs-padding255{ padding: 255px ; }
+.igs-padding256{ padding: 256px ; }
+.igs-padding257{ padding: 257px ; }
+.igs-padding258{ padding: 258px ; }
+.igs-padding259{ padding: 259px ; }
+.igs-padding260{ padding: 260px ; }
+.igs-padding261{ padding: 261px ; }
+.igs-padding262{ padding: 262px ; }
+.igs-padding263{ padding: 263px ; }
+.igs-padding264{ padding: 264px ; }
+.igs-padding265{ padding: 265px ; }
+.igs-padding266{ padding: 266px ; }
+.igs-padding267{ padding: 267px ; }
+.igs-padding268{ padding: 268px ; }
+.igs-padding269{ padding: 269px ; }
+.igs-padding270{ padding: 270px ; }
+.igs-padding271{ padding: 271px ; }
+.igs-padding272{ padding: 272px ; }
+.igs-padding273{ padding: 273px ; }
+.igs-padding274{ padding: 274px ; }
+.igs-padding275{ padding: 275px ; }
+.igs-padding276{ padding: 276px ; }
+.igs-padding277{ padding: 277px ; }
+.igs-padding278{ padding: 278px ; }
+.igs-padding279{ padding: 279px ; }
+.igs-padding280{ padding: 280px ; }
+.igs-padding281{ padding: 281px ; }
+.igs-padding282{ padding: 282px ; }
+.igs-padding283{ padding: 283px ; }
+.igs-padding284{ padding: 284px ; }
+.igs-padding285{ padding: 285px ; }
+.igs-padding286{ padding: 286px ; }
+.igs-padding287{ padding: 287px ; }
+.igs-padding288{ padding: 288px ; }
+.igs-padding289{ padding: 289px ; }
+.igs-padding290{ padding: 290px ; }
+.igs-padding291{ padding: 291px ; }
+.igs-padding292{ padding: 292px ; }
+.igs-padding293{ padding: 293px ; }
+.igs-padding294{ padding: 294px ; }
+.igs-padding295{ padding: 295px ; }
+.igs-padding296{ padding: 296px ; }
+.igs-padding297{ padding: 297px ; }
+.igs-padding298{ padding: 298px ; }
+.igs-padding299{ padding: 299px ; }
+/*padding top*/
+
+.igs-paddingtop0{ padding-top: 0px ; }
+.igs-paddingtop1{ padding-top: 1px ; }
+.igs-paddingtop2{ padding-top: 2px ; }
+.igs-paddingtop3{ padding-top: 3px ; }
+.igs-paddingtop4{ padding-top: 4px ; }
+.igs-paddingtop5{ padding-top: 5px ; }
+.igs-paddingtop6{ padding-top: 6px ; }
+.igs-paddingtop7{ padding-top: 7px ; }
+.igs-paddingtop8{ padding-top: 8px ; }
+.igs-paddingtop9{ padding-top: 9px ; }
+.igs-paddingtop10{ padding-top: 10px ; }
+.igs-paddingtop11{ padding-top: 11px ; }
+.igs-paddingtop12{ padding-top: 12px ; }
+.igs-paddingtop13{ padding-top: 13px ; }
+.igs-paddingtop14{ padding-top: 14px ; }
+.igs-paddingtop15{ padding-top: 15px ; }
+.igs-paddingtop16{ padding-top: 16px ; }
+.igs-paddingtop17{ padding-top: 17px ; }
+.igs-paddingtop18{ padding-top: 18px ; }
+.igs-paddingtop19{ padding-top: 19px ; }
+.igs-paddingtop20{ padding-top: 20px ; }
+.igs-paddingtop21{ padding-top: 21px ; }
+.igs-paddingtop22{ padding-top: 22px ; }
+.igs-paddingtop23{ padding-top: 23px ; }
+.igs-paddingtop24{ padding-top: 24px ; }
+.igs-paddingtop25{ padding-top: 25px ; }
+.igs-paddingtop26{ padding-top: 26px ; }
+.igs-paddingtop27{ padding-top: 27px ; }
+.igs-paddingtop28{ padding-top: 28px ; }
+.igs-paddingtop29{ padding-top: 29px ; }
+.igs-paddingtop30{ padding-top: 30px ; }
+.igs-paddingtop31{ padding-top: 31px ; }
+.igs-paddingtop32{ padding-top: 32px ; }
+.igs-paddingtop33{ padding-top: 33px ; }
+.igs-paddingtop34{ padding-top: 34px ; }
+.igs-paddingtop35{ padding-top: 35px ; }
+.igs-paddingtop36{ padding-top: 36px ; }
+.igs-paddingtop37{ padding-top: 37px ; }
+.igs-paddingtop38{ padding-top: 38px ; }
+.igs-paddingtop39{ padding-top: 39px ; }
+.igs-paddingtop40{ padding-top: 40px ; }
+.igs-paddingtop41{ padding-top: 41px ; }
+.igs-paddingtop42{ padding-top: 42px ; }
+.igs-paddingtop43{ padding-top: 43px ; }
+.igs-paddingtop44{ padding-top: 44px ; }
+.igs-paddingtop45{ padding-top: 45px ; }
+.igs-paddingtop46{ padding-top: 46px ; }
+.igs-paddingtop47{ padding-top: 47px ; }
+.igs-paddingtop48{ padding-top: 48px ; }
+.igs-paddingtop49{ padding-top: 49px ; }
+.igs-paddingtop50{ padding-top: 50px ; }
+.igs-paddingtop51{ padding-top: 51px ; }
+.igs-paddingtop52{ padding-top: 52px ; }
+.igs-paddingtop53{ padding-top: 53px ; }
+.igs-paddingtop54{ padding-top: 54px ; }
+.igs-paddingtop55{ padding-top: 55px ; }
+.igs-paddingtop56{ padding-top: 56px ; }
+.igs-paddingtop57{ padding-top: 57px ; }
+.igs-paddingtop58{ padding-top: 58px ; }
+.igs-paddingtop59{ padding-top: 59px ; }
+.igs-paddingtop60{ padding-top: 60px ; }
+.igs-paddingtop61{ padding-top: 61px ; }
+.igs-paddingtop62{ padding-top: 62px ; }
+.igs-paddingtop63{ padding-top: 63px ; }
+.igs-paddingtop64{ padding-top: 64px ; }
+.igs-paddingtop65{ padding-top: 65px ; }
+.igs-paddingtop66{ padding-top: 66px ; }
+.igs-paddingtop67{ padding-top: 67px ; }
+.igs-paddingtop68{ padding-top: 68px ; }
+.igs-paddingtop69{ padding-top: 69px ; }
+.igs-paddingtop70{ padding-top: 70px ; }
+.igs-paddingtop71{ padding-top: 71px ; }
+.igs-paddingtop72{ padding-top: 72px ; }
+.igs-paddingtop73{ padding-top: 73px ; }
+.igs-paddingtop74{ padding-top: 74px ; }
+.igs-paddingtop75{ padding-top: 75px ; }
+.igs-paddingtop76{ padding-top: 76px ; }
+.igs-paddingtop77{ padding-top: 77px ; }
+.igs-paddingtop78{ padding-top: 78px ; }
+.igs-paddingtop79{ padding-top: 79px ; }
+.igs-paddingtop80{ padding-top: 80px ; }
+.igs-paddingtop81{ padding-top: 81px ; }
+.igs-paddingtop82{ padding-top: 82px ; }
+.igs-paddingtop83{ padding-top: 83px ; }
+.igs-paddingtop84{ padding-top: 84px ; }
+.igs-paddingtop85{ padding-top: 85px ; }
+.igs-paddingtop86{ padding-top: 86px ; }
+.igs-paddingtop87{ padding-top: 87px ; }
+.igs-paddingtop88{ padding-top: 88px ; }
+.igs-paddingtop89{ padding-top: 89px ; }
+.igs-paddingtop90{ padding-top: 90px ; }
+.igs-paddingtop91{ padding-top: 91px ; }
+.igs-paddingtop92{ padding-top: 92px ; }
+.igs-paddingtop93{ padding-top: 93px ; }
+.igs-paddingtop94{ padding-top: 94px ; }
+.igs-paddingtop95{ padding-top: 95px ; }
+.igs-paddingtop96{ padding-top: 96px ; }
+.igs-paddingtop97{ padding-top: 97px ; }
+.igs-paddingtop98{ padding-top: 98px ; }
+.igs-paddingtop99{ padding-top: 99px ; }
+.igs-paddingtop100{ padding-top: 100px ; }
+.igs-paddingtop101{ padding-top: 101px ; }
+.igs-paddingtop102{ padding-top: 102px ; }
+.igs-paddingtop103{ padding-top: 103px ; }
+.igs-paddingtop104{ padding-top: 104px ; }
+.igs-paddingtop105{ padding-top: 105px ; }
+.igs-paddingtop106{ padding-top: 106px ; }
+.igs-paddingtop107{ padding-top: 107px ; }
+.igs-paddingtop108{ padding-top: 108px ; }
+.igs-paddingtop109{ padding-top: 109px ; }
+.igs-paddingtop110{ padding-top: 110px ; }
+.igs-paddingtop111{ padding-top: 111px ; }
+.igs-paddingtop112{ padding-top: 112px ; }
+.igs-paddingtop113{ padding-top: 113px ; }
+.igs-paddingtop114{ padding-top: 114px ; }
+.igs-paddingtop115{ padding-top: 115px ; }
+.igs-paddingtop116{ padding-top: 116px ; }
+.igs-paddingtop117{ padding-top: 117px ; }
+.igs-paddingtop118{ padding-top: 118px ; }
+.igs-paddingtop119{ padding-top: 119px ; }
+.igs-paddingtop120{ padding-top: 120px ; }
+.igs-paddingtop121{ padding-top: 121px ; }
+.igs-paddingtop122{ padding-top: 122px ; }
+.igs-paddingtop123{ padding-top: 123px ; }
+.igs-paddingtop124{ padding-top: 124px ; }
+.igs-paddingtop125{ padding-top: 125px ; }
+.igs-paddingtop126{ padding-top: 126px ; }
+.igs-paddingtop127{ padding-top: 127px ; }
+.igs-paddingtop128{ padding-top: 128px ; }
+.igs-paddingtop129{ padding-top: 129px ; }
+.igs-paddingtop130{ padding-top: 130px ; }
+.igs-paddingtop131{ padding-top: 131px ; }
+.igs-paddingtop132{ padding-top: 132px ; }
+.igs-paddingtop133{ padding-top: 133px ; }
+.igs-paddingtop134{ padding-top: 134px ; }
+.igs-paddingtop135{ padding-top: 135px ; }
+.igs-paddingtop136{ padding-top: 136px ; }
+.igs-paddingtop137{ padding-top: 137px ; }
+.igs-paddingtop138{ padding-top: 138px ; }
+.igs-paddingtop139{ padding-top: 139px ; }
+.igs-paddingtop140{ padding-top: 140px ; }
+.igs-paddingtop141{ padding-top: 141px ; }
+.igs-paddingtop142{ padding-top: 142px ; }
+.igs-paddingtop143{ padding-top: 143px ; }
+.igs-paddingtop144{ padding-top: 144px ; }
+.igs-paddingtop145{ padding-top: 145px ; }
+.igs-paddingtop146{ padding-top: 146px ; }
+.igs-paddingtop147{ padding-top: 147px ; }
+.igs-paddingtop148{ padding-top: 148px ; }
+.igs-paddingtop149{ padding-top: 149px ; }
+.igs-paddingtop150{ padding-top: 150px ; }
+.igs-paddingtop151{ padding-top: 151px ; }
+.igs-paddingtop152{ padding-top: 152px ; }
+.igs-paddingtop153{ padding-top: 153px ; }
+.igs-paddingtop154{ padding-top: 154px ; }
+.igs-paddingtop155{ padding-top: 155px ; }
+.igs-paddingtop156{ padding-top: 156px ; }
+.igs-paddingtop157{ padding-top: 157px ; }
+.igs-paddingtop158{ padding-top: 158px ; }
+.igs-paddingtop159{ padding-top: 159px ; }
+.igs-paddingtop160{ padding-top: 160px ; }
+.igs-paddingtop161{ padding-top: 161px ; }
+.igs-paddingtop162{ padding-top: 162px ; }
+.igs-paddingtop163{ padding-top: 163px ; }
+.igs-paddingtop164{ padding-top: 164px ; }
+.igs-paddingtop165{ padding-top: 165px ; }
+.igs-paddingtop166{ padding-top: 166px ; }
+.igs-paddingtop167{ padding-top: 167px ; }
+.igs-paddingtop168{ padding-top: 168px ; }
+.igs-paddingtop169{ padding-top: 169px ; }
+.igs-paddingtop170{ padding-top: 170px ; }
+.igs-paddingtop171{ padding-top: 171px ; }
+.igs-paddingtop172{ padding-top: 172px ; }
+.igs-paddingtop173{ padding-top: 173px ; }
+.igs-paddingtop174{ padding-top: 174px ; }
+.igs-paddingtop175{ padding-top: 175px ; }
+.igs-paddingtop176{ padding-top: 176px ; }
+.igs-paddingtop177{ padding-top: 177px ; }
+.igs-paddingtop178{ padding-top: 178px ; }
+.igs-paddingtop179{ padding-top: 179px ; }
+.igs-paddingtop180{ padding-top: 180px ; }
+.igs-paddingtop181{ padding-top: 181px ; }
+.igs-paddingtop182{ padding-top: 182px ; }
+.igs-paddingtop183{ padding-top: 183px ; }
+.igs-paddingtop184{ padding-top: 184px ; }
+.igs-paddingtop185{ padding-top: 185px ; }
+.igs-paddingtop186{ padding-top: 186px ; }
+.igs-paddingtop187{ padding-top: 187px ; }
+.igs-paddingtop188{ padding-top: 188px ; }
+.igs-paddingtop189{ padding-top: 189px ; }
+.igs-paddingtop190{ padding-top: 190px ; }
+.igs-paddingtop191{ padding-top: 191px ; }
+.igs-paddingtop192{ padding-top: 192px ; }
+.igs-paddingtop193{ padding-top: 193px ; }
+.igs-paddingtop194{ padding-top: 194px ; }
+.igs-paddingtop195{ padding-top: 195px ; }
+.igs-paddingtop196{ padding-top: 196px ; }
+.igs-paddingtop197{ padding-top: 197px ; }
+.igs-paddingtop198{ padding-top: 198px ; }
+.igs-paddingtop199{ padding-top: 199px ; }
+.igs-paddingtop200{ padding-top: 200px ; }
+.igs-paddingtop201{ padding-top: 201px ; }
+.igs-paddingtop202{ padding-top: 202px ; }
+.igs-paddingtop203{ padding-top: 203px ; }
+.igs-paddingtop204{ padding-top: 204px ; }
+.igs-paddingtop205{ padding-top: 205px ; }
+.igs-paddingtop206{ padding-top: 206px ; }
+.igs-paddingtop207{ padding-top: 207px ; }
+.igs-paddingtop208{ padding-top: 208px ; }
+.igs-paddingtop209{ padding-top: 209px ; }
+.igs-paddingtop210{ padding-top: 210px ; }
+.igs-paddingtop211{ padding-top: 211px ; }
+.igs-paddingtop212{ padding-top: 212px ; }
+.igs-paddingtop213{ padding-top: 213px ; }
+.igs-paddingtop214{ padding-top: 214px ; }
+.igs-paddingtop215{ padding-top: 215px ; }
+.igs-paddingtop216{ padding-top: 216px ; }
+.igs-paddingtop217{ padding-top: 217px ; }
+.igs-paddingtop218{ padding-top: 218px ; }
+.igs-paddingtop219{ padding-top: 219px ; }
+.igs-paddingtop220{ padding-top: 220px ; }
+.igs-paddingtop221{ padding-top: 221px ; }
+.igs-paddingtop222{ padding-top: 222px ; }
+.igs-paddingtop223{ padding-top: 223px ; }
+.igs-paddingtop224{ padding-top: 224px ; }
+.igs-paddingtop225{ padding-top: 225px ; }
+.igs-paddingtop226{ padding-top: 226px ; }
+.igs-paddingtop227{ padding-top: 227px ; }
+.igs-paddingtop228{ padding-top: 228px ; }
+.igs-paddingtop229{ padding-top: 229px ; }
+.igs-paddingtop230{ padding-top: 230px ; }
+.igs-paddingtop231{ padding-top: 231px ; }
+.igs-paddingtop232{ padding-top: 232px ; }
+.igs-paddingtop233{ padding-top: 233px ; }
+.igs-paddingtop234{ padding-top: 234px ; }
+.igs-paddingtop235{ padding-top: 235px ; }
+.igs-paddingtop236{ padding-top: 236px ; }
+.igs-paddingtop237{ padding-top: 237px ; }
+.igs-paddingtop238{ padding-top: 238px ; }
+.igs-paddingtop239{ padding-top: 239px ; }
+.igs-paddingtop240{ padding-top: 240px ; }
+.igs-paddingtop241{ padding-top: 241px ; }
+.igs-paddingtop242{ padding-top: 242px ; }
+.igs-paddingtop243{ padding-top: 243px ; }
+.igs-paddingtop244{ padding-top: 244px ; }
+.igs-paddingtop245{ padding-top: 245px ; }
+.igs-paddingtop246{ padding-top: 246px ; }
+.igs-paddingtop247{ padding-top: 247px ; }
+.igs-paddingtop248{ padding-top: 248px ; }
+.igs-paddingtop249{ padding-top: 249px ; }
+.igs-paddingtop250{ padding-top: 250px ; }
+.igs-paddingtop251{ padding-top: 251px ; }
+.igs-paddingtop252{ padding-top: 252px ; }
+.igs-paddingtop253{ padding-top: 253px ; }
+.igs-paddingtop254{ padding-top: 254px ; }
+.igs-paddingtop255{ padding-top: 255px ; }
+.igs-paddingtop256{ padding-top: 256px ; }
+.igs-paddingtop257{ padding-top: 257px ; }
+.igs-paddingtop258{ padding-top: 258px ; }
+.igs-paddingtop259{ padding-top: 259px ; }
+.igs-paddingtop260{ padding-top: 260px ; }
+.igs-paddingtop261{ padding-top: 261px ; }
+.igs-paddingtop262{ padding-top: 262px ; }
+.igs-paddingtop263{ padding-top: 263px ; }
+.igs-paddingtop264{ padding-top: 264px ; }
+.igs-paddingtop265{ padding-top: 265px ; }
+.igs-paddingtop266{ padding-top: 266px ; }
+.igs-paddingtop267{ padding-top: 267px ; }
+.igs-paddingtop268{ padding-top: 268px ; }
+.igs-paddingtop269{ padding-top: 269px ; }
+.igs-paddingtop270{ padding-top: 270px ; }
+.igs-paddingtop271{ padding-top: 271px ; }
+.igs-paddingtop272{ padding-top: 272px ; }
+.igs-paddingtop273{ padding-top: 273px ; }
+.igs-paddingtop274{ padding-top: 274px ; }
+.igs-paddingtop275{ padding-top: 275px ; }
+.igs-paddingtop276{ padding-top: 276px ; }
+.igs-paddingtop277{ padding-top: 277px ; }
+.igs-paddingtop278{ padding-top: 278px ; }
+.igs-paddingtop279{ padding-top: 279px ; }
+.igs-paddingtop280{ padding-top: 280px ; }
+.igs-paddingtop281{ padding-top: 281px ; }
+.igs-paddingtop282{ padding-top: 282px ; }
+.igs-paddingtop283{ padding-top: 283px ; }
+.igs-paddingtop284{ padding-top: 284px ; }
+.igs-paddingtop285{ padding-top: 285px ; }
+.igs-paddingtop286{ padding-top: 286px ; }
+.igs-paddingtop287{ padding-top: 287px ; }
+.igs-paddingtop288{ padding-top: 288px ; }
+.igs-paddingtop289{ padding-top: 289px ; }
+.igs-paddingtop290{ padding-top: 290px ; }
+.igs-paddingtop291{ padding-top: 291px ; }
+.igs-paddingtop292{ padding-top: 292px ; }
+.igs-paddingtop293{ padding-top: 293px ; }
+.igs-paddingtop294{ padding-top: 294px ; }
+.igs-paddingtop295{ padding-top: 295px ; }
+.igs-paddingtop296{ padding-top: 296px ; }
+.igs-paddingtop297{ padding-top: 297px ; }
+.igs-paddingtop298{ padding-top: 298px ; }
+.igs-paddingtop299{ padding-top: 299px ; }
+
+/*padding bottom*/
+
+.igs-paddingbottom0{ padding-bottom: 0px ; }
+.igs-paddingbottom1{ padding-bottom: 1px ; }
+.igs-paddingbottom2{ padding-bottom: 2px ; }
+.igs-paddingbottom3{ padding-bottom: 3px ; }
+.igs-paddingbottom4{ padding-bottom: 4px ; }
+.igs-paddingbottom5{ padding-bottom: 5px ; }
+.igs-paddingbottom6{ padding-bottom: 6px ; }
+.igs-paddingbottom7{ padding-bottom: 7px ; }
+.igs-paddingbottom8{ padding-bottom: 8px ; }
+.igs-paddingbottom9{ padding-bottom: 9px ; }
+.igs-paddingbottom10{ padding-bottom: 10px ; }
+.igs-paddingbottom11{ padding-bottom: 11px ; }
+.igs-paddingbottom12{ padding-bottom: 12px ; }
+.igs-paddingbottom13{ padding-bottom: 13px ; }
+.igs-paddingbottom14{ padding-bottom: 14px ; }
+.igs-paddingbottom15{ padding-bottom: 15px ; }
+.igs-paddingbottom16{ padding-bottom: 16px ; }
+.igs-paddingbottom17{ padding-bottom: 17px ; }
+.igs-paddingbottom18{ padding-bottom: 18px ; }
+.igs-paddingbottom19{ padding-bottom: 19px ; }
+.igs-paddingbottom20{ padding-bottom: 20px ; }
+.igs-paddingbottom21{ padding-bottom: 21px ; }
+.igs-paddingbottom22{ padding-bottom: 22px ; }
+.igs-paddingbottom23{ padding-bottom: 23px ; }
+.igs-paddingbottom24{ padding-bottom: 24px ; }
+.igs-paddingbottom25{ padding-bottom: 25px ; }
+.igs-paddingbottom26{ padding-bottom: 26px ; }
+.igs-paddingbottom27{ padding-bottom: 27px ; }
+.igs-paddingbottom28{ padding-bottom: 28px ; }
+.igs-paddingbottom29{ padding-bottom: 29px ; }
+.igs-paddingbottom30{ padding-bottom: 30px ; }
+.igs-paddingbottom31{ padding-bottom: 31px ; }
+.igs-paddingbottom32{ padding-bottom: 32px ; }
+.igs-paddingbottom33{ padding-bottom: 33px ; }
+.igs-paddingbottom34{ padding-bottom: 34px ; }
+.igs-paddingbottom35{ padding-bottom: 35px ; }
+.igs-paddingbottom36{ padding-bottom: 36px ; }
+.igs-paddingbottom37{ padding-bottom: 37px ; }
+.igs-paddingbottom38{ padding-bottom: 38px ; }
+.igs-paddingbottom39{ padding-bottom: 39px ; }
+.igs-paddingbottom40{ padding-bottom: 40px ; }
+.igs-paddingbottom41{ padding-bottom: 41px ; }
+.igs-paddingbottom42{ padding-bottom: 42px ; }
+.igs-paddingbottom43{ padding-bottom: 43px ; }
+.igs-paddingbottom44{ padding-bottom: 44px ; }
+.igs-paddingbottom45{ padding-bottom: 45px ; }
+.igs-paddingbottom46{ padding-bottom: 46px ; }
+.igs-paddingbottom47{ padding-bottom: 47px ; }
+.igs-paddingbottom48{ padding-bottom: 48px ; }
+.igs-paddingbottom49{ padding-bottom: 49px ; }
+.igs-paddingbottom50{ padding-bottom: 50px ; }
+.igs-paddingbottom51{ padding-bottom: 51px ; }
+.igs-paddingbottom52{ padding-bottom: 52px ; }
+.igs-paddingbottom53{ padding-bottom: 53px ; }
+.igs-paddingbottom54{ padding-bottom: 54px ; }
+.igs-paddingbottom55{ padding-bottom: 55px ; }
+.igs-paddingbottom56{ padding-bottom: 56px ; }
+.igs-paddingbottom57{ padding-bottom: 57px ; }
+.igs-paddingbottom58{ padding-bottom: 58px ; }
+.igs-paddingbottom59{ padding-bottom: 59px ; }
+.igs-paddingbottom60{ padding-bottom: 60px ; }
+.igs-paddingbottom61{ padding-bottom: 61px ; }
+.igs-paddingbottom62{ padding-bottom: 62px ; }
+.igs-paddingbottom63{ padding-bottom: 63px ; }
+.igs-paddingbottom64{ padding-bottom: 64px ; }
+.igs-paddingbottom65{ padding-bottom: 65px ; }
+.igs-paddingbottom66{ padding-bottom: 66px ; }
+.igs-paddingbottom67{ padding-bottom: 67px ; }
+.igs-paddingbottom68{ padding-bottom: 68px ; }
+.igs-paddingbottom69{ padding-bottom: 69px ; }
+.igs-paddingbottom70{ padding-bottom: 70px ; }
+.igs-paddingbottom71{ padding-bottom: 71px ; }
+.igs-paddingbottom72{ padding-bottom: 72px ; }
+.igs-paddingbottom73{ padding-bottom: 73px ; }
+.igs-paddingbottom74{ padding-bottom: 74px ; }
+.igs-paddingbottom75{ padding-bottom: 75px ; }
+.igs-paddingbottom76{ padding-bottom: 76px ; }
+.igs-paddingbottom77{ padding-bottom: 77px ; }
+.igs-paddingbottom78{ padding-bottom: 78px ; }
+.igs-paddingbottom79{ padding-bottom: 79px ; }
+.igs-paddingbottom80{ padding-bottom: 80px ; }
+.igs-paddingbottom81{ padding-bottom: 81px ; }
+.igs-paddingbottom82{ padding-bottom: 82px ; }
+.igs-paddingbottom83{ padding-bottom: 83px ; }
+.igs-paddingbottom84{ padding-bottom: 84px ; }
+.igs-paddingbottom85{ padding-bottom: 85px ; }
+.igs-paddingbottom86{ padding-bottom: 86px ; }
+.igs-paddingbottom87{ padding-bottom: 87px ; }
+.igs-paddingbottom88{ padding-bottom: 88px ; }
+.igs-paddingbottom89{ padding-bottom: 89px ; }
+.igs-paddingbottom90{ padding-bottom: 90px ; }
+.igs-paddingbottom91{ padding-bottom: 91px ; }
+.igs-paddingbottom92{ padding-bottom: 92px ; }
+.igs-paddingbottom93{ padding-bottom: 93px ; }
+.igs-paddingbottom94{ padding-bottom: 94px ; }
+.igs-paddingbottom95{ padding-bottom: 95px ; }
+.igs-paddingbottom96{ padding-bottom: 96px ; }
+.igs-paddingbottom97{ padding-bottom: 97px ; }
+.igs-paddingbottom98{ padding-bottom: 98px ; }
+.igs-paddingbottom99{ padding-bottom: 99px ; }
+.igs-paddingbottom100{ padding-bottom: 100px ; }
+.igs-paddingbottom101{ padding-bottom: 101px ; }
+.igs-paddingbottom102{ padding-bottom: 102px ; }
+.igs-paddingbottom103{ padding-bottom: 103px ; }
+.igs-paddingbottom104{ padding-bottom: 104px ; }
+.igs-paddingbottom105{ padding-bottom: 105px ; }
+.igs-paddingbottom106{ padding-bottom: 106px ; }
+.igs-paddingbottom107{ padding-bottom: 107px ; }
+.igs-paddingbottom108{ padding-bottom: 108px ; }
+.igs-paddingbottom109{ padding-bottom: 109px ; }
+.igs-paddingbottom110{ padding-bottom: 110px ; }
+.igs-paddingbottom111{ padding-bottom: 111px ; }
+.igs-paddingbottom112{ padding-bottom: 112px ; }
+.igs-paddingbottom113{ padding-bottom: 113px ; }
+.igs-paddingbottom114{ padding-bottom: 114px ; }
+.igs-paddingbottom115{ padding-bottom: 115px ; }
+.igs-paddingbottom116{ padding-bottom: 116px ; }
+.igs-paddingbottom117{ padding-bottom: 117px ; }
+.igs-paddingbottom118{ padding-bottom: 118px ; }
+.igs-paddingbottom119{ padding-bottom: 119px ; }
+.igs-paddingbottom120{ padding-bottom: 120px ; }
+.igs-paddingbottom121{ padding-bottom: 121px ; }
+.igs-paddingbottom122{ padding-bottom: 122px ; }
+.igs-paddingbottom123{ padding-bottom: 123px ; }
+.igs-paddingbottom124{ padding-bottom: 124px ; }
+.igs-paddingbottom125{ padding-bottom: 125px ; }
+.igs-paddingbottom126{ padding-bottom: 126px ; }
+.igs-paddingbottom127{ padding-bottom: 127px ; }
+.igs-paddingbottom128{ padding-bottom: 128px ; }
+.igs-paddingbottom129{ padding-bottom: 129px ; }
+.igs-paddingbottom130{ padding-bottom: 130px ; }
+.igs-paddingbottom131{ padding-bottom: 131px ; }
+.igs-paddingbottom132{ padding-bottom: 132px ; }
+.igs-paddingbottom133{ padding-bottom: 133px ; }
+.igs-paddingbottom134{ padding-bottom: 134px ; }
+.igs-paddingbottom135{ padding-bottom: 135px ; }
+.igs-paddingbottom136{ padding-bottom: 136px ; }
+.igs-paddingbottom137{ padding-bottom: 137px ; }
+.igs-paddingbottom138{ padding-bottom: 138px ; }
+.igs-paddingbottom139{ padding-bottom: 139px ; }
+.igs-paddingbottom140{ padding-bottom: 140px ; }
+.igs-paddingbottom141{ padding-bottom: 141px ; }
+.igs-paddingbottom142{ padding-bottom: 142px ; }
+.igs-paddingbottom143{ padding-bottom: 143px ; }
+.igs-paddingbottom144{ padding-bottom: 144px ; }
+.igs-paddingbottom145{ padding-bottom: 145px ; }
+.igs-paddingbottom146{ padding-bottom: 146px ; }
+.igs-paddingbottom147{ padding-bottom: 147px ; }
+.igs-paddingbottom148{ padding-bottom: 148px ; }
+.igs-paddingbottom149{ padding-bottom: 149px ; }
+.igs-paddingbottom150{ padding-bottom: 150px ; }
+.igs-paddingbottom151{ padding-bottom: 151px ; }
+.igs-paddingbottom152{ padding-bottom: 152px ; }
+.igs-paddingbottom153{ padding-bottom: 153px ; }
+.igs-paddingbottom154{ padding-bottom: 154px ; }
+.igs-paddingbottom155{ padding-bottom: 155px ; }
+.igs-paddingbottom156{ padding-bottom: 156px ; }
+.igs-paddingbottom157{ padding-bottom: 157px ; }
+.igs-paddingbottom158{ padding-bottom: 158px ; }
+.igs-paddingbottom159{ padding-bottom: 159px ; }
+.igs-paddingbottom160{ padding-bottom: 160px ; }
+.igs-paddingbottom161{ padding-bottom: 161px ; }
+.igs-paddingbottom162{ padding-bottom: 162px ; }
+.igs-paddingbottom163{ padding-bottom: 163px ; }
+.igs-paddingbottom164{ padding-bottom: 164px ; }
+.igs-paddingbottom165{ padding-bottom: 165px ; }
+.igs-paddingbottom166{ padding-bottom: 166px ; }
+.igs-paddingbottom167{ padding-bottom: 167px ; }
+.igs-paddingbottom168{ padding-bottom: 168px ; }
+.igs-paddingbottom169{ padding-bottom: 169px ; }
+.igs-paddingbottom170{ padding-bottom: 170px ; }
+.igs-paddingbottom171{ padding-bottom: 171px ; }
+.igs-paddingbottom172{ padding-bottom: 172px ; }
+.igs-paddingbottom173{ padding-bottom: 173px ; }
+.igs-paddingbottom174{ padding-bottom: 174px ; }
+.igs-paddingbottom175{ padding-bottom: 175px ; }
+.igs-paddingbottom176{ padding-bottom: 176px ; }
+.igs-paddingbottom177{ padding-bottom: 177px ; }
+.igs-paddingbottom178{ padding-bottom: 178px ; }
+.igs-paddingbottom179{ padding-bottom: 179px ; }
+.igs-paddingbottom180{ padding-bottom: 180px ; }
+.igs-paddingbottom181{ padding-bottom: 181px ; }
+.igs-paddingbottom182{ padding-bottom: 182px ; }
+.igs-paddingbottom183{ padding-bottom: 183px ; }
+.igs-paddingbottom184{ padding-bottom: 184px ; }
+.igs-paddingbottom185{ padding-bottom: 185px ; }
+.igs-paddingbottom186{ padding-bottom: 186px ; }
+.igs-paddingbottom187{ padding-bottom: 187px ; }
+.igs-paddingbottom188{ padding-bottom: 188px ; }
+.igs-paddingbottom189{ padding-bottom: 189px ; }
+.igs-paddingbottom190{ padding-bottom: 190px ; }
+.igs-paddingbottom191{ padding-bottom: 191px ; }
+.igs-paddingbottom192{ padding-bottom: 192px ; }
+.igs-paddingbottom193{ padding-bottom: 193px ; }
+.igs-paddingbottom194{ padding-bottom: 194px ; }
+.igs-paddingbottom195{ padding-bottom: 195px ; }
+.igs-paddingbottom196{ padding-bottom: 196px ; }
+.igs-paddingbottom197{ padding-bottom: 197px ; }
+.igs-paddingbottom198{ padding-bottom: 198px ; }
+.igs-paddingbottom199{ padding-bottom: 199px ; }
+.igs-paddingbottom200{ padding-bottom: 200px ; }
+.igs-paddingbottom201{ padding-bottom: 201px ; }
+.igs-paddingbottom202{ padding-bottom: 202px ; }
+.igs-paddingbottom203{ padding-bottom: 203px ; }
+.igs-paddingbottom204{ padding-bottom: 204px ; }
+.igs-paddingbottom205{ padding-bottom: 205px ; }
+.igs-paddingbottom206{ padding-bottom: 206px ; }
+.igs-paddingbottom207{ padding-bottom: 207px ; }
+.igs-paddingbottom208{ padding-bottom: 208px ; }
+.igs-paddingbottom209{ padding-bottom: 209px ; }
+.igs-paddingbottom210{ padding-bottom: 210px ; }
+.igs-paddingbottom211{ padding-bottom: 211px ; }
+.igs-paddingbottom212{ padding-bottom: 212px ; }
+.igs-paddingbottom213{ padding-bottom: 213px ; }
+.igs-paddingbottom214{ padding-bottom: 214px ; }
+.igs-paddingbottom215{ padding-bottom: 215px ; }
+.igs-paddingbottom216{ padding-bottom: 216px ; }
+.igs-paddingbottom217{ padding-bottom: 217px ; }
+.igs-paddingbottom218{ padding-bottom: 218px ; }
+.igs-paddingbottom219{ padding-bottom: 219px ; }
+.igs-paddingbottom220{ padding-bottom: 220px ; }
+.igs-paddingbottom221{ padding-bottom: 221px ; }
+.igs-paddingbottom222{ padding-bottom: 222px ; }
+.igs-paddingbottom223{ padding-bottom: 223px ; }
+.igs-paddingbottom224{ padding-bottom: 224px ; }
+.igs-paddingbottom225{ padding-bottom: 225px ; }
+.igs-paddingbottom226{ padding-bottom: 226px ; }
+.igs-paddingbottom227{ padding-bottom: 227px ; }
+.igs-paddingbottom228{ padding-bottom: 228px ; }
+.igs-paddingbottom229{ padding-bottom: 229px ; }
+.igs-paddingbottom230{ padding-bottom: 230px ; }
+.igs-paddingbottom231{ padding-bottom: 231px ; }
+.igs-paddingbottom232{ padding-bottom: 232px ; }
+.igs-paddingbottom233{ padding-bottom: 233px ; }
+.igs-paddingbottom234{ padding-bottom: 234px ; }
+.igs-paddingbottom235{ padding-bottom: 235px ; }
+.igs-paddingbottom236{ padding-bottom: 236px ; }
+.igs-paddingbottom237{ padding-bottom: 237px ; }
+.igs-paddingbottom238{ padding-bottom: 238px ; }
+.igs-paddingbottom239{ padding-bottom: 239px ; }
+.igs-paddingbottom240{ padding-bottom: 240px ; }
+.igs-paddingbottom241{ padding-bottom: 241px ; }
+.igs-paddingbottom242{ padding-bottom: 242px ; }
+.igs-paddingbottom243{ padding-bottom: 243px ; }
+.igs-paddingbottom244{ padding-bottom: 244px ; }
+.igs-paddingbottom245{ padding-bottom: 245px ; }
+.igs-paddingbottom246{ padding-bottom: 246px ; }
+.igs-paddingbottom247{ padding-bottom: 247px ; }
+.igs-paddingbottom248{ padding-bottom: 248px ; }
+.igs-paddingbottom249{ padding-bottom: 249px ; }
+.igs-paddingbottom250{ padding-bottom: 250px ; }
+.igs-paddingbottom251{ padding-bottom: 251px ; }
+.igs-paddingbottom252{ padding-bottom: 252px ; }
+.igs-paddingbottom253{ padding-bottom: 253px ; }
+.igs-paddingbottom254{ padding-bottom: 254px ; }
+.igs-paddingbottom255{ padding-bottom: 255px ; }
+.igs-paddingbottom256{ padding-bottom: 256px ; }
+.igs-paddingbottom257{ padding-bottom: 257px ; }
+.igs-paddingbottom258{ padding-bottom: 258px ; }
+.igs-paddingbottom259{ padding-bottom: 259px ; }
+.igs-paddingbottom260{ padding-bottom: 260px ; }
+.igs-paddingbottom261{ padding-bottom: 261px ; }
+.igs-paddingbottom262{ padding-bottom: 262px ; }
+.igs-paddingbottom263{ padding-bottom: 263px ; }
+.igs-paddingbottom264{ padding-bottom: 264px ; }
+.igs-paddingbottom265{ padding-bottom: 265px ; }
+.igs-paddingbottom266{ padding-bottom: 266px ; }
+.igs-paddingbottom267{ padding-bottom: 267px ; }
+.igs-paddingbottom268{ padding-bottom: 268px ; }
+.igs-paddingbottom269{ padding-bottom: 269px ; }
+.igs-paddingbottom270{ padding-bottom: 270px ; }
+.igs-paddingbottom271{ padding-bottom: 271px ; }
+.igs-paddingbottom272{ padding-bottom: 272px ; }
+.igs-paddingbottom273{ padding-bottom: 273px ; }
+.igs-paddingbottom274{ padding-bottom: 274px ; }
+.igs-paddingbottom275{ padding-bottom: 275px ; }
+.igs-paddingbottom276{ padding-bottom: 276px ; }
+.igs-paddingbottom277{ padding-bottom: 277px ; }
+.igs-paddingbottom278{ padding-bottom: 278px ; }
+.igs-paddingbottom279{ padding-bottom: 279px ; }
+.igs-paddingbottom280{ padding-bottom: 280px ; }
+.igs-paddingbottom281{ padding-bottom: 281px ; }
+.igs-paddingbottom282{ padding-bottom: 282px ; }
+.igs-paddingbottom283{ padding-bottom: 283px ; }
+.igs-paddingbottom284{ padding-bottom: 284px ; }
+.igs-paddingbottom285{ padding-bottom: 285px ; }
+.igs-paddingbottom286{ padding-bottom: 286px ; }
+.igs-paddingbottom287{ padding-bottom: 287px ; }
+.igs-paddingbottom288{ padding-bottom: 288px ; }
+.igs-paddingbottom289{ padding-bottom: 289px ; }
+.igs-paddingbottom290{ padding-bottom: 290px ; }
+.igs-paddingbottom291{ padding-bottom: 291px ; }
+.igs-paddingbottom292{ padding-bottom: 292px ; }
+.igs-paddingbottom293{ padding-bottom: 293px ; }
+.igs-paddingbottom294{ padding-bottom: 294px ; }
+.igs-paddingbottom295{ padding-bottom: 295px ; }
+.igs-paddingbottom296{ padding-bottom: 296px ; }
+.igs-paddingbottom297{ padding-bottom: 297px ; }
+.igs-paddingbottom298{ padding-bottom: 298px ; }
+.igs-paddingbottom299{ padding-bottom: 299px ; }
+/*padding left*/
+.igs-paddingleft0{ padding-left: 0px ; }
+.igs-paddingleft1{ padding-left: 1px ; }
+.igs-paddingleft2{ padding-left: 2px ; }
+.igs-paddingleft3{ padding-left: 3px ; }
+.igs-paddingleft4{ padding-left: 4px ; }
+.igs-paddingleft5{ padding-left: 5px ; }
+.igs-paddingleft6{ padding-left: 6px ; }
+.igs-paddingleft7{ padding-left: 7px ; }
+.igs-paddingleft8{ padding-left: 8px ; }
+.igs-paddingleft9{ padding-left: 9px ; }
+.igs-paddingleft10{ padding-left: 10px ; }
+.igs-paddingleft11{ padding-left: 11px ; }
+.igs-paddingleft12{ padding-left: 12px ; }
+.igs-paddingleft13{ padding-left: 13px ; }
+.igs-paddingleft14{ padding-left: 14px ; }
+.igs-paddingleft15{ padding-left: 15px ; }
+.igs-paddingleft16{ padding-left: 16px ; }
+.igs-paddingleft17{ padding-left: 17px ; }
+.igs-paddingleft18{ padding-left: 18px ; }
+.igs-paddingleft19{ padding-left: 19px ; }
+.igs-paddingleft20{ padding-left: 20px ; }
+.igs-paddingleft21{ padding-left: 21px ; }
+.igs-paddingleft22{ padding-left: 22px ; }
+.igs-paddingleft23{ padding-left: 23px ; }
+.igs-paddingleft24{ padding-left: 24px ; }
+.igs-paddingleft25{ padding-left: 25px ; }
+.igs-paddingleft26{ padding-left: 26px ; }
+.igs-paddingleft27{ padding-left: 27px ; }
+.igs-paddingleft28{ padding-left: 28px ; }
+.igs-paddingleft29{ padding-left: 29px ; }
+.igs-paddingleft30{ padding-left: 30px ; }
+.igs-paddingleft31{ padding-left: 31px ; }
+.igs-paddingleft32{ padding-left: 32px ; }
+.igs-paddingleft33{ padding-left: 33px ; }
+.igs-paddingleft34{ padding-left: 34px ; }
+.igs-paddingleft35{ padding-left: 35px ; }
+.igs-paddingleft36{ padding-left: 36px ; }
+.igs-paddingleft37{ padding-left: 37px ; }
+.igs-paddingleft38{ padding-left: 38px ; }
+.igs-paddingleft39{ padding-left: 39px ; }
+.igs-paddingleft40{ padding-left: 40px ; }
+.igs-paddingleft41{ padding-left: 41px ; }
+.igs-paddingleft42{ padding-left: 42px ; }
+.igs-paddingleft43{ padding-left: 43px ; }
+.igs-paddingleft44{ padding-left: 44px ; }
+.igs-paddingleft45{ padding-left: 45px ; }
+.igs-paddingleft46{ padding-left: 46px ; }
+.igs-paddingleft47{ padding-left: 47px ; }
+.igs-paddingleft48{ padding-left: 48px ; }
+.igs-paddingleft49{ padding-left: 49px ; }
+.igs-paddingleft50{ padding-left: 50px ; }
+.igs-paddingleft51{ padding-left: 51px ; }
+.igs-paddingleft52{ padding-left: 52px ; }
+.igs-paddingleft53{ padding-left: 53px ; }
+.igs-paddingleft54{ padding-left: 54px ; }
+.igs-paddingleft55{ padding-left: 55px ; }
+.igs-paddingleft56{ padding-left: 56px ; }
+.igs-paddingleft57{ padding-left: 57px ; }
+.igs-paddingleft58{ padding-left: 58px ; }
+.igs-paddingleft59{ padding-left: 59px ; }
+.igs-paddingleft60{ padding-left: 60px ; }
+.igs-paddingleft61{ padding-left: 61px ; }
+.igs-paddingleft62{ padding-left: 62px ; }
+.igs-paddingleft63{ padding-left: 63px ; }
+.igs-paddingleft64{ padding-left: 64px ; }
+.igs-paddingleft65{ padding-left: 65px ; }
+.igs-paddingleft66{ padding-left: 66px ; }
+.igs-paddingleft67{ padding-left: 67px ; }
+.igs-paddingleft68{ padding-left: 68px ; }
+.igs-paddingleft69{ padding-left: 69px ; }
+.igs-paddingleft70{ padding-left: 70px ; }
+.igs-paddingleft71{ padding-left: 71px ; }
+.igs-paddingleft72{ padding-left: 72px ; }
+.igs-paddingleft73{ padding-left: 73px ; }
+.igs-paddingleft74{ padding-left: 74px ; }
+.igs-paddingleft75{ padding-left: 75px ; }
+.igs-paddingleft76{ padding-left: 76px ; }
+.igs-paddingleft77{ padding-left: 77px ; }
+.igs-paddingleft78{ padding-left: 78px ; }
+.igs-paddingleft79{ padding-left: 79px ; }
+.igs-paddingleft80{ padding-left: 80px ; }
+.igs-paddingleft81{ padding-left: 81px ; }
+.igs-paddingleft82{ padding-left: 82px ; }
+.igs-paddingleft83{ padding-left: 83px ; }
+.igs-paddingleft84{ padding-left: 84px ; }
+.igs-paddingleft85{ padding-left: 85px ; }
+.igs-paddingleft86{ padding-left: 86px ; }
+.igs-paddingleft87{ padding-left: 87px ; }
+.igs-paddingleft88{ padding-left: 88px ; }
+.igs-paddingleft89{ padding-left: 89px ; }
+.igs-paddingleft90{ padding-left: 90px ; }
+.igs-paddingleft91{ padding-left: 91px ; }
+.igs-paddingleft92{ padding-left: 92px ; }
+.igs-paddingleft93{ padding-left: 93px ; }
+.igs-paddingleft94{ padding-left: 94px ; }
+.igs-paddingleft95{ padding-left: 95px ; }
+.igs-paddingleft96{ padding-left: 96px ; }
+.igs-paddingleft97{ padding-left: 97px ; }
+.igs-paddingleft98{ padding-left: 98px ; }
+.igs-paddingleft99{ padding-left: 99px ; }
+.igs-paddingleft100{ padding-left: 100px ; }
+.igs-paddingleft101{ padding-left: 101px ; }
+.igs-paddingleft102{ padding-left: 102px ; }
+.igs-paddingleft103{ padding-left: 103px ; }
+.igs-paddingleft104{ padding-left: 104px ; }
+.igs-paddingleft105{ padding-left: 105px ; }
+.igs-paddingleft106{ padding-left: 106px ; }
+.igs-paddingleft107{ padding-left: 107px ; }
+.igs-paddingleft108{ padding-left: 108px ; }
+.igs-paddingleft109{ padding-left: 109px ; }
+.igs-paddingleft110{ padding-left: 110px ; }
+.igs-paddingleft111{ padding-left: 111px ; }
+.igs-paddingleft112{ padding-left: 112px ; }
+.igs-paddingleft113{ padding-left: 113px ; }
+.igs-paddingleft114{ padding-left: 114px ; }
+.igs-paddingleft115{ padding-left: 115px ; }
+.igs-paddingleft116{ padding-left: 116px ; }
+.igs-paddingleft117{ padding-left: 117px ; }
+.igs-paddingleft118{ padding-left: 118px ; }
+.igs-paddingleft119{ padding-left: 119px ; }
+.igs-paddingleft120{ padding-left: 120px ; }
+.igs-paddingleft121{ padding-left: 121px ; }
+.igs-paddingleft122{ padding-left: 122px ; }
+.igs-paddingleft123{ padding-left: 123px ; }
+.igs-paddingleft124{ padding-left: 124px ; }
+.igs-paddingleft125{ padding-left: 125px ; }
+.igs-paddingleft126{ padding-left: 126px ; }
+.igs-paddingleft127{ padding-left: 127px ; }
+.igs-paddingleft128{ padding-left: 128px ; }
+.igs-paddingleft129{ padding-left: 129px ; }
+.igs-paddingleft130{ padding-left: 130px ; }
+.igs-paddingleft131{ padding-left: 131px ; }
+.igs-paddingleft132{ padding-left: 132px ; }
+.igs-paddingleft133{ padding-left: 133px ; }
+.igs-paddingleft134{ padding-left: 134px ; }
+.igs-paddingleft135{ padding-left: 135px ; }
+.igs-paddingleft136{ padding-left: 136px ; }
+.igs-paddingleft137{ padding-left: 137px ; }
+.igs-paddingleft138{ padding-left: 138px ; }
+.igs-paddingleft139{ padding-left: 139px ; }
+.igs-paddingleft140{ padding-left: 140px ; }
+.igs-paddingleft141{ padding-left: 141px ; }
+.igs-paddingleft142{ padding-left: 142px ; }
+.igs-paddingleft143{ padding-left: 143px ; }
+.igs-paddingleft144{ padding-left: 144px ; }
+.igs-paddingleft145{ padding-left: 145px ; }
+.igs-paddingleft146{ padding-left: 146px ; }
+.igs-paddingleft147{ padding-left: 147px ; }
+.igs-paddingleft148{ padding-left: 148px ; }
+.igs-paddingleft149{ padding-left: 149px ; }
+.igs-paddingleft150{ padding-left: 150px ; }
+.igs-paddingleft151{ padding-left: 151px ; }
+.igs-paddingleft152{ padding-left: 152px ; }
+.igs-paddingleft153{ padding-left: 153px ; }
+.igs-paddingleft154{ padding-left: 154px ; }
+.igs-paddingleft155{ padding-left: 155px ; }
+.igs-paddingleft156{ padding-left: 156px ; }
+.igs-paddingleft157{ padding-left: 157px ; }
+.igs-paddingleft158{ padding-left: 158px ; }
+.igs-paddingleft159{ padding-left: 159px ; }
+.igs-paddingleft160{ padding-left: 160px ; }
+.igs-paddingleft161{ padding-left: 161px ; }
+.igs-paddingleft162{ padding-left: 162px ; }
+.igs-paddingleft163{ padding-left: 163px ; }
+.igs-paddingleft164{ padding-left: 164px ; }
+.igs-paddingleft165{ padding-left: 165px ; }
+.igs-paddingleft166{ padding-left: 166px ; }
+.igs-paddingleft167{ padding-left: 167px ; }
+.igs-paddingleft168{ padding-left: 168px ; }
+.igs-paddingleft169{ padding-left: 169px ; }
+.igs-paddingleft170{ padding-left: 170px ; }
+.igs-paddingleft171{ padding-left: 171px ; }
+.igs-paddingleft172{ padding-left: 172px ; }
+.igs-paddingleft173{ padding-left: 173px ; }
+.igs-paddingleft174{ padding-left: 174px ; }
+.igs-paddingleft175{ padding-left: 175px ; }
+.igs-paddingleft176{ padding-left: 176px ; }
+.igs-paddingleft177{ padding-left: 177px ; }
+.igs-paddingleft178{ padding-left: 178px ; }
+.igs-paddingleft179{ padding-left: 179px ; }
+.igs-paddingleft180{ padding-left: 180px ; }
+.igs-paddingleft181{ padding-left: 181px ; }
+.igs-paddingleft182{ padding-left: 182px ; }
+.igs-paddingleft183{ padding-left: 183px ; }
+.igs-paddingleft184{ padding-left: 184px ; }
+.igs-paddingleft185{ padding-left: 185px ; }
+.igs-paddingleft186{ padding-left: 186px ; }
+.igs-paddingleft187{ padding-left: 187px ; }
+.igs-paddingleft188{ padding-left: 188px ; }
+.igs-paddingleft189{ padding-left: 189px ; }
+.igs-paddingleft190{ padding-left: 190px ; }
+.igs-paddingleft191{ padding-left: 191px ; }
+.igs-paddingleft192{ padding-left: 192px ; }
+.igs-paddingleft193{ padding-left: 193px ; }
+.igs-paddingleft194{ padding-left: 194px ; }
+.igs-paddingleft195{ padding-left: 195px ; }
+.igs-paddingleft196{ padding-left: 196px ; }
+.igs-paddingleft197{ padding-left: 197px ; }
+.igs-paddingleft198{ padding-left: 198px ; }
+.igs-paddingleft199{ padding-left: 199px ; }
+.igs-paddingleft200{ padding-left: 200px ; }
+.igs-paddingleft201{ padding-left: 201px ; }
+.igs-paddingleft202{ padding-left: 202px ; }
+.igs-paddingleft203{ padding-left: 203px ; }
+.igs-paddingleft204{ padding-left: 204px ; }
+.igs-paddingleft205{ padding-left: 205px ; }
+.igs-paddingleft206{ padding-left: 206px ; }
+.igs-paddingleft207{ padding-left: 207px ; }
+.igs-paddingleft208{ padding-left: 208px ; }
+.igs-paddingleft209{ padding-left: 209px ; }
+.igs-paddingleft210{ padding-left: 210px ; }
+.igs-paddingleft211{ padding-left: 211px ; }
+.igs-paddingleft212{ padding-left: 212px ; }
+.igs-paddingleft213{ padding-left: 213px ; }
+.igs-paddingleft214{ padding-left: 214px ; }
+.igs-paddingleft215{ padding-left: 215px ; }
+.igs-paddingleft216{ padding-left: 216px ; }
+.igs-paddingleft217{ padding-left: 217px ; }
+.igs-paddingleft218{ padding-left: 218px ; }
+.igs-paddingleft219{ padding-left: 219px ; }
+.igs-paddingleft220{ padding-left: 220px ; }
+.igs-paddingleft221{ padding-left: 221px ; }
+.igs-paddingleft222{ padding-left: 222px ; }
+.igs-paddingleft223{ padding-left: 223px ; }
+.igs-paddingleft224{ padding-left: 224px ; }
+.igs-paddingleft225{ padding-left: 225px ; }
+.igs-paddingleft226{ padding-left: 226px ; }
+.igs-paddingleft227{ padding-left: 227px ; }
+.igs-paddingleft228{ padding-left: 228px ; }
+.igs-paddingleft229{ padding-left: 229px ; }
+.igs-paddingleft230{ padding-left: 230px ; }
+.igs-paddingleft231{ padding-left: 231px ; }
+.igs-paddingleft232{ padding-left: 232px ; }
+.igs-paddingleft233{ padding-left: 233px ; }
+.igs-paddingleft234{ padding-left: 234px ; }
+.igs-paddingleft235{ padding-left: 235px ; }
+.igs-paddingleft236{ padding-left: 236px ; }
+.igs-paddingleft237{ padding-left: 237px ; }
+.igs-paddingleft238{ padding-left: 238px ; }
+.igs-paddingleft239{ padding-left: 239px ; }
+.igs-paddingleft240{ padding-left: 240px ; }
+.igs-paddingleft241{ padding-left: 241px ; }
+.igs-paddingleft242{ padding-left: 242px ; }
+.igs-paddingleft243{ padding-left: 243px ; }
+.igs-paddingleft244{ padding-left: 244px ; }
+.igs-paddingleft245{ padding-left: 245px ; }
+.igs-paddingleft246{ padding-left: 246px ; }
+.igs-paddingleft247{ padding-left: 247px ; }
+.igs-paddingleft248{ padding-left: 248px ; }
+.igs-paddingleft249{ padding-left: 249px ; }
+.igs-paddingleft250{ padding-left: 250px ; }
+.igs-paddingleft251{ padding-left: 251px ; }
+.igs-paddingleft252{ padding-left: 252px ; }
+.igs-paddingleft253{ padding-left: 253px ; }
+.igs-paddingleft254{ padding-left: 254px ; }
+.igs-paddingleft255{ padding-left: 255px ; }
+.igs-paddingleft256{ padding-left: 256px ; }
+.igs-paddingleft257{ padding-left: 257px ; }
+.igs-paddingleft258{ padding-left: 258px ; }
+.igs-paddingleft259{ padding-left: 259px ; }
+.igs-paddingleft260{ padding-left: 260px ; }
+.igs-paddingleft261{ padding-left: 261px ; }
+.igs-paddingleft262{ padding-left: 262px ; }
+.igs-paddingleft263{ padding-left: 263px ; }
+.igs-paddingleft264{ padding-left: 264px ; }
+.igs-paddingleft265{ padding-left: 265px ; }
+.igs-paddingleft266{ padding-left: 266px ; }
+.igs-paddingleft267{ padding-left: 267px ; }
+.igs-paddingleft268{ padding-left: 268px ; }
+.igs-paddingleft269{ padding-left: 269px ; }
+.igs-paddingleft270{ padding-left: 270px ; }
+.igs-paddingleft271{ padding-left: 271px ; }
+.igs-paddingleft272{ padding-left: 272px ; }
+.igs-paddingleft273{ padding-left: 273px ; }
+.igs-paddingleft274{ padding-left: 274px ; }
+.igs-paddingleft275{ padding-left: 275px ; }
+.igs-paddingleft276{ padding-left: 276px ; }
+.igs-paddingleft277{ padding-left: 277px ; }
+.igs-paddingleft278{ padding-left: 278px ; }
+.igs-paddingleft279{ padding-left: 279px ; }
+.igs-paddingleft280{ padding-left: 280px ; }
+.igs-paddingleft281{ padding-left: 281px ; }
+.igs-paddingleft282{ padding-left: 282px ; }
+.igs-paddingleft283{ padding-left: 283px ; }
+.igs-paddingleft284{ padding-left: 284px ; }
+.igs-paddingleft285{ padding-left: 285px ; }
+.igs-paddingleft286{ padding-left: 286px ; }
+.igs-paddingleft287{ padding-left: 287px ; }
+.igs-paddingleft288{ padding-left: 288px ; }
+.igs-paddingleft289{ padding-left: 289px ; }
+.igs-paddingleft290{ padding-left: 290px ; }
+.igs-paddingleft291{ padding-left: 291px ; }
+.igs-paddingleft292{ padding-left: 292px ; }
+.igs-paddingleft293{ padding-left: 293px ; }
+.igs-paddingleft294{ padding-left: 294px ; }
+.igs-paddingleft295{ padding-left: 295px ; }
+.igs-paddingleft296{ padding-left: 296px ; }
+.igs-paddingleft297{ padding-left: 297px ; }
+.igs-paddingleft298{ padding-left: 298px ; }
+.igs-paddingleft299{ padding-left: 299px ; }
+/*padding right*/
+.igs-paddingright0{ padding-right: 0px ; }
+.igs-paddingright1{ padding-right: 1px ; }
+.igs-paddingright2{ padding-right: 2px ; }
+.igs-paddingright3{ padding-right: 3px ; }
+.igs-paddingright4{ padding-right: 4px ; }
+.igs-paddingright5{ padding-right: 5px ; }
+.igs-paddingright6{ padding-right: 6px ; }
+.igs-paddingright7{ padding-right: 7px ; }
+.igs-paddingright8{ padding-right: 8px ; }
+.igs-paddingright9{ padding-right: 9px ; }
+.igs-paddingright10{ padding-right: 10px ; }
+.igs-paddingright11{ padding-right: 11px ; }
+.igs-paddingright12{ padding-right: 12px ; }
+.igs-paddingright13{ padding-right: 13px ; }
+.igs-paddingright14{ padding-right: 14px ; }
+.igs-paddingright15{ padding-right: 15px ; }
+.igs-paddingright16{ padding-right: 16px ; }
+.igs-paddingright17{ padding-right: 17px ; }
+.igs-paddingright18{ padding-right: 18px ; }
+.igs-paddingright19{ padding-right: 19px ; }
+.igs-paddingright20{ padding-right: 20px ; }
+.igs-paddingright21{ padding-right: 21px ; }
+.igs-paddingright22{ padding-right: 22px ; }
+.igs-paddingright23{ padding-right: 23px ; }
+.igs-paddingright24{ padding-right: 24px ; }
+.igs-paddingright25{ padding-right: 25px ; }
+.igs-paddingright26{ padding-right: 26px ; }
+.igs-paddingright27{ padding-right: 27px ; }
+.igs-paddingright28{ padding-right: 28px ; }
+.igs-paddingright29{ padding-right: 29px ; }
+.igs-paddingright30{ padding-right: 30px ; }
+.igs-paddingright31{ padding-right: 31px ; }
+.igs-paddingright32{ padding-right: 32px ; }
+.igs-paddingright33{ padding-right: 33px ; }
+.igs-paddingright34{ padding-right: 34px ; }
+.igs-paddingright35{ padding-right: 35px ; }
+.igs-paddingright36{ padding-right: 36px ; }
+.igs-paddingright37{ padding-right: 37px ; }
+.igs-paddingright38{ padding-right: 38px ; }
+.igs-paddingright39{ padding-right: 39px ; }
+.igs-paddingright40{ padding-right: 40px ; }
+.igs-paddingright41{ padding-right: 41px ; }
+.igs-paddingright42{ padding-right: 42px ; }
+.igs-paddingright43{ padding-right: 43px ; }
+.igs-paddingright44{ padding-right: 44px ; }
+.igs-paddingright45{ padding-right: 45px ; }
+.igs-paddingright46{ padding-right: 46px ; }
+.igs-paddingright47{ padding-right: 47px ; }
+.igs-paddingright48{ padding-right: 48px ; }
+.igs-paddingright49{ padding-right: 49px ; }
+.igs-paddingright50{ padding-right: 50px ; }
+.igs-paddingright51{ padding-right: 51px ; }
+.igs-paddingright52{ padding-right: 52px ; }
+.igs-paddingright53{ padding-right: 53px ; }
+.igs-paddingright54{ padding-right: 54px ; }
+.igs-paddingright55{ padding-right: 55px ; }
+.igs-paddingright56{ padding-right: 56px ; }
+.igs-paddingright57{ padding-right: 57px ; }
+.igs-paddingright58{ padding-right: 58px ; }
+.igs-paddingright59{ padding-right: 59px ; }
+.igs-paddingright60{ padding-right: 60px ; }
+.igs-paddingright61{ padding-right: 61px ; }
+.igs-paddingright62{ padding-right: 62px ; }
+.igs-paddingright63{ padding-right: 63px ; }
+.igs-paddingright64{ padding-right: 64px ; }
+.igs-paddingright65{ padding-right: 65px ; }
+.igs-paddingright66{ padding-right: 66px ; }
+.igs-paddingright67{ padding-right: 67px ; }
+.igs-paddingright68{ padding-right: 68px ; }
+.igs-paddingright69{ padding-right: 69px ; }
+.igs-paddingright70{ padding-right: 70px ; }
+.igs-paddingright71{ padding-right: 71px ; }
+.igs-paddingright72{ padding-right: 72px ; }
+.igs-paddingright73{ padding-right: 73px ; }
+.igs-paddingright74{ padding-right: 74px ; }
+.igs-paddingright75{ padding-right: 75px ; }
+.igs-paddingright76{ padding-right: 76px ; }
+.igs-paddingright77{ padding-right: 77px ; }
+.igs-paddingright78{ padding-right: 78px ; }
+.igs-paddingright79{ padding-right: 79px ; }
+.igs-paddingright80{ padding-right: 80px ; }
+.igs-paddingright81{ padding-right: 81px ; }
+.igs-paddingright82{ padding-right: 82px ; }
+.igs-paddingright83{ padding-right: 83px ; }
+.igs-paddingright84{ padding-right: 84px ; }
+.igs-paddingright85{ padding-right: 85px ; }
+.igs-paddingright86{ padding-right: 86px ; }
+.igs-paddingright87{ padding-right: 87px ; }
+.igs-paddingright88{ padding-right: 88px ; }
+.igs-paddingright89{ padding-right: 89px ; }
+.igs-paddingright90{ padding-right: 90px ; }
+.igs-paddingright91{ padding-right: 91px ; }
+.igs-paddingright92{ padding-right: 92px ; }
+.igs-paddingright93{ padding-right: 93px ; }
+.igs-paddingright94{ padding-right: 94px ; }
+.igs-paddingright95{ padding-right: 95px ; }
+.igs-paddingright96{ padding-right: 96px ; }
+.igs-paddingright97{ padding-right: 97px ; }
+.igs-paddingright98{ padding-right: 98px ; }
+.igs-paddingright99{ padding-right: 99px ; }
+.igs-paddingright100{ padding-right: 100px ; }
+.igs-paddingright101{ padding-right: 101px ; }
+.igs-paddingright102{ padding-right: 102px ; }
+.igs-paddingright103{ padding-right: 103px ; }
+.igs-paddingright104{ padding-right: 104px ; }
+.igs-paddingright105{ padding-right: 105px ; }
+.igs-paddingright106{ padding-right: 106px ; }
+.igs-paddingright107{ padding-right: 107px ; }
+.igs-paddingright108{ padding-right: 108px ; }
+.igs-paddingright109{ padding-right: 109px ; }
+.igs-paddingright110{ padding-right: 110px ; }
+.igs-paddingright111{ padding-right: 111px ; }
+.igs-paddingright112{ padding-right: 112px ; }
+.igs-paddingright113{ padding-right: 113px ; }
+.igs-paddingright114{ padding-right: 114px ; }
+.igs-paddingright115{ padding-right: 115px ; }
+.igs-paddingright116{ padding-right: 116px ; }
+.igs-paddingright117{ padding-right: 117px ; }
+.igs-paddingright118{ padding-right: 118px ; }
+.igs-paddingright119{ padding-right: 119px ; }
+.igs-paddingright120{ padding-right: 120px ; }
+.igs-paddingright121{ padding-right: 121px ; }
+.igs-paddingright122{ padding-right: 122px ; }
+.igs-paddingright123{ padding-right: 123px ; }
+.igs-paddingright124{ padding-right: 124px ; }
+.igs-paddingright125{ padding-right: 125px ; }
+.igs-paddingright126{ padding-right: 126px ; }
+.igs-paddingright127{ padding-right: 127px ; }
+.igs-paddingright128{ padding-right: 128px ; }
+.igs-paddingright129{ padding-right: 129px ; }
+.igs-paddingright130{ padding-right: 130px ; }
+.igs-paddingright131{ padding-right: 131px ; }
+.igs-paddingright132{ padding-right: 132px ; }
+.igs-paddingright133{ padding-right: 133px ; }
+.igs-paddingright134{ padding-right: 134px ; }
+.igs-paddingright135{ padding-right: 135px ; }
+.igs-paddingright136{ padding-right: 136px ; }
+.igs-paddingright137{ padding-right: 137px ; }
+.igs-paddingright138{ padding-right: 138px ; }
+.igs-paddingright139{ padding-right: 139px ; }
+.igs-paddingright140{ padding-right: 140px ; }
+.igs-paddingright141{ padding-right: 141px ; }
+.igs-paddingright142{ padding-right: 142px ; }
+.igs-paddingright143{ padding-right: 143px ; }
+.igs-paddingright144{ padding-right: 144px ; }
+.igs-paddingright145{ padding-right: 145px ; }
+.igs-paddingright146{ padding-right: 146px ; }
+.igs-paddingright147{ padding-right: 147px ; }
+.igs-paddingright148{ padding-right: 148px ; }
+.igs-paddingright149{ padding-right: 149px ; }
+.igs-paddingright150{ padding-right: 150px ; }
+.igs-paddingright151{ padding-right: 151px ; }
+.igs-paddingright152{ padding-right: 152px ; }
+.igs-paddingright153{ padding-right: 153px ; }
+.igs-paddingright154{ padding-right: 154px ; }
+.igs-paddingright155{ padding-right: 155px ; }
+.igs-paddingright156{ padding-right: 156px ; }
+.igs-paddingright157{ padding-right: 157px ; }
+.igs-paddingright158{ padding-right: 158px ; }
+.igs-paddingright159{ padding-right: 159px ; }
+.igs-paddingright160{ padding-right: 160px ; }
+.igs-paddingright161{ padding-right: 161px ; }
+.igs-paddingright162{ padding-right: 162px ; }
+.igs-paddingright163{ padding-right: 163px ; }
+.igs-paddingright164{ padding-right: 164px ; }
+.igs-paddingright165{ padding-right: 165px ; }
+.igs-paddingright166{ padding-right: 166px ; }
+.igs-paddingright167{ padding-right: 167px ; }
+.igs-paddingright168{ padding-right: 168px ; }
+.igs-paddingright169{ padding-right: 169px ; }
+.igs-paddingright170{ padding-right: 170px ; }
+.igs-paddingright171{ padding-right: 171px ; }
+.igs-paddingright172{ padding-right: 172px ; }
+.igs-paddingright173{ padding-right: 173px ; }
+.igs-paddingright174{ padding-right: 174px ; }
+.igs-paddingright175{ padding-right: 175px ; }
+.igs-paddingright176{ padding-right: 176px ; }
+.igs-paddingright177{ padding-right: 177px ; }
+.igs-paddingright178{ padding-right: 178px ; }
+.igs-paddingright179{ padding-right: 179px ; }
+.igs-paddingright180{ padding-right: 180px ; }
+.igs-paddingright181{ padding-right: 181px ; }
+.igs-paddingright182{ padding-right: 182px ; }
+.igs-paddingright183{ padding-right: 183px ; }
+.igs-paddingright184{ padding-right: 184px ; }
+.igs-paddingright185{ padding-right: 185px ; }
+.igs-paddingright186{ padding-right: 186px ; }
+.igs-paddingright187{ padding-right: 187px ; }
+.igs-paddingright188{ padding-right: 188px ; }
+.igs-paddingright189{ padding-right: 189px ; }
+.igs-paddingright190{ padding-right: 190px ; }
+.igs-paddingright191{ padding-right: 191px ; }
+.igs-paddingright192{ padding-right: 192px ; }
+.igs-paddingright193{ padding-right: 193px ; }
+.igs-paddingright194{ padding-right: 194px ; }
+.igs-paddingright195{ padding-right: 195px ; }
+.igs-paddingright196{ padding-right: 196px ; }
+.igs-paddingright197{ padding-right: 197px ; }
+.igs-paddingright198{ padding-right: 198px ; }
+.igs-paddingright199{ padding-right: 199px ; }
+.igs-paddingright200{ padding-right: 200px ; }
+.igs-paddingright201{ padding-right: 201px ; }
+.igs-paddingright202{ padding-right: 202px ; }
+.igs-paddingright203{ padding-right: 203px ; }
+.igs-paddingright204{ padding-right: 204px ; }
+.igs-paddingright205{ padding-right: 205px ; }
+.igs-paddingright206{ padding-right: 206px ; }
+.igs-paddingright207{ padding-right: 207px ; }
+.igs-paddingright208{ padding-right: 208px ; }
+.igs-paddingright209{ padding-right: 209px ; }
+.igs-paddingright210{ padding-right: 210px ; }
+.igs-paddingright211{ padding-right: 211px ; }
+.igs-paddingright212{ padding-right: 212px ; }
+.igs-paddingright213{ padding-right: 213px ; }
+.igs-paddingright214{ padding-right: 214px ; }
+.igs-paddingright215{ padding-right: 215px ; }
+.igs-paddingright216{ padding-right: 216px ; }
+.igs-paddingright217{ padding-right: 217px ; }
+.igs-paddingright218{ padding-right: 218px ; }
+.igs-paddingright219{ padding-right: 219px ; }
+.igs-paddingright220{ padding-right: 220px ; }
+.igs-paddingright221{ padding-right: 221px ; }
+.igs-paddingright222{ padding-right: 222px ; }
+.igs-paddingright223{ padding-right: 223px ; }
+.igs-paddingright224{ padding-right: 224px ; }
+.igs-paddingright225{ padding-right: 225px ; }
+.igs-paddingright226{ padding-right: 226px ; }
+.igs-paddingright227{ padding-right: 227px ; }
+.igs-paddingright228{ padding-right: 228px ; }
+.igs-paddingright229{ padding-right: 229px ; }
+.igs-paddingright230{ padding-right: 230px ; }
+.igs-paddingright231{ padding-right: 231px ; }
+.igs-paddingright232{ padding-right: 232px ; }
+.igs-paddingright233{ padding-right: 233px ; }
+.igs-paddingright234{ padding-right: 234px ; }
+.igs-paddingright235{ padding-right: 235px ; }
+.igs-paddingright236{ padding-right: 236px ; }
+.igs-paddingright237{ padding-right: 237px ; }
+.igs-paddingright238{ padding-right: 238px ; }
+.igs-paddingright239{ padding-right: 239px ; }
+.igs-paddingright240{ padding-right: 240px ; }
+.igs-paddingright241{ padding-right: 241px ; }
+.igs-paddingright242{ padding-right: 242px ; }
+.igs-paddingright243{ padding-right: 243px ; }
+.igs-paddingright244{ padding-right: 244px ; }
+.igs-paddingright245{ padding-right: 245px ; }
+.igs-paddingright246{ padding-right: 246px ; }
+.igs-paddingright247{ padding-right: 247px ; }
+.igs-paddingright248{ padding-right: 248px ; }
+.igs-paddingright249{ padding-right: 249px ; }
+.igs-paddingright250{ padding-right: 250px ; }
+.igs-paddingright251{ padding-right: 251px ; }
+.igs-paddingright252{ padding-right: 252px ; }
+.igs-paddingright253{ padding-right: 253px ; }
+.igs-paddingright254{ padding-right: 254px ; }
+.igs-paddingright255{ padding-right: 255px ; }
+.igs-paddingright256{ padding-right: 256px ; }
+.igs-paddingright257{ padding-right: 257px ; }
+.igs-paddingright258{ padding-right: 258px ; }
+.igs-paddingright259{ padding-right: 259px ; }
+.igs-paddingright260{ padding-right: 260px ; }
+.igs-paddingright261{ padding-right: 261px ; }
+.igs-paddingright262{ padding-right: 262px ; }
+.igs-paddingright263{ padding-right: 263px ; }
+.igs-paddingright264{ padding-right: 264px ; }
+.igs-paddingright265{ padding-right: 265px ; }
+.igs-paddingright266{ padding-right: 266px ; }
+.igs-paddingright267{ padding-right: 267px ; }
+.igs-paddingright268{ padding-right: 268px ; }
+.igs-paddingright269{ padding-right: 269px ; }
+.igs-paddingright270{ padding-right: 270px ; }
+.igs-paddingright271{ padding-right: 271px ; }
+.igs-paddingright272{ padding-right: 272px ; }
+.igs-paddingright273{ padding-right: 273px ; }
+.igs-paddingright274{ padding-right: 274px ; }
+.igs-paddingright275{ padding-right: 275px ; }
+.igs-paddingright276{ padding-right: 276px ; }
+.igs-paddingright277{ padding-right: 277px ; }
+.igs-paddingright278{ padding-right: 278px ; }
+.igs-paddingright279{ padding-right: 279px ; }
+.igs-paddingright280{ padding-right: 280px ; }
+.igs-paddingright281{ padding-right: 281px ; }
+.igs-paddingright282{ padding-right: 282px ; }
+.igs-paddingright283{ padding-right: 283px ; }
+.igs-paddingright284{ padding-right: 284px ; }
+.igs-paddingright285{ padding-right: 285px ; }
+.igs-paddingright286{ padding-right: 286px ; }
+.igs-paddingright287{ padding-right: 287px ; }
+.igs-paddingright288{ padding-right: 288px ; }
+.igs-paddingright289{ padding-right: 289px ; }
+.igs-paddingright290{ padding-right: 290px ; }
+.igs-paddingright291{ padding-right: 291px ; }
+.igs-paddingright292{ padding-right: 292px ; }
+.igs-paddingright293{ padding-right: 293px ; }
+.igs-paddingright294{ padding-right: 294px ; }
+.igs-paddingright295{ padding-right: 295px ; }
+.igs-paddingright296{ padding-right: 296px ; }
+.igs-paddingright297{ padding-right: 297px ; }
+.igs-paddingright298{ padding-right: 298px ; }
+.igs-paddingright299{ padding-right: 299px ; }
+
+/*height en px*/
+.igs-height0p{ height: 0% ; }
+.igs-height1p{ height: 1% ; }
+.igs-height2p{ height: 2% ; }
+.igs-height3p{ height: 3% ; }
+.igs-height4p{ height: 4% ; }
+.igs-height5p{ height: 5% ; }
+.igs-height6p{ height: 6% ; }
+.igs-height7p{ height: 7% ; }
+.igs-height8p{ height: 8% ; }
+.igs-height9p{ height: 9% ; }
+.igs-height10p{ height: 10% ; }
+.igs-height11p{ height: 11% ; }
+.igs-height12p{ height: 12% ; }
+.igs-height13p{ height: 13% ; }
+.igs-height14p{ height: 14% ; }
+.igs-height15p{ height: 15% ; }
+.igs-height16p{ height: 16% ; }
+.igs-height17p{ height: 17% ; }
+.igs-height18p{ height: 18% ; }
+.igs-height19p{ height: 19% ; }
+.igs-height20p{ height: 20% ; }
+.igs-height21p{ height: 21% ; }
+.igs-height22p{ height: 22% ; }
+.igs-height23p{ height: 23% ; }
+.igs-height24p{ height: 24% ; }
+.igs-height25p{ height: 25% ; }
+.igs-height26p{ height: 26% ; }
+.igs-height27p{ height: 27% ; }
+.igs-height28p{ height: 28% ; }
+.igs-height29p{ height: 29% ; }
+.igs-height30p{ height: 30% ; }
+.igs-height31p{ height: 31% ; }
+.igs-height32p{ height: 32% ; }
+.igs-height33p{ height: 33% ; }
+.igs-height34p{ height: 34% ; }
+.igs-height35p{ height: 35% ; }
+.igs-height36p{ height: 36% ; }
+.igs-height37p{ height: 37% ; }
+.igs-height38p{ height: 38% ; }
+.igs-height39p{ height: 39% ; }
+.igs-height40p{ height: 40% ; }
+.igs-height41p{ height: 41% ; }
+.igs-height42p{ height: 42% ; }
+.igs-height43p{ height: 43% ; }
+.igs-height44p{ height: 44% ; }
+.igs-height45p{ height: 45% ; }
+.igs-height46p{ height: 46% ; }
+.igs-height47p{ height: 47% ; }
+.igs-height48p{ height: 48% ; }
+.igs-height49p{ height: 49% ; }
+.igs-height50p{ height: 50% ; }
+.igs-height51p{ height: 51% ; }
+.igs-height52p{ height: 52% ; }
+.igs-height53p{ height: 53% ; }
+.igs-height54p{ height: 54% ; }
+.igs-height55p{ height: 55% ; }
+.igs-height56p{ height: 56% ; }
+.igs-height57p{ height: 57% ; }
+.igs-height58p{ height: 58% ; }
+.igs-height59p{ height: 59% ; }
+.igs-height60p{ height: 60% ; }
+.igs-height61p{ height: 61% ; }
+.igs-height62p{ height: 62% ; }
+.igs-height63p{ height: 63% ; }
+.igs-height64p{ height: 64% ; }
+.igs-height65p{ height: 65% ; }
+.igs-height66p{ height: 66% ; }
+.igs-height67p{ height: 67% ; }
+.igs-height68p{ height: 68% ; }
+.igs-height69p{ height: 69% ; }
+.igs-height70p{ height: 70% ; }
+.igs-height71p{ height: 71% ; }
+.igs-height72p{ height: 72% ; }
+.igs-height73p{ height: 73% ; }
+.igs-height74p{ height: 74% ; }
+.igs-height75p{ height: 75% ; }
+.igs-height76p{ height: 76% ; }
+.igs-height77p{ height: 77% ; }
+.igs-height78p{ height: 78% ; }
+.igs-height79p{ height: 79% ; }
+.igs-height80p{ height: 80% ; }
+.igs-height81p{ height: 81% ; }
+.igs-height82p{ height: 82% ; }
+.igs-height83p{ height: 83% ; }
+.igs-height84p{ height: 84% ; }
+.igs-height85p{ height: 85% ; }
+.igs-height86p{ height: 86% ; }
+.igs-height87p{ height: 87% ; }
+.igs-height88p{ height: 88% ; }
+.igs-height89p{ height: 89% ; }
+.igs-height90p{ height: 90% ; }
+.igs-height91p{ height: 91% ; }
+.igs-height92p{ height: 92% ; }
+.igs-height93p{ height: 93% ; }
+.igs-height94p{ height: 94% ; }
+.igs-height95p{ height: 95% ; }
+.igs-height96p{ height: 96% ; }
+.igs-height97p{ height: 97% ; }
+.igs-height98p{ height: 98% ; }
+.igs-height99p{ height: 99% ; }
+.igs-height100p{ height: 100% ; }
+
+
+
+/* margin */
+.igs-margin0{ margin: 0px ; }
+.igs-margin1{ margin: 1px ; }
+.igs-margin2{ margin: 2px ; }
+.igs-margin3{ margin: 3px ; }
+.igs-margin4{ margin: 4px ; }
+.igs-margin5{ margin: 5px ; }
+.igs-margin6{ margin: 6px ; }
+.igs-margin7{ margin: 7px ; }
+.igs-margin8{ margin: 8px ; }
+.igs-margin9{ margin: 9px ; }
+.igs-margin10{ margin: 10px ; }
+.igs-margin11{ margin: 11px ; }
+.igs-margin12{ margin: 12px ; }
+.igs-margin13{ margin: 13px ; }
+.igs-margin14{ margin: 14px ; }
+.igs-margin15{ margin: 15px ; }
+.igs-margin16{ margin: 16px ; }
+.igs-margin17{ margin: 17px ; }
+.igs-margin18{ margin: 18px ; }
+.igs-margin19{ margin: 19px ; }
+.igs-margin20{ margin: 20px ; }
+.igs-margin21{ margin: 21px ; }
+.igs-margin22{ margin: 22px ; }
+.igs-margin23{ margin: 23px ; }
+.igs-margin24{ margin: 24px ; }
+.igs-margin25{ margin: 25px ; }
+.igs-margin26{ margin: 26px ; }
+.igs-margin27{ margin: 27px ; }
+.igs-margin28{ margin: 28px ; }
+.igs-margin29{ margin: 29px ; }
+.igs-margin30{ margin: 30px ; }
+.igs-margin31{ margin: 31px ; }
+.igs-margin32{ margin: 32px ; }
+.igs-margin33{ margin: 33px ; }
+.igs-margin34{ margin: 34px ; }
+.igs-margin35{ margin: 35px ; }
+.igs-margin36{ margin: 36px ; }
+.igs-margin37{ margin: 37px ; }
+.igs-margin38{ margin: 38px ; }
+.igs-margin39{ margin: 39px ; }
+.igs-margin40{ margin: 40px ; }
+.igs-margin41{ margin: 41px ; }
+.igs-margin42{ margin: 42px ; }
+.igs-margin43{ margin: 43px ; }
+.igs-margin44{ margin: 44px ; }
+.igs-margin45{ margin: 45px ; }
+.igs-margin46{ margin: 46px ; }
+.igs-margin47{ margin: 47px ; }
+.igs-margin48{ margin: 48px ; }
+.igs-margin49{ margin: 49px ; }
+.igs-margin50{ margin: 50px ; }
+.igs-margin51{ margin: 51px ; }
+.igs-margin52{ margin: 52px ; }
+.igs-margin53{ margin: 53px ; }
+.igs-margin54{ margin: 54px ; }
+.igs-margin55{ margin: 55px ; }
+.igs-margin56{ margin: 56px ; }
+.igs-margin57{ margin: 57px ; }
+.igs-margin58{ margin: 58px ; }
+.igs-margin59{ margin: 59px ; }
+.igs-margin60{ margin: 60px ; }
+.igs-margin61{ margin: 61px ; }
+.igs-margin62{ margin: 62px ; }
+.igs-margin63{ margin: 63px ; }
+.igs-margin64{ margin: 64px ; }
+.igs-margin65{ margin: 65px ; }
+.igs-margin66{ margin: 66px ; }
+.igs-margin67{ margin: 67px ; }
+.igs-margin68{ margin: 68px ; }
+.igs-margin69{ margin: 69px ; }
+.igs-margin70{ margin: 70px ; }
+.igs-margin71{ margin: 71px ; }
+.igs-margin72{ margin: 72px ; }
+.igs-margin73{ margin: 73px ; }
+.igs-margin74{ margin: 74px ; }
+.igs-margin75{ margin: 75px ; }
+.igs-margin76{ margin: 76px ; }
+.igs-margin77{ margin: 77px ; }
+.igs-margin78{ margin: 78px ; }
+.igs-margin79{ margin: 79px ; }
+.igs-margin80{ margin: 80px ; }
+.igs-margin81{ margin: 81px ; }
+.igs-margin82{ margin: 82px ; }
+.igs-margin83{ margin: 83px ; }
+.igs-margin84{ margin: 84px ; }
+.igs-margin85{ margin: 85px ; }
+.igs-margin86{ margin: 86px ; }
+.igs-margin87{ margin: 87px ; }
+.igs-margin88{ margin: 88px ; }
+.igs-margin89{ margin: 89px ; }
+.igs-margin90{ margin: 90px ; }
+.igs-margin91{ margin: 91px ; }
+.igs-margin92{ margin: 92px ; }
+.igs-margin93{ margin: 93px ; }
+.igs-margin94{ margin: 94px ; }
+.igs-margin95{ margin: 95px ; }
+.igs-margin96{ margin: 96px ; }
+.igs-margin97{ margin: 97px ; }
+.igs-margin98{ margin: 98px ; }
+.igs-margin99{ margin: 99px ; }
+.igs-margin100{ margin: 100px ; }
+.igs-margin101{ margin: 101px ; }
+.igs-margin102{ margin: 102px ; }
+.igs-margin103{ margin: 103px ; }
+.igs-margin104{ margin: 104px ; }
+.igs-margin105{ margin: 105px ; }
+.igs-margin106{ margin: 106px ; }
+.igs-margin107{ margin: 107px ; }
+.igs-margin108{ margin: 108px ; }
+.igs-margin109{ margin: 109px ; }
+.igs-margin110{ margin: 110px ; }
+.igs-margin111{ margin: 111px ; }
+.igs-margin112{ margin: 112px ; }
+.igs-margin113{ margin: 113px ; }
+.igs-margin114{ margin: 114px ; }
+.igs-margin115{ margin: 115px ; }
+.igs-margin116{ margin: 116px ; }
+.igs-margin117{ margin: 117px ; }
+.igs-margin118{ margin: 118px ; }
+.igs-margin119{ margin: 119px ; }
+.igs-margin120{ margin: 120px ; }
+.igs-margin121{ margin: 121px ; }
+.igs-margin122{ margin: 122px ; }
+.igs-margin123{ margin: 123px ; }
+.igs-margin124{ margin: 124px ; }
+.igs-margin125{ margin: 125px ; }
+.igs-margin126{ margin: 126px ; }
+.igs-margin127{ margin: 127px ; }
+.igs-margin128{ margin: 128px ; }
+.igs-margin129{ margin: 129px ; }
+.igs-margin130{ margin: 130px ; }
+.igs-margin131{ margin: 131px ; }
+.igs-margin132{ margin: 132px ; }
+.igs-margin133{ margin: 133px ; }
+.igs-margin134{ margin: 134px ; }
+.igs-margin135{ margin: 135px ; }
+.igs-margin136{ margin: 136px ; }
+.igs-margin137{ margin: 137px ; }
+.igs-margin138{ margin: 138px ; }
+.igs-margin139{ margin: 139px ; }
+.igs-margin140{ margin: 140px ; }
+.igs-margin141{ margin: 141px ; }
+.igs-margin142{ margin: 142px ; }
+.igs-margin143{ margin: 143px ; }
+.igs-margin144{ margin: 144px ; }
+.igs-margin145{ margin: 145px ; }
+.igs-margin146{ margin: 146px ; }
+.igs-margin147{ margin: 147px ; }
+.igs-margin148{ margin: 148px ; }
+.igs-margin149{ margin: 149px ; }
+.igs-margin150{ margin: 150px ; }
+.igs-margin151{ margin: 151px ; }
+.igs-margin152{ margin: 152px ; }
+.igs-margin153{ margin: 153px ; }
+.igs-margin154{ margin: 154px ; }
+.igs-margin155{ margin: 155px ; }
+.igs-margin156{ margin: 156px ; }
+.igs-margin157{ margin: 157px ; }
+.igs-margin158{ margin: 158px ; }
+.igs-margin159{ margin: 159px ; }
+.igs-margin160{ margin: 160px ; }
+.igs-margin161{ margin: 161px ; }
+.igs-margin162{ margin: 162px ; }
+.igs-margin163{ margin: 163px ; }
+.igs-margin164{ margin: 164px ; }
+.igs-margin165{ margin: 165px ; }
+.igs-margin166{ margin: 166px ; }
+.igs-margin167{ margin: 167px ; }
+.igs-margin168{ margin: 168px ; }
+.igs-margin169{ margin: 169px ; }
+.igs-margin170{ margin: 170px ; }
+.igs-margin171{ margin: 171px ; }
+.igs-margin172{ margin: 172px ; }
+.igs-margin173{ margin: 173px ; }
+.igs-margin174{ margin: 174px ; }
+.igs-margin175{ margin: 175px ; }
+.igs-margin176{ margin: 176px ; }
+.igs-margin177{ margin: 177px ; }
+.igs-margin178{ margin: 178px ; }
+.igs-margin179{ margin: 179px ; }
+.igs-margin180{ margin: 180px ; }
+.igs-margin181{ margin: 181px ; }
+.igs-margin182{ margin: 182px ; }
+.igs-margin183{ margin: 183px ; }
+.igs-margin184{ margin: 184px ; }
+.igs-margin185{ margin: 185px ; }
+.igs-margin186{ margin: 186px ; }
+.igs-margin187{ margin: 187px ; }
+.igs-margin188{ margin: 188px ; }
+.igs-margin189{ margin: 189px ; }
+.igs-margin190{ margin: 190px ; }
+.igs-margin191{ margin: 191px ; }
+.igs-margin192{ margin: 192px ; }
+.igs-margin193{ margin: 193px ; }
+.igs-margin194{ margin: 194px ; }
+.igs-margin195{ margin: 195px ; }
+.igs-margin196{ margin: 196px ; }
+.igs-margin197{ margin: 197px ; }
+.igs-margin198{ margin: 198px ; }
+.igs-margin199{ margin: 199px ; }
+.igs-margin200{ margin: 200px ; }
+.igs-margin201{ margin: 201px ; }
+.igs-margin202{ margin: 202px ; }
+.igs-margin203{ margin: 203px ; }
+.igs-margin204{ margin: 204px ; }
+.igs-margin205{ margin: 205px ; }
+.igs-margin206{ margin: 206px ; }
+.igs-margin207{ margin: 207px ; }
+.igs-margin208{ margin: 208px ; }
+.igs-margin209{ margin: 209px ; }
+.igs-margin210{ margin: 210px ; }
+.igs-margin211{ margin: 211px ; }
+.igs-margin212{ margin: 212px ; }
+.igs-margin213{ margin: 213px ; }
+.igs-margin214{ margin: 214px ; }
+.igs-margin215{ margin: 215px ; }
+.igs-margin216{ margin: 216px ; }
+.igs-margin217{ margin: 217px ; }
+.igs-margin218{ margin: 218px ; }
+.igs-margin219{ margin: 219px ; }
+.igs-margin220{ margin: 220px ; }
+.igs-margin221{ margin: 221px ; }
+.igs-margin222{ margin: 222px ; }
+.igs-margin223{ margin: 223px ; }
+.igs-margin224{ margin: 224px ; }
+.igs-margin225{ margin: 225px ; }
+.igs-margin226{ margin: 226px ; }
+.igs-margin227{ margin: 227px ; }
+.igs-margin228{ margin: 228px ; }
+.igs-margin229{ margin: 229px ; }
+.igs-margin230{ margin: 230px ; }
+.igs-margin231{ margin: 231px ; }
+.igs-margin232{ margin: 232px ; }
+.igs-margin233{ margin: 233px ; }
+.igs-margin234{ margin: 234px ; }
+.igs-margin235{ margin: 235px ; }
+.igs-margin236{ margin: 236px ; }
+.igs-margin237{ margin: 237px ; }
+.igs-margin238{ margin: 238px ; }
+.igs-margin239{ margin: 239px ; }
+.igs-margin240{ margin: 240px ; }
+.igs-margin241{ margin: 241px ; }
+.igs-margin242{ margin: 242px ; }
+.igs-margin243{ margin: 243px ; }
+.igs-margin244{ margin: 244px ; }
+.igs-margin245{ margin: 245px ; }
+.igs-margin246{ margin: 246px ; }
+.igs-margin247{ margin: 247px ; }
+.igs-margin248{ margin: 248px ; }
+.igs-margin249{ margin: 249px ; }
+.igs-margin250{ margin: 250px ; }
+.igs-margin251{ margin: 251px ; }
+.igs-margin252{ margin: 252px ; }
+.igs-margin253{ margin: 253px ; }
+.igs-margin254{ margin: 254px ; }
+.igs-margin255{ margin: 255px ; }
+.igs-margin256{ margin: 256px ; }
+.igs-margin257{ margin: 257px ; }
+.igs-margin258{ margin: 258px ; }
+.igs-margin259{ margin: 259px ; }
+.igs-margin260{ margin: 260px ; }
+.igs-margin261{ margin: 261px ; }
+.igs-margin262{ margin: 262px ; }
+.igs-margin263{ margin: 263px ; }
+.igs-margin264{ margin: 264px ; }
+.igs-margin265{ margin: 265px ; }
+.igs-margin266{ margin: 266px ; }
+.igs-margin267{ margin: 267px ; }
+.igs-margin268{ margin: 268px ; }
+.igs-margin269{ margin: 269px ; }
+.igs-margin270{ margin: 270px ; }
+.igs-margin271{ margin: 271px ; }
+.igs-margin272{ margin: 272px ; }
+.igs-margin273{ margin: 273px ; }
+.igs-margin274{ margin: 274px ; }
+.igs-margin275{ margin: 275px ; }
+.igs-margin276{ margin: 276px ; }
+.igs-margin277{ margin: 277px ; }
+.igs-margin278{ margin: 278px ; }
+.igs-margin279{ margin: 279px ; }
+.igs-margin280{ margin: 280px ; }
+.igs-margin281{ margin: 281px ; }
+.igs-margin282{ margin: 282px ; }
+.igs-margin283{ margin: 283px ; }
+.igs-margin284{ margin: 284px ; }
+.igs-margin285{ margin: 285px ; }
+.igs-margin286{ margin: 286px ; }
+.igs-margin287{ margin: 287px ; }
+.igs-margin288{ margin: 288px ; }
+.igs-margin289{ margin: 289px ; }
+.igs-margin290{ margin: 290px ; }
+.igs-margin291{ margin: 291px ; }
+.igs-margin292{ margin: 292px ; }
+.igs-margin293{ margin: 293px ; }
+.igs-margin294{ margin: 294px ; }
+.igs-margin295{ margin: 295px ; }
+.igs-margin296{ margin: 296px ; }
+.igs-margin297{ margin: 297px ; }
+.igs-margin298{ margin: 298px ; }
+.igs-margin299{ margin: 299px ; }
+
+/*margin top*/
+
+.igs-margintop0{ margin-top: 0px ; }
+.igs-margintop1{ margin-top: 1px ; }
+.igs-margintop2{ margin-top: 2px ; }
+.igs-margintop3{ margin-top: 3px ; }
+.igs-margintop4{ margin-top: 4px ; }
+.igs-margintop5{ margin-top: 5px ; }
+.igs-margintop6{ margin-top: 6px ; }
+.igs-margintop7{ margin-top: 7px ; }
+.igs-margintop8{ margin-top: 8px ; }
+.igs-margintop9{ margin-top: 9px ; }
+.igs-margintop10{ margin-top: 10px ; }
+.igs-margintop11{ margin-top: 11px ; }
+.igs-margintop12{ margin-top: 12px ; }
+.igs-margintop13{ margin-top: 13px ; }
+.igs-margintop14{ margin-top: 14px ; }
+.igs-margintop15{ margin-top: 15px ; }
+.igs-margintop16{ margin-top: 16px ; }
+.igs-margintop17{ margin-top: 17px ; }
+.igs-margintop18{ margin-top: 18px ; }
+.igs-margintop19{ margin-top: 19px ; }
+.igs-margintop20{ margin-top: 20px ; }
+.igs-margintop21{ margin-top: 21px ; }
+.igs-margintop22{ margin-top: 22px ; }
+.igs-margintop23{ margin-top: 23px ; }
+.igs-margintop24{ margin-top: 24px ; }
+.igs-margintop25{ margin-top: 25px ; }
+.igs-margintop26{ margin-top: 26px ; }
+.igs-margintop27{ margin-top: 27px ; }
+.igs-margintop28{ margin-top: 28px ; }
+.igs-margintop29{ margin-top: 29px ; }
+.igs-margintop30{ margin-top: 30px ; }
+.igs-margintop31{ margin-top: 31px ; }
+.igs-margintop32{ margin-top: 32px ; }
+.igs-margintop33{ margin-top: 33px ; }
+.igs-margintop34{ margin-top: 34px ; }
+.igs-margintop35{ margin-top: 35px ; }
+.igs-margintop36{ margin-top: 36px ; }
+.igs-margintop37{ margin-top: 37px ; }
+.igs-margintop38{ margin-top: 38px ; }
+.igs-margintop39{ margin-top: 39px ; }
+.igs-margintop40{ margin-top: 40px ; }
+.igs-margintop41{ margin-top: 41px ; }
+.igs-margintop42{ margin-top: 42px ; }
+.igs-margintop43{ margin-top: 43px ; }
+.igs-margintop44{ margin-top: 44px ; }
+.igs-margintop45{ margin-top: 45px ; }
+.igs-margintop46{ margin-top: 46px ; }
+.igs-margintop47{ margin-top: 47px ; }
+.igs-margintop48{ margin-top: 48px ; }
+.igs-margintop49{ margin-top: 49px ; }
+.igs-margintop50{ margin-top: 50px ; }
+.igs-margintop51{ margin-top: 51px ; }
+.igs-margintop52{ margin-top: 52px ; }
+.igs-margintop53{ margin-top: 53px ; }
+.igs-margintop54{ margin-top: 54px ; }
+.igs-margintop55{ margin-top: 55px ; }
+.igs-margintop56{ margin-top: 56px ; }
+.igs-margintop57{ margin-top: 57px ; }
+.igs-margintop58{ margin-top: 58px ; }
+.igs-margintop59{ margin-top: 59px ; }
+.igs-margintop60{ margin-top: 60px ; }
+.igs-margintop61{ margin-top: 61px ; }
+.igs-margintop62{ margin-top: 62px ; }
+.igs-margintop63{ margin-top: 63px ; }
+.igs-margintop64{ margin-top: 64px ; }
+.igs-margintop65{ margin-top: 65px ; }
+.igs-margintop66{ margin-top: 66px ; }
+.igs-margintop67{ margin-top: 67px ; }
+.igs-margintop68{ margin-top: 68px ; }
+.igs-margintop69{ margin-top: 69px ; }
+.igs-margintop70{ margin-top: 70px ; }
+.igs-margintop71{ margin-top: 71px ; }
+.igs-margintop72{ margin-top: 72px ; }
+.igs-margintop73{ margin-top: 73px ; }
+.igs-margintop74{ margin-top: 74px ; }
+.igs-margintop75{ margin-top: 75px ; }
+.igs-margintop76{ margin-top: 76px ; }
+.igs-margintop77{ margin-top: 77px ; }
+.igs-margintop78{ margin-top: 78px ; }
+.igs-margintop79{ margin-top: 79px ; }
+.igs-margintop80{ margin-top: 80px ; }
+.igs-margintop81{ margin-top: 81px ; }
+.igs-margintop82{ margin-top: 82px ; }
+.igs-margintop83{ margin-top: 83px ; }
+.igs-margintop84{ margin-top: 84px ; }
+.igs-margintop85{ margin-top: 85px ; }
+.igs-margintop86{ margin-top: 86px ; }
+.igs-margintop87{ margin-top: 87px ; }
+.igs-margintop88{ margin-top: 88px ; }
+.igs-margintop89{ margin-top: 89px ; }
+.igs-margintop90{ margin-top: 90px ; }
+.igs-margintop91{ margin-top: 91px ; }
+.igs-margintop92{ margin-top: 92px ; }
+.igs-margintop93{ margin-top: 93px ; }
+.igs-margintop94{ margin-top: 94px ; }
+.igs-margintop95{ margin-top: 95px ; }
+.igs-margintop96{ margin-top: 96px ; }
+.igs-margintop97{ margin-top: 97px ; }
+.igs-margintop98{ margin-top: 98px ; }
+.igs-margintop99{ margin-top: 99px ; }
+.igs-margintop100{ margin-top: 100px ; }
+.igs-margintop101{ margin-top: 101px ; }
+.igs-margintop102{ margin-top: 102px ; }
+.igs-margintop103{ margin-top: 103px ; }
+.igs-margintop104{ margin-top: 104px ; }
+.igs-margintop105{ margin-top: 105px ; }
+.igs-margintop106{ margin-top: 106px ; }
+.igs-margintop107{ margin-top: 107px ; }
+.igs-margintop108{ margin-top: 108px ; }
+.igs-margintop109{ margin-top: 109px ; }
+.igs-margintop110{ margin-top: 110px ; }
+.igs-margintop111{ margin-top: 111px ; }
+.igs-margintop112{ margin-top: 112px ; }
+.igs-margintop113{ margin-top: 113px ; }
+.igs-margintop114{ margin-top: 114px ; }
+.igs-margintop115{ margin-top: 115px ; }
+.igs-margintop116{ margin-top: 116px ; }
+.igs-margintop117{ margin-top: 117px ; }
+.igs-margintop118{ margin-top: 118px ; }
+.igs-margintop119{ margin-top: 119px ; }
+.igs-margintop120{ margin-top: 120px ; }
+.igs-margintop121{ margin-top: 121px ; }
+.igs-margintop122{ margin-top: 122px ; }
+.igs-margintop123{ margin-top: 123px ; }
+.igs-margintop124{ margin-top: 124px ; }
+.igs-margintop125{ margin-top: 125px ; }
+.igs-margintop126{ margin-top: 126px ; }
+.igs-margintop127{ margin-top: 127px ; }
+.igs-margintop128{ margin-top: 128px ; }
+.igs-margintop129{ margin-top: 129px ; }
+.igs-margintop130{ margin-top: 130px ; }
+.igs-margintop131{ margin-top: 131px ; }
+.igs-margintop132{ margin-top: 132px ; }
+.igs-margintop133{ margin-top: 133px ; }
+.igs-margintop134{ margin-top: 134px ; }
+.igs-margintop135{ margin-top: 135px ; }
+.igs-margintop136{ margin-top: 136px ; }
+.igs-margintop137{ margin-top: 137px ; }
+.igs-margintop138{ margin-top: 138px ; }
+.igs-margintop139{ margin-top: 139px ; }
+.igs-margintop140{ margin-top: 140px ; }
+.igs-margintop141{ margin-top: 141px ; }
+.igs-margintop142{ margin-top: 142px ; }
+.igs-margintop143{ margin-top: 143px ; }
+.igs-margintop144{ margin-top: 144px ; }
+.igs-margintop145{ margin-top: 145px ; }
+.igs-margintop146{ margin-top: 146px ; }
+.igs-margintop147{ margin-top: 147px ; }
+.igs-margintop148{ margin-top: 148px ; }
+.igs-margintop149{ margin-top: 149px ; }
+.igs-margintop150{ margin-top: 150px ; }
+.igs-margintop151{ margin-top: 151px ; }
+.igs-margintop152{ margin-top: 152px ; }
+.igs-margintop153{ margin-top: 153px ; }
+.igs-margintop154{ margin-top: 154px ; }
+.igs-margintop155{ margin-top: 155px ; }
+.igs-margintop156{ margin-top: 156px ; }
+.igs-margintop157{ margin-top: 157px ; }
+.igs-margintop158{ margin-top: 158px ; }
+.igs-margintop159{ margin-top: 159px ; }
+.igs-margintop160{ margin-top: 160px ; }
+.igs-margintop161{ margin-top: 161px ; }
+.igs-margintop162{ margin-top: 162px ; }
+.igs-margintop163{ margin-top: 163px ; }
+.igs-margintop164{ margin-top: 164px ; }
+.igs-margintop165{ margin-top: 165px ; }
+.igs-margintop166{ margin-top: 166px ; }
+.igs-margintop167{ margin-top: 167px ; }
+.igs-margintop168{ margin-top: 168px ; }
+.igs-margintop169{ margin-top: 169px ; }
+.igs-margintop170{ margin-top: 170px ; }
+.igs-margintop171{ margin-top: 171px ; }
+.igs-margintop172{ margin-top: 172px ; }
+.igs-margintop173{ margin-top: 173px ; }
+.igs-margintop174{ margin-top: 174px ; }
+.igs-margintop175{ margin-top: 175px ; }
+.igs-margintop176{ margin-top: 176px ; }
+.igs-margintop177{ margin-top: 177px ; }
+.igs-margintop178{ margin-top: 178px ; }
+.igs-margintop179{ margin-top: 179px ; }
+.igs-margintop180{ margin-top: 180px ; }
+.igs-margintop181{ margin-top: 181px ; }
+.igs-margintop182{ margin-top: 182px ; }
+.igs-margintop183{ margin-top: 183px ; }
+.igs-margintop184{ margin-top: 184px ; }
+.igs-margintop185{ margin-top: 185px ; }
+.igs-margintop186{ margin-top: 186px ; }
+.igs-margintop187{ margin-top: 187px ; }
+.igs-margintop188{ margin-top: 188px ; }
+.igs-margintop189{ margin-top: 189px ; }
+.igs-margintop190{ margin-top: 190px ; }
+.igs-margintop191{ margin-top: 191px ; }
+.igs-margintop192{ margin-top: 192px ; }
+.igs-margintop193{ margin-top: 193px ; }
+.igs-margintop194{ margin-top: 194px ; }
+.igs-margintop195{ margin-top: 195px ; }
+.igs-margintop196{ margin-top: 196px ; }
+.igs-margintop197{ margin-top: 197px ; }
+.igs-margintop198{ margin-top: 198px ; }
+.igs-margintop199{ margin-top: 199px ; }
+.igs-margintop200{ margin-top: 200px ; }
+.igs-margintop201{ margin-top: 201px ; }
+.igs-margintop202{ margin-top: 202px ; }
+.igs-margintop203{ margin-top: 203px ; }
+.igs-margintop204{ margin-top: 204px ; }
+.igs-margintop205{ margin-top: 205px ; }
+.igs-margintop206{ margin-top: 206px ; }
+.igs-margintop207{ margin-top: 207px ; }
+.igs-margintop208{ margin-top: 208px ; }
+.igs-margintop209{ margin-top: 209px ; }
+.igs-margintop210{ margin-top: 210px ; }
+.igs-margintop211{ margin-top: 211px ; }
+.igs-margintop212{ margin-top: 212px ; }
+.igs-margintop213{ margin-top: 213px ; }
+.igs-margintop214{ margin-top: 214px ; }
+.igs-margintop215{ margin-top: 215px ; }
+.igs-margintop216{ margin-top: 216px ; }
+.igs-margintop217{ margin-top: 217px ; }
+.igs-margintop218{ margin-top: 218px ; }
+.igs-margintop219{ margin-top: 219px ; }
+.igs-margintop220{ margin-top: 220px ; }
+.igs-margintop221{ margin-top: 221px ; }
+.igs-margintop222{ margin-top: 222px ; }
+.igs-margintop223{ margin-top: 223px ; }
+.igs-margintop224{ margin-top: 224px ; }
+.igs-margintop225{ margin-top: 225px ; }
+.igs-margintop226{ margin-top: 226px ; }
+.igs-margintop227{ margin-top: 227px ; }
+.igs-margintop228{ margin-top: 228px ; }
+.igs-margintop229{ margin-top: 229px ; }
+.igs-margintop230{ margin-top: 230px ; }
+.igs-margintop231{ margin-top: 231px ; }
+.igs-margintop232{ margin-top: 232px ; }
+.igs-margintop233{ margin-top: 233px ; }
+.igs-margintop234{ margin-top: 234px ; }
+.igs-margintop235{ margin-top: 235px ; }
+.igs-margintop236{ margin-top: 236px ; }
+.igs-margintop237{ margin-top: 237px ; }
+.igs-margintop238{ margin-top: 238px ; }
+.igs-margintop239{ margin-top: 239px ; }
+.igs-margintop240{ margin-top: 240px ; }
+.igs-margintop241{ margin-top: 241px ; }
+.igs-margintop242{ margin-top: 242px ; }
+.igs-margintop243{ margin-top: 243px ; }
+.igs-margintop244{ margin-top: 244px ; }
+.igs-margintop245{ margin-top: 245px ; }
+.igs-margintop246{ margin-top: 246px ; }
+.igs-margintop247{ margin-top: 247px ; }
+.igs-margintop248{ margin-top: 248px ; }
+.igs-margintop249{ margin-top: 249px ; }
+.igs-margintop250{ margin-top: 250px ; }
+.igs-margintop251{ margin-top: 251px ; }
+.igs-margintop252{ margin-top: 252px ; }
+.igs-margintop253{ margin-top: 253px ; }
+.igs-margintop254{ margin-top: 254px ; }
+.igs-margintop255{ margin-top: 255px ; }
+.igs-margintop256{ margin-top: 256px ; }
+.igs-margintop257{ margin-top: 257px ; }
+.igs-margintop258{ margin-top: 258px ; }
+.igs-margintop259{ margin-top: 259px ; }
+.igs-margintop260{ margin-top: 260px ; }
+.igs-margintop261{ margin-top: 261px ; }
+.igs-margintop262{ margin-top: 262px ; }
+.igs-margintop263{ margin-top: 263px ; }
+.igs-margintop264{ margin-top: 264px ; }
+.igs-margintop265{ margin-top: 265px ; }
+.igs-margintop266{ margin-top: 266px ; }
+.igs-margintop267{ margin-top: 267px ; }
+.igs-margintop268{ margin-top: 268px ; }
+.igs-margintop269{ margin-top: 269px ; }
+.igs-margintop270{ margin-top: 270px ; }
+.igs-margintop271{ margin-top: 271px ; }
+.igs-margintop272{ margin-top: 272px ; }
+.igs-margintop273{ margin-top: 273px ; }
+.igs-margintop274{ margin-top: 274px ; }
+.igs-margintop275{ margin-top: 275px ; }
+.igs-margintop276{ margin-top: 276px ; }
+.igs-margintop277{ margin-top: 277px ; }
+.igs-margintop278{ margin-top: 278px ; }
+.igs-margintop279{ margin-top: 279px ; }
+.igs-margintop280{ margin-top: 280px ; }
+.igs-margintop281{ margin-top: 281px ; }
+.igs-margintop282{ margin-top: 282px ; }
+.igs-margintop283{ margin-top: 283px ; }
+.igs-margintop284{ margin-top: 284px ; }
+.igs-margintop285{ margin-top: 285px ; }
+.igs-margintop286{ margin-top: 286px ; }
+.igs-margintop287{ margin-top: 287px ; }
+.igs-margintop288{ margin-top: 288px ; }
+.igs-margintop289{ margin-top: 289px ; }
+.igs-margintop290{ margin-top: 290px ; }
+.igs-margintop291{ margin-top: 291px ; }
+.igs-margintop292{ margin-top: 292px ; }
+.igs-margintop293{ margin-top: 293px ; }
+.igs-margintop294{ margin-top: 294px ; }
+.igs-margintop295{ margin-top: 295px ; }
+.igs-margintop296{ margin-top: 296px ; }
+.igs-margintop297{ margin-top: 297px ; }
+.igs-margintop298{ margin-top: 298px ; }
+.igs-margintop299{ margin-top: 299px ; }
+
+/*margin bottom*/
+.igs-marginbottom0{ margin-bottom: 0px ; }
+.igs-marginbottom1{ margin-bottom: 1px ; }
+.igs-marginbottom2{ margin-bottom: 2px ; }
+.igs-marginbottom3{ margin-bottom: 3px ; }
+.igs-marginbottom4{ margin-bottom: 4px ; }
+.igs-marginbottom5{ margin-bottom: 5px ; }
+.igs-marginbottom6{ margin-bottom: 6px ; }
+.igs-marginbottom7{ margin-bottom: 7px ; }
+.igs-marginbottom8{ margin-bottom: 8px ; }
+.igs-marginbottom9{ margin-bottom: 9px ; }
+.igs-marginbottom10{ margin-bottom: 10px ; }
+.igs-marginbottom11{ margin-bottom: 11px ; }
+.igs-marginbottom12{ margin-bottom: 12px ; }
+.igs-marginbottom13{ margin-bottom: 13px ; }
+.igs-marginbottom14{ margin-bottom: 14px ; }
+.igs-marginbottom15{ margin-bottom: 15px ; }
+.igs-marginbottom16{ margin-bottom: 16px ; }
+.igs-marginbottom17{ margin-bottom: 17px ; }
+.igs-marginbottom18{ margin-bottom: 18px ; }
+.igs-marginbottom19{ margin-bottom: 19px ; }
+.igs-marginbottom20{ margin-bottom: 20px ; }
+.igs-marginbottom21{ margin-bottom: 21px ; }
+.igs-marginbottom22{ margin-bottom: 22px ; }
+.igs-marginbottom23{ margin-bottom: 23px ; }
+.igs-marginbottom24{ margin-bottom: 24px ; }
+.igs-marginbottom25{ margin-bottom: 25px ; }
+.igs-marginbottom26{ margin-bottom: 26px ; }
+.igs-marginbottom27{ margin-bottom: 27px ; }
+.igs-marginbottom28{ margin-bottom: 28px ; }
+.igs-marginbottom29{ margin-bottom: 29px ; }
+.igs-marginbottom30{ margin-bottom: 30px ; }
+.igs-marginbottom31{ margin-bottom: 31px ; }
+.igs-marginbottom32{ margin-bottom: 32px ; }
+.igs-marginbottom33{ margin-bottom: 33px ; }
+.igs-marginbottom34{ margin-bottom: 34px ; }
+.igs-marginbottom35{ margin-bottom: 35px ; }
+.igs-marginbottom36{ margin-bottom: 36px ; }
+.igs-marginbottom37{ margin-bottom: 37px ; }
+.igs-marginbottom38{ margin-bottom: 38px ; }
+.igs-marginbottom39{ margin-bottom: 39px ; }
+.igs-marginbottom40{ margin-bottom: 40px ; }
+.igs-marginbottom41{ margin-bottom: 41px ; }
+.igs-marginbottom42{ margin-bottom: 42px ; }
+.igs-marginbottom43{ margin-bottom: 43px ; }
+.igs-marginbottom44{ margin-bottom: 44px ; }
+.igs-marginbottom45{ margin-bottom: 45px ; }
+.igs-marginbottom46{ margin-bottom: 46px ; }
+.igs-marginbottom47{ margin-bottom: 47px ; }
+.igs-marginbottom48{ margin-bottom: 48px ; }
+.igs-marginbottom49{ margin-bottom: 49px ; }
+.igs-marginbottom50{ margin-bottom: 50px ; }
+.igs-marginbottom51{ margin-bottom: 51px ; }
+.igs-marginbottom52{ margin-bottom: 52px ; }
+.igs-marginbottom53{ margin-bottom: 53px ; }
+.igs-marginbottom54{ margin-bottom: 54px ; }
+.igs-marginbottom55{ margin-bottom: 55px ; }
+.igs-marginbottom56{ margin-bottom: 56px ; }
+.igs-marginbottom57{ margin-bottom: 57px ; }
+.igs-marginbottom58{ margin-bottom: 58px ; }
+.igs-marginbottom59{ margin-bottom: 59px ; }
+.igs-marginbottom60{ margin-bottom: 60px ; }
+.igs-marginbottom61{ margin-bottom: 61px ; }
+.igs-marginbottom62{ margin-bottom: 62px ; }
+.igs-marginbottom63{ margin-bottom: 63px ; }
+.igs-marginbottom64{ margin-bottom: 64px ; }
+.igs-marginbottom65{ margin-bottom: 65px ; }
+.igs-marginbottom66{ margin-bottom: 66px ; }
+.igs-marginbottom67{ margin-bottom: 67px ; }
+.igs-marginbottom68{ margin-bottom: 68px ; }
+.igs-marginbottom69{ margin-bottom: 69px ; }
+.igs-marginbottom70{ margin-bottom: 70px ; }
+.igs-marginbottom71{ margin-bottom: 71px ; }
+.igs-marginbottom72{ margin-bottom: 72px ; }
+.igs-marginbottom73{ margin-bottom: 73px ; }
+.igs-marginbottom74{ margin-bottom: 74px ; }
+.igs-marginbottom75{ margin-bottom: 75px ; }
+.igs-marginbottom76{ margin-bottom: 76px ; }
+.igs-marginbottom77{ margin-bottom: 77px ; }
+.igs-marginbottom78{ margin-bottom: 78px ; }
+.igs-marginbottom79{ margin-bottom: 79px ; }
+.igs-marginbottom80{ margin-bottom: 80px ; }
+.igs-marginbottom81{ margin-bottom: 81px ; }
+.igs-marginbottom82{ margin-bottom: 82px ; }
+.igs-marginbottom83{ margin-bottom: 83px ; }
+.igs-marginbottom84{ margin-bottom: 84px ; }
+.igs-marginbottom85{ margin-bottom: 85px ; }
+.igs-marginbottom86{ margin-bottom: 86px ; }
+.igs-marginbottom87{ margin-bottom: 87px ; }
+.igs-marginbottom88{ margin-bottom: 88px ; }
+.igs-marginbottom89{ margin-bottom: 89px ; }
+.igs-marginbottom90{ margin-bottom: 90px ; }
+.igs-marginbottom91{ margin-bottom: 91px ; }
+.igs-marginbottom92{ margin-bottom: 92px ; }
+.igs-marginbottom93{ margin-bottom: 93px ; }
+.igs-marginbottom94{ margin-bottom: 94px ; }
+.igs-marginbottom95{ margin-bottom: 95px ; }
+.igs-marginbottom96{ margin-bottom: 96px ; }
+.igs-marginbottom97{ margin-bottom: 97px ; }
+.igs-marginbottom98{ margin-bottom: 98px ; }
+.igs-marginbottom99{ margin-bottom: 99px ; }
+.igs-marginbottom100{ margin-bottom: 100px ; }
+.igs-marginbottom101{ margin-bottom: 101px ; }
+.igs-marginbottom102{ margin-bottom: 102px ; }
+.igs-marginbottom103{ margin-bottom: 103px ; }
+.igs-marginbottom104{ margin-bottom: 104px ; }
+.igs-marginbottom105{ margin-bottom: 105px ; }
+.igs-marginbottom106{ margin-bottom: 106px ; }
+.igs-marginbottom107{ margin-bottom: 107px ; }
+.igs-marginbottom108{ margin-bottom: 108px ; }
+.igs-marginbottom109{ margin-bottom: 109px ; }
+.igs-marginbottom110{ margin-bottom: 110px ; }
+.igs-marginbottom111{ margin-bottom: 111px ; }
+.igs-marginbottom112{ margin-bottom: 112px ; }
+.igs-marginbottom113{ margin-bottom: 113px ; }
+.igs-marginbottom114{ margin-bottom: 114px ; }
+.igs-marginbottom115{ margin-bottom: 115px ; }
+.igs-marginbottom116{ margin-bottom: 116px ; }
+.igs-marginbottom117{ margin-bottom: 117px ; }
+.igs-marginbottom118{ margin-bottom: 118px ; }
+.igs-marginbottom119{ margin-bottom: 119px ; }
+.igs-marginbottom120{ margin-bottom: 120px ; }
+.igs-marginbottom121{ margin-bottom: 121px ; }
+.igs-marginbottom122{ margin-bottom: 122px ; }
+.igs-marginbottom123{ margin-bottom: 123px ; }
+.igs-marginbottom124{ margin-bottom: 124px ; }
+.igs-marginbottom125{ margin-bottom: 125px ; }
+.igs-marginbottom126{ margin-bottom: 126px ; }
+.igs-marginbottom127{ margin-bottom: 127px ; }
+.igs-marginbottom128{ margin-bottom: 128px ; }
+.igs-marginbottom129{ margin-bottom: 129px ; }
+.igs-marginbottom130{ margin-bottom: 130px ; }
+.igs-marginbottom131{ margin-bottom: 131px ; }
+.igs-marginbottom132{ margin-bottom: 132px ; }
+.igs-marginbottom133{ margin-bottom: 133px ; }
+.igs-marginbottom134{ margin-bottom: 134px ; }
+.igs-marginbottom135{ margin-bottom: 135px ; }
+.igs-marginbottom136{ margin-bottom: 136px ; }
+.igs-marginbottom137{ margin-bottom: 137px ; }
+.igs-marginbottom138{ margin-bottom: 138px ; }
+.igs-marginbottom139{ margin-bottom: 139px ; }
+.igs-marginbottom140{ margin-bottom: 140px ; }
+.igs-marginbottom141{ margin-bottom: 141px ; }
+.igs-marginbottom142{ margin-bottom: 142px ; }
+.igs-marginbottom143{ margin-bottom: 143px ; }
+.igs-marginbottom144{ margin-bottom: 144px ; }
+.igs-marginbottom145{ margin-bottom: 145px ; }
+.igs-marginbottom146{ margin-bottom: 146px ; }
+.igs-marginbottom147{ margin-bottom: 147px ; }
+.igs-marginbottom148{ margin-bottom: 148px ; }
+.igs-marginbottom149{ margin-bottom: 149px ; }
+.igs-marginbottom150{ margin-bottom: 150px ; }
+.igs-marginbottom151{ margin-bottom: 151px ; }
+.igs-marginbottom152{ margin-bottom: 152px ; }
+.igs-marginbottom153{ margin-bottom: 153px ; }
+.igs-marginbottom154{ margin-bottom: 154px ; }
+.igs-marginbottom155{ margin-bottom: 155px ; }
+.igs-marginbottom156{ margin-bottom: 156px ; }
+.igs-marginbottom157{ margin-bottom: 157px ; }
+.igs-marginbottom158{ margin-bottom: 158px ; }
+.igs-marginbottom159{ margin-bottom: 159px ; }
+.igs-marginbottom160{ margin-bottom: 160px ; }
+.igs-marginbottom161{ margin-bottom: 161px ; }
+.igs-marginbottom162{ margin-bottom: 162px ; }
+.igs-marginbottom163{ margin-bottom: 163px ; }
+.igs-marginbottom164{ margin-bottom: 164px ; }
+.igs-marginbottom165{ margin-bottom: 165px ; }
+.igs-marginbottom166{ margin-bottom: 166px ; }
+.igs-marginbottom167{ margin-bottom: 167px ; }
+.igs-marginbottom168{ margin-bottom: 168px ; }
+.igs-marginbottom169{ margin-bottom: 169px ; }
+.igs-marginbottom170{ margin-bottom: 170px ; }
+.igs-marginbottom171{ margin-bottom: 171px ; }
+.igs-marginbottom172{ margin-bottom: 172px ; }
+.igs-marginbottom173{ margin-bottom: 173px ; }
+.igs-marginbottom174{ margin-bottom: 174px ; }
+.igs-marginbottom175{ margin-bottom: 175px ; }
+.igs-marginbottom176{ margin-bottom: 176px ; }
+.igs-marginbottom177{ margin-bottom: 177px ; }
+.igs-marginbottom178{ margin-bottom: 178px ; }
+.igs-marginbottom179{ margin-bottom: 179px ; }
+.igs-marginbottom180{ margin-bottom: 180px ; }
+.igs-marginbottom181{ margin-bottom: 181px ; }
+.igs-marginbottom182{ margin-bottom: 182px ; }
+.igs-marginbottom183{ margin-bottom: 183px ; }
+.igs-marginbottom184{ margin-bottom: 184px ; }
+.igs-marginbottom185{ margin-bottom: 185px ; }
+.igs-marginbottom186{ margin-bottom: 186px ; }
+.igs-marginbottom187{ margin-bottom: 187px ; }
+.igs-marginbottom188{ margin-bottom: 188px ; }
+.igs-marginbottom189{ margin-bottom: 189px ; }
+.igs-marginbottom190{ margin-bottom: 190px ; }
+.igs-marginbottom191{ margin-bottom: 191px ; }
+.igs-marginbottom192{ margin-bottom: 192px ; }
+.igs-marginbottom193{ margin-bottom: 193px ; }
+.igs-marginbottom194{ margin-bottom: 194px ; }
+.igs-marginbottom195{ margin-bottom: 195px ; }
+.igs-marginbottom196{ margin-bottom: 196px ; }
+.igs-marginbottom197{ margin-bottom: 197px ; }
+.igs-marginbottom198{ margin-bottom: 198px ; }
+.igs-marginbottom199{ margin-bottom: 199px ; }
+.igs-marginbottom200{ margin-bottom: 200px ; }
+.igs-marginbottom201{ margin-bottom: 201px ; }
+.igs-marginbottom202{ margin-bottom: 202px ; }
+.igs-marginbottom203{ margin-bottom: 203px ; }
+.igs-marginbottom204{ margin-bottom: 204px ; }
+.igs-marginbottom205{ margin-bottom: 205px ; }
+.igs-marginbottom206{ margin-bottom: 206px ; }
+.igs-marginbottom207{ margin-bottom: 207px ; }
+.igs-marginbottom208{ margin-bottom: 208px ; }
+.igs-marginbottom209{ margin-bottom: 209px ; }
+.igs-marginbottom210{ margin-bottom: 210px ; }
+.igs-marginbottom211{ margin-bottom: 211px ; }
+.igs-marginbottom212{ margin-bottom: 212px ; }
+.igs-marginbottom213{ margin-bottom: 213px ; }
+.igs-marginbottom214{ margin-bottom: 214px ; }
+.igs-marginbottom215{ margin-bottom: 215px ; }
+.igs-marginbottom216{ margin-bottom: 216px ; }
+.igs-marginbottom217{ margin-bottom: 217px ; }
+.igs-marginbottom218{ margin-bottom: 218px ; }
+.igs-marginbottom219{ margin-bottom: 219px ; }
+.igs-marginbottom220{ margin-bottom: 220px ; }
+.igs-marginbottom221{ margin-bottom: 221px ; }
+.igs-marginbottom222{ margin-bottom: 222px ; }
+.igs-marginbottom223{ margin-bottom: 223px ; }
+.igs-marginbottom224{ margin-bottom: 224px ; }
+.igs-marginbottom225{ margin-bottom: 225px ; }
+.igs-marginbottom226{ margin-bottom: 226px ; }
+.igs-marginbottom227{ margin-bottom: 227px ; }
+.igs-marginbottom228{ margin-bottom: 228px ; }
+.igs-marginbottom229{ margin-bottom: 229px ; }
+.igs-marginbottom230{ margin-bottom: 230px ; }
+.igs-marginbottom231{ margin-bottom: 231px ; }
+.igs-marginbottom232{ margin-bottom: 232px ; }
+.igs-marginbottom233{ margin-bottom: 233px ; }
+.igs-marginbottom234{ margin-bottom: 234px ; }
+.igs-marginbottom235{ margin-bottom: 235px ; }
+.igs-marginbottom236{ margin-bottom: 236px ; }
+.igs-marginbottom237{ margin-bottom: 237px ; }
+.igs-marginbottom238{ margin-bottom: 238px ; }
+.igs-marginbottom239{ margin-bottom: 239px ; }
+.igs-marginbottom240{ margin-bottom: 240px ; }
+.igs-marginbottom241{ margin-bottom: 241px ; }
+.igs-marginbottom242{ margin-bottom: 242px ; }
+.igs-marginbottom243{ margin-bottom: 243px ; }
+.igs-marginbottom244{ margin-bottom: 244px ; }
+.igs-marginbottom245{ margin-bottom: 245px ; }
+.igs-marginbottom246{ margin-bottom: 246px ; }
+.igs-marginbottom247{ margin-bottom: 247px ; }
+.igs-marginbottom248{ margin-bottom: 248px ; }
+.igs-marginbottom249{ margin-bottom: 249px ; }
+.igs-marginbottom250{ margin-bottom: 250px ; }
+.igs-marginbottom251{ margin-bottom: 251px ; }
+.igs-marginbottom252{ margin-bottom: 252px ; }
+.igs-marginbottom253{ margin-bottom: 253px ; }
+.igs-marginbottom254{ margin-bottom: 254px ; }
+.igs-marginbottom255{ margin-bottom: 255px ; }
+.igs-marginbottom256{ margin-bottom: 256px ; }
+.igs-marginbottom257{ margin-bottom: 257px ; }
+.igs-marginbottom258{ margin-bottom: 258px ; }
+.igs-marginbottom259{ margin-bottom: 259px ; }
+.igs-marginbottom260{ margin-bottom: 260px ; }
+.igs-marginbottom261{ margin-bottom: 261px ; }
+.igs-marginbottom262{ margin-bottom: 262px ; }
+.igs-marginbottom263{ margin-bottom: 263px ; }
+.igs-marginbottom264{ margin-bottom: 264px ; }
+.igs-marginbottom265{ margin-bottom: 265px ; }
+.igs-marginbottom266{ margin-bottom: 266px ; }
+.igs-marginbottom267{ margin-bottom: 267px ; }
+.igs-marginbottom268{ margin-bottom: 268px ; }
+.igs-marginbottom269{ margin-bottom: 269px ; }
+.igs-marginbottom270{ margin-bottom: 270px ; }
+.igs-marginbottom271{ margin-bottom: 271px ; }
+.igs-marginbottom272{ margin-bottom: 272px ; }
+.igs-marginbottom273{ margin-bottom: 273px ; }
+.igs-marginbottom274{ margin-bottom: 274px ; }
+.igs-marginbottom275{ margin-bottom: 275px ; }
+.igs-marginbottom276{ margin-bottom: 276px ; }
+.igs-marginbottom277{ margin-bottom: 277px ; }
+.igs-marginbottom278{ margin-bottom: 278px ; }
+.igs-marginbottom279{ margin-bottom: 279px ; }
+.igs-marginbottom280{ margin-bottom: 280px ; }
+.igs-marginbottom281{ margin-bottom: 281px ; }
+.igs-marginbottom282{ margin-bottom: 282px ; }
+.igs-marginbottom283{ margin-bottom: 283px ; }
+.igs-marginbottom284{ margin-bottom: 284px ; }
+.igs-marginbottom285{ margin-bottom: 285px ; }
+.igs-marginbottom286{ margin-bottom: 286px ; }
+.igs-marginbottom287{ margin-bottom: 287px ; }
+.igs-marginbottom288{ margin-bottom: 288px ; }
+.igs-marginbottom289{ margin-bottom: 289px ; }
+.igs-marginbottom290{ margin-bottom: 290px ; }
+.igs-marginbottom291{ margin-bottom: 291px ; }
+.igs-marginbottom292{ margin-bottom: 292px ; }
+.igs-marginbottom293{ margin-bottom: 293px ; }
+.igs-marginbottom294{ margin-bottom: 294px ; }
+.igs-marginbottom295{ margin-bottom: 295px ; }
+.igs-marginbottom296{ margin-bottom: 296px ; }
+.igs-marginbottom297{ margin-bottom: 297px ; }
+.igs-marginbottom298{ margin-bottom: 298px ; }
+.igs-marginbottom299{ margin-bottom: 299px ; }
+/*margin left*/
+
+.igs-marginleft0{ margin-left: 0px ; }
+.igs-marginleft1{ margin-left: 1px ; }
+.igs-marginleft2{ margin-left: 2px ; }
+.igs-marginleft3{ margin-left: 3px ; }
+.igs-marginleft4{ margin-left: 4px ; }
+.igs-marginleft5{ margin-left: 5px ; }
+.igs-marginleft6{ margin-left: 6px ; }
+.igs-marginleft7{ margin-left: 7px ; }
+.igs-marginleft8{ margin-left: 8px ; }
+.igs-marginleft9{ margin-left: 9px ; }
+.igs-marginleft10{ margin-left: 10px ; }
+.igs-marginleft11{ margin-left: 11px ; }
+.igs-marginleft12{ margin-left: 12px ; }
+.igs-marginleft13{ margin-left: 13px ; }
+.igs-marginleft14{ margin-left: 14px ; }
+.igs-marginleft15{ margin-left: 15px ; }
+.igs-marginleft16{ margin-left: 16px ; }
+.igs-marginleft17{ margin-left: 17px ; }
+.igs-marginleft18{ margin-left: 18px ; }
+.igs-marginleft19{ margin-left: 19px ; }
+.igs-marginleft20{ margin-left: 20px ; }
+.igs-marginleft21{ margin-left: 21px ; }
+.igs-marginleft22{ margin-left: 22px ; }
+.igs-marginleft23{ margin-left: 23px ; }
+.igs-marginleft24{ margin-left: 24px ; }
+.igs-marginleft25{ margin-left: 25px ; }
+.igs-marginleft26{ margin-left: 26px ; }
+.igs-marginleft27{ margin-left: 27px ; }
+.igs-marginleft28{ margin-left: 28px ; }
+.igs-marginleft29{ margin-left: 29px ; }
+.igs-marginleft30{ margin-left: 30px ; }
+.igs-marginleft31{ margin-left: 31px ; }
+.igs-marginleft32{ margin-left: 32px ; }
+.igs-marginleft33{ margin-left: 33px ; }
+.igs-marginleft34{ margin-left: 34px ; }
+.igs-marginleft35{ margin-left: 35px ; }
+.igs-marginleft36{ margin-left: 36px ; }
+.igs-marginleft37{ margin-left: 37px ; }
+.igs-marginleft38{ margin-left: 38px ; }
+.igs-marginleft39{ margin-left: 39px ; }
+.igs-marginleft40{ margin-left: 40px ; }
+.igs-marginleft41{ margin-left: 41px ; }
+.igs-marginleft42{ margin-left: 42px ; }
+.igs-marginleft43{ margin-left: 43px ; }
+.igs-marginleft44{ margin-left: 44px ; }
+.igs-marginleft45{ margin-left: 45px ; }
+.igs-marginleft46{ margin-left: 46px ; }
+.igs-marginleft47{ margin-left: 47px ; }
+.igs-marginleft48{ margin-left: 48px ; }
+.igs-marginleft49{ margin-left: 49px ; }
+.igs-marginleft50{ margin-left: 50px ; }
+.igs-marginleft51{ margin-left: 51px ; }
+.igs-marginleft52{ margin-left: 52px ; }
+.igs-marginleft53{ margin-left: 53px ; }
+.igs-marginleft54{ margin-left: 54px ; }
+.igs-marginleft55{ margin-left: 55px ; }
+.igs-marginleft56{ margin-left: 56px ; }
+.igs-marginleft57{ margin-left: 57px ; }
+.igs-marginleft58{ margin-left: 58px ; }
+.igs-marginleft59{ margin-left: 59px ; }
+.igs-marginleft60{ margin-left: 60px ; }
+.igs-marginleft61{ margin-left: 61px ; }
+.igs-marginleft62{ margin-left: 62px ; }
+.igs-marginleft63{ margin-left: 63px ; }
+.igs-marginleft64{ margin-left: 64px ; }
+.igs-marginleft65{ margin-left: 65px ; }
+.igs-marginleft66{ margin-left: 66px ; }
+.igs-marginleft67{ margin-left: 67px ; }
+.igs-marginleft68{ margin-left: 68px ; }
+.igs-marginleft69{ margin-left: 69px ; }
+.igs-marginleft70{ margin-left: 70px ; }
+.igs-marginleft71{ margin-left: 71px ; }
+.igs-marginleft72{ margin-left: 72px ; }
+.igs-marginleft73{ margin-left: 73px ; }
+.igs-marginleft74{ margin-left: 74px ; }
+.igs-marginleft75{ margin-left: 75px ; }
+.igs-marginleft76{ margin-left: 76px ; }
+.igs-marginleft77{ margin-left: 77px ; }
+.igs-marginleft78{ margin-left: 78px ; }
+.igs-marginleft79{ margin-left: 79px ; }
+.igs-marginleft80{ margin-left: 80px ; }
+.igs-marginleft81{ margin-left: 81px ; }
+.igs-marginleft82{ margin-left: 82px ; }
+.igs-marginleft83{ margin-left: 83px ; }
+.igs-marginleft84{ margin-left: 84px ; }
+.igs-marginleft85{ margin-left: 85px ; }
+.igs-marginleft86{ margin-left: 86px ; }
+.igs-marginleft87{ margin-left: 87px ; }
+.igs-marginleft88{ margin-left: 88px ; }
+.igs-marginleft89{ margin-left: 89px ; }
+.igs-marginleft90{ margin-left: 90px ; }
+.igs-marginleft91{ margin-left: 91px ; }
+.igs-marginleft92{ margin-left: 92px ; }
+.igs-marginleft93{ margin-left: 93px ; }
+.igs-marginleft94{ margin-left: 94px ; }
+.igs-marginleft95{ margin-left: 95px ; }
+.igs-marginleft96{ margin-left: 96px ; }
+.igs-marginleft97{ margin-left: 97px ; }
+.igs-marginleft98{ margin-left: 98px ; }
+.igs-marginleft99{ margin-left: 99px ; }
+.igs-marginleft100{ margin-left: 100px ; }
+.igs-marginleft101{ margin-left: 101px ; }
+.igs-marginleft102{ margin-left: 102px ; }
+.igs-marginleft103{ margin-left: 103px ; }
+.igs-marginleft104{ margin-left: 104px ; }
+.igs-marginleft105{ margin-left: 105px ; }
+.igs-marginleft106{ margin-left: 106px ; }
+.igs-marginleft107{ margin-left: 107px ; }
+.igs-marginleft108{ margin-left: 108px ; }
+.igs-marginleft109{ margin-left: 109px ; }
+.igs-marginleft110{ margin-left: 110px ; }
+.igs-marginleft111{ margin-left: 111px ; }
+.igs-marginleft112{ margin-left: 112px ; }
+.igs-marginleft113{ margin-left: 113px ; }
+.igs-marginleft114{ margin-left: 114px ; }
+.igs-marginleft115{ margin-left: 115px ; }
+.igs-marginleft116{ margin-left: 116px ; }
+.igs-marginleft117{ margin-left: 117px ; }
+.igs-marginleft118{ margin-left: 118px ; }
+.igs-marginleft119{ margin-left: 119px ; }
+.igs-marginleft120{ margin-left: 120px ; }
+.igs-marginleft121{ margin-left: 121px ; }
+.igs-marginleft122{ margin-left: 122px ; }
+.igs-marginleft123{ margin-left: 123px ; }
+.igs-marginleft124{ margin-left: 124px ; }
+.igs-marginleft125{ margin-left: 125px ; }
+.igs-marginleft126{ margin-left: 126px ; }
+.igs-marginleft127{ margin-left: 127px ; }
+.igs-marginleft128{ margin-left: 128px ; }
+.igs-marginleft129{ margin-left: 129px ; }
+.igs-marginleft130{ margin-left: 130px ; }
+.igs-marginleft131{ margin-left: 131px ; }
+.igs-marginleft132{ margin-left: 132px ; }
+.igs-marginleft133{ margin-left: 133px ; }
+.igs-marginleft134{ margin-left: 134px ; }
+.igs-marginleft135{ margin-left: 135px ; }
+.igs-marginleft136{ margin-left: 136px ; }
+.igs-marginleft137{ margin-left: 137px ; }
+.igs-marginleft138{ margin-left: 138px ; }
+.igs-marginleft139{ margin-left: 139px ; }
+.igs-marginleft140{ margin-left: 140px ; }
+.igs-marginleft141{ margin-left: 141px ; }
+.igs-marginleft142{ margin-left: 142px ; }
+.igs-marginleft143{ margin-left: 143px ; }
+.igs-marginleft144{ margin-left: 144px ; }
+.igs-marginleft145{ margin-left: 145px ; }
+.igs-marginleft146{ margin-left: 146px ; }
+.igs-marginleft147{ margin-left: 147px ; }
+.igs-marginleft148{ margin-left: 148px ; }
+.igs-marginleft149{ margin-left: 149px ; }
+.igs-marginleft150{ margin-left: 150px ; }
+.igs-marginleft151{ margin-left: 151px ; }
+.igs-marginleft152{ margin-left: 152px ; }
+.igs-marginleft153{ margin-left: 153px ; }
+.igs-marginleft154{ margin-left: 154px ; }
+.igs-marginleft155{ margin-left: 155px ; }
+.igs-marginleft156{ margin-left: 156px ; }
+.igs-marginleft157{ margin-left: 157px ; }
+.igs-marginleft158{ margin-left: 158px ; }
+.igs-marginleft159{ margin-left: 159px ; }
+.igs-marginleft160{ margin-left: 160px ; }
+.igs-marginleft161{ margin-left: 161px ; }
+.igs-marginleft162{ margin-left: 162px ; }
+.igs-marginleft163{ margin-left: 163px ; }
+.igs-marginleft164{ margin-left: 164px ; }
+.igs-marginleft165{ margin-left: 165px ; }
+.igs-marginleft166{ margin-left: 166px ; }
+.igs-marginleft167{ margin-left: 167px ; }
+.igs-marginleft168{ margin-left: 168px ; }
+.igs-marginleft169{ margin-left: 169px ; }
+.igs-marginleft170{ margin-left: 170px ; }
+.igs-marginleft171{ margin-left: 171px ; }
+.igs-marginleft172{ margin-left: 172px ; }
+.igs-marginleft173{ margin-left: 173px ; }
+.igs-marginleft174{ margin-left: 174px ; }
+.igs-marginleft175{ margin-left: 175px ; }
+.igs-marginleft176{ margin-left: 176px ; }
+.igs-marginleft177{ margin-left: 177px ; }
+.igs-marginleft178{ margin-left: 178px ; }
+.igs-marginleft179{ margin-left: 179px ; }
+.igs-marginleft180{ margin-left: 180px ; }
+.igs-marginleft181{ margin-left: 181px ; }
+.igs-marginleft182{ margin-left: 182px ; }
+.igs-marginleft183{ margin-left: 183px ; }
+.igs-marginleft184{ margin-left: 184px ; }
+.igs-marginleft185{ margin-left: 185px ; }
+.igs-marginleft186{ margin-left: 186px ; }
+.igs-marginleft187{ margin-left: 187px ; }
+.igs-marginleft188{ margin-left: 188px ; }
+.igs-marginleft189{ margin-left: 189px ; }
+.igs-marginleft190{ margin-left: 190px ; }
+.igs-marginleft191{ margin-left: 191px ; }
+.igs-marginleft192{ margin-left: 192px ; }
+.igs-marginleft193{ margin-left: 193px ; }
+.igs-marginleft194{ margin-left: 194px ; }
+.igs-marginleft195{ margin-left: 195px ; }
+.igs-marginleft196{ margin-left: 196px ; }
+.igs-marginleft197{ margin-left: 197px ; }
+.igs-marginleft198{ margin-left: 198px ; }
+.igs-marginleft199{ margin-left: 199px ; }
+.igs-marginleft200{ margin-left: 200px ; }
+.igs-marginleft201{ margin-left: 201px ; }
+.igs-marginleft202{ margin-left: 202px ; }
+.igs-marginleft203{ margin-left: 203px ; }
+.igs-marginleft204{ margin-left: 204px ; }
+.igs-marginleft205{ margin-left: 205px ; }
+.igs-marginleft206{ margin-left: 206px ; }
+.igs-marginleft207{ margin-left: 207px ; }
+.igs-marginleft208{ margin-left: 208px ; }
+.igs-marginleft209{ margin-left: 209px ; }
+.igs-marginleft210{ margin-left: 210px ; }
+.igs-marginleft211{ margin-left: 211px ; }
+.igs-marginleft212{ margin-left: 212px ; }
+.igs-marginleft213{ margin-left: 213px ; }
+.igs-marginleft214{ margin-left: 214px ; }
+.igs-marginleft215{ margin-left: 215px ; }
+.igs-marginleft216{ margin-left: 216px ; }
+.igs-marginleft217{ margin-left: 217px ; }
+.igs-marginleft218{ margin-left: 218px ; }
+.igs-marginleft219{ margin-left: 219px ; }
+.igs-marginleft220{ margin-left: 220px ; }
+.igs-marginleft221{ margin-left: 221px ; }
+.igs-marginleft222{ margin-left: 222px ; }
+.igs-marginleft223{ margin-left: 223px ; }
+.igs-marginleft224{ margin-left: 224px ; }
+.igs-marginleft225{ margin-left: 225px ; }
+.igs-marginleft226{ margin-left: 226px ; }
+.igs-marginleft227{ margin-left: 227px ; }
+.igs-marginleft228{ margin-left: 228px ; }
+.igs-marginleft229{ margin-left: 229px ; }
+.igs-marginleft230{ margin-left: 230px ; }
+.igs-marginleft231{ margin-left: 231px ; }
+.igs-marginleft232{ margin-left: 232px ; }
+.igs-marginleft233{ margin-left: 233px ; }
+.igs-marginleft234{ margin-left: 234px ; }
+.igs-marginleft235{ margin-left: 235px ; }
+.igs-marginleft236{ margin-left: 236px ; }
+.igs-marginleft237{ margin-left: 237px ; }
+.igs-marginleft238{ margin-left: 238px ; }
+.igs-marginleft239{ margin-left: 239px ; }
+.igs-marginleft240{ margin-left: 240px ; }
+.igs-marginleft241{ margin-left: 241px ; }
+.igs-marginleft242{ margin-left: 242px ; }
+.igs-marginleft243{ margin-left: 243px ; }
+.igs-marginleft244{ margin-left: 244px ; }
+.igs-marginleft245{ margin-left: 245px ; }
+.igs-marginleft246{ margin-left: 246px ; }
+.igs-marginleft247{ margin-left: 247px ; }
+.igs-marginleft248{ margin-left: 248px ; }
+.igs-marginleft249{ margin-left: 249px ; }
+.igs-marginleft250{ margin-left: 250px ; }
+.igs-marginleft251{ margin-left: 251px ; }
+.igs-marginleft252{ margin-left: 252px ; }
+.igs-marginleft253{ margin-left: 253px ; }
+.igs-marginleft254{ margin-left: 254px ; }
+.igs-marginleft255{ margin-left: 255px ; }
+.igs-marginleft256{ margin-left: 256px ; }
+.igs-marginleft257{ margin-left: 257px ; }
+.igs-marginleft258{ margin-left: 258px ; }
+.igs-marginleft259{ margin-left: 259px ; }
+.igs-marginleft260{ margin-left: 260px ; }
+.igs-marginleft261{ margin-left: 261px ; }
+.igs-marginleft262{ margin-left: 262px ; }
+.igs-marginleft263{ margin-left: 263px ; }
+.igs-marginleft264{ margin-left: 264px ; }
+.igs-marginleft265{ margin-left: 265px ; }
+.igs-marginleft266{ margin-left: 266px ; }
+.igs-marginleft267{ margin-left: 267px ; }
+.igs-marginleft268{ margin-left: 268px ; }
+.igs-marginleft269{ margin-left: 269px ; }
+.igs-marginleft270{ margin-left: 270px ; }
+.igs-marginleft271{ margin-left: 271px ; }
+.igs-marginleft272{ margin-left: 272px ; }
+.igs-marginleft273{ margin-left: 273px ; }
+.igs-marginleft274{ margin-left: 274px ; }
+.igs-marginleft275{ margin-left: 275px ; }
+.igs-marginleft276{ margin-left: 276px ; }
+.igs-marginleft277{ margin-left: 277px ; }
+.igs-marginleft278{ margin-left: 278px ; }
+.igs-marginleft279{ margin-left: 279px ; }
+.igs-marginleft280{ margin-left: 280px ; }
+.igs-marginleft281{ margin-left: 281px ; }
+.igs-marginleft282{ margin-left: 282px ; }
+.igs-marginleft283{ margin-left: 283px ; }
+.igs-marginleft284{ margin-left: 284px ; }
+.igs-marginleft285{ margin-left: 285px ; }
+.igs-marginleft286{ margin-left: 286px ; }
+.igs-marginleft287{ margin-left: 287px ; }
+.igs-marginleft288{ margin-left: 288px ; }
+.igs-marginleft289{ margin-left: 289px ; }
+.igs-marginleft290{ margin-left: 290px ; }
+.igs-marginleft291{ margin-left: 291px ; }
+.igs-marginleft292{ margin-left: 292px ; }
+.igs-marginleft293{ margin-left: 293px ; }
+.igs-marginleft294{ margin-left: 294px ; }
+.igs-marginleft295{ margin-left: 295px ; }
+.igs-marginleft296{ margin-left: 296px ; }
+.igs-marginleft297{ margin-left: 297px ; }
+.igs-marginleft298{ margin-left: 298px ; }
+.igs-marginleft299{ margin-left: 299px ; }
+
+/*margin right*/
+
+.igs-marginright0{ margin-right: 0px ; }
+.igs-marginright1{ margin-right: 1px ; }
+.igs-marginright2{ margin-right: 2px ; }
+.igs-marginright3{ margin-right: 3px ; }
+.igs-marginright4{ margin-right: 4px ; }
+.igs-marginright5{ margin-right: 5px ; }
+.igs-marginright6{ margin-right: 6px ; }
+.igs-marginright7{ margin-right: 7px ; }
+.igs-marginright8{ margin-right: 8px ; }
+.igs-marginright9{ margin-right: 9px ; }
+.igs-marginright10{ margin-right: 10px ; }
+.igs-marginright11{ margin-right: 11px ; }
+.igs-marginright12{ margin-right: 12px ; }
+.igs-marginright13{ margin-right: 13px ; }
+.igs-marginright14{ margin-right: 14px ; }
+.igs-marginright15{ margin-right: 15px ; }
+.igs-marginright16{ margin-right: 16px ; }
+.igs-marginright17{ margin-right: 17px ; }
+.igs-marginright18{ margin-right: 18px ; }
+.igs-marginright19{ margin-right: 19px ; }
+.igs-marginright20{ margin-right: 20px ; }
+.igs-marginright21{ margin-right: 21px ; }
+.igs-marginright22{ margin-right: 22px ; }
+.igs-marginright23{ margin-right: 23px ; }
+.igs-marginright24{ margin-right: 24px ; }
+.igs-marginright25{ margin-right: 25px ; }
+.igs-marginright26{ margin-right: 26px ; }
+.igs-marginright27{ margin-right: 27px ; }
+.igs-marginright28{ margin-right: 28px ; }
+.igs-marginright29{ margin-right: 29px ; }
+.igs-marginright30{ margin-right: 30px ; }
+.igs-marginright31{ margin-right: 31px ; }
+.igs-marginright32{ margin-right: 32px ; }
+.igs-marginright33{ margin-right: 33px ; }
+.igs-marginright34{ margin-right: 34px ; }
+.igs-marginright35{ margin-right: 35px ; }
+.igs-marginright36{ margin-right: 36px ; }
+.igs-marginright37{ margin-right: 37px ; }
+.igs-marginright38{ margin-right: 38px ; }
+.igs-marginright39{ margin-right: 39px ; }
+.igs-marginright40{ margin-right: 40px ; }
+.igs-marginright41{ margin-right: 41px ; }
+.igs-marginright42{ margin-right: 42px ; }
+.igs-marginright43{ margin-right: 43px ; }
+.igs-marginright44{ margin-right: 44px ; }
+.igs-marginright45{ margin-right: 45px ; }
+.igs-marginright46{ margin-right: 46px ; }
+.igs-marginright47{ margin-right: 47px ; }
+.igs-marginright48{ margin-right: 48px ; }
+.igs-marginright49{ margin-right: 49px ; }
+.igs-marginright50{ margin-right: 50px ; }
+.igs-marginright51{ margin-right: 51px ; }
+.igs-marginright52{ margin-right: 52px ; }
+.igs-marginright53{ margin-right: 53px ; }
+.igs-marginright54{ margin-right: 54px ; }
+.igs-marginright55{ margin-right: 55px ; }
+.igs-marginright56{ margin-right: 56px ; }
+.igs-marginright57{ margin-right: 57px ; }
+.igs-marginright58{ margin-right: 58px ; }
+.igs-marginright59{ margin-right: 59px ; }
+.igs-marginright60{ margin-right: 60px ; }
+.igs-marginright61{ margin-right: 61px ; }
+.igs-marginright62{ margin-right: 62px ; }
+.igs-marginright63{ margin-right: 63px ; }
+.igs-marginright64{ margin-right: 64px ; }
+.igs-marginright65{ margin-right: 65px ; }
+.igs-marginright66{ margin-right: 66px ; }
+.igs-marginright67{ margin-right: 67px ; }
+.igs-marginright68{ margin-right: 68px ; }
+.igs-marginright69{ margin-right: 69px ; }
+.igs-marginright70{ margin-right: 70px ; }
+.igs-marginright71{ margin-right: 71px ; }
+.igs-marginright72{ margin-right: 72px ; }
+.igs-marginright73{ margin-right: 73px ; }
+.igs-marginright74{ margin-right: 74px ; }
+.igs-marginright75{ margin-right: 75px ; }
+.igs-marginright76{ margin-right: 76px ; }
+.igs-marginright77{ margin-right: 77px ; }
+.igs-marginright78{ margin-right: 78px ; }
+.igs-marginright79{ margin-right: 79px ; }
+.igs-marginright80{ margin-right: 80px ; }
+.igs-marginright81{ margin-right: 81px ; }
+.igs-marginright82{ margin-right: 82px ; }
+.igs-marginright83{ margin-right: 83px ; }
+.igs-marginright84{ margin-right: 84px ; }
+.igs-marginright85{ margin-right: 85px ; }
+.igs-marginright86{ margin-right: 86px ; }
+.igs-marginright87{ margin-right: 87px ; }
+.igs-marginright88{ margin-right: 88px ; }
+.igs-marginright89{ margin-right: 89px ; }
+.igs-marginright90{ margin-right: 90px ; }
+.igs-marginright91{ margin-right: 91px ; }
+.igs-marginright92{ margin-right: 92px ; }
+.igs-marginright93{ margin-right: 93px ; }
+.igs-marginright94{ margin-right: 94px ; }
+.igs-marginright95{ margin-right: 95px ; }
+.igs-marginright96{ margin-right: 96px ; }
+.igs-marginright97{ margin-right: 97px ; }
+.igs-marginright98{ margin-right: 98px ; }
+.igs-marginright99{ margin-right: 99px ; }
+.igs-marginright100{ margin-right: 100px ; }
+.igs-marginright101{ margin-right: 101px ; }
+.igs-marginright102{ margin-right: 102px ; }
+.igs-marginright103{ margin-right: 103px ; }
+.igs-marginright104{ margin-right: 104px ; }
+.igs-marginright105{ margin-right: 105px ; }
+.igs-marginright106{ margin-right: 106px ; }
+.igs-marginright107{ margin-right: 107px ; }
+.igs-marginright108{ margin-right: 108px ; }
+.igs-marginright109{ margin-right: 109px ; }
+.igs-marginright110{ margin-right: 110px ; }
+.igs-marginright111{ margin-right: 111px ; }
+.igs-marginright112{ margin-right: 112px ; }
+.igs-marginright113{ margin-right: 113px ; }
+.igs-marginright114{ margin-right: 114px ; }
+.igs-marginright115{ margin-right: 115px ; }
+.igs-marginright116{ margin-right: 116px ; }
+.igs-marginright117{ margin-right: 117px ; }
+.igs-marginright118{ margin-right: 118px ; }
+.igs-marginright119{ margin-right: 119px ; }
+.igs-marginright120{ margin-right: 120px ; }
+.igs-marginright121{ margin-right: 121px ; }
+.igs-marginright122{ margin-right: 122px ; }
+.igs-marginright123{ margin-right: 123px ; }
+.igs-marginright124{ margin-right: 124px ; }
+.igs-marginright125{ margin-right: 125px ; }
+.igs-marginright126{ margin-right: 126px ; }
+.igs-marginright127{ margin-right: 127px ; }
+.igs-marginright128{ margin-right: 128px ; }
+.igs-marginright129{ margin-right: 129px ; }
+.igs-marginright130{ margin-right: 130px ; }
+.igs-marginright131{ margin-right: 131px ; }
+.igs-marginright132{ margin-right: 132px ; }
+.igs-marginright133{ margin-right: 133px ; }
+.igs-marginright134{ margin-right: 134px ; }
+.igs-marginright135{ margin-right: 135px ; }
+.igs-marginright136{ margin-right: 136px ; }
+.igs-marginright137{ margin-right: 137px ; }
+.igs-marginright138{ margin-right: 138px ; }
+.igs-marginright139{ margin-right: 139px ; }
+.igs-marginright140{ margin-right: 140px ; }
+.igs-marginright141{ margin-right: 141px ; }
+.igs-marginright142{ margin-right: 142px ; }
+.igs-marginright143{ margin-right: 143px ; }
+.igs-marginright144{ margin-right: 144px ; }
+.igs-marginright145{ margin-right: 145px ; }
+.igs-marginright146{ margin-right: 146px ; }
+.igs-marginright147{ margin-right: 147px ; }
+.igs-marginright148{ margin-right: 148px ; }
+.igs-marginright149{ margin-right: 149px ; }
+.igs-marginright150{ margin-right: 150px ; }
+.igs-marginright151{ margin-right: 151px ; }
+.igs-marginright152{ margin-right: 152px ; }
+.igs-marginright153{ margin-right: 153px ; }
+.igs-marginright154{ margin-right: 154px ; }
+.igs-marginright155{ margin-right: 155px ; }
+.igs-marginright156{ margin-right: 156px ; }
+.igs-marginright157{ margin-right: 157px ; }
+.igs-marginright158{ margin-right: 158px ; }
+.igs-marginright159{ margin-right: 159px ; }
+.igs-marginright160{ margin-right: 160px ; }
+.igs-marginright161{ margin-right: 161px ; }
+.igs-marginright162{ margin-right: 162px ; }
+.igs-marginright163{ margin-right: 163px ; }
+.igs-marginright164{ margin-right: 164px ; }
+.igs-marginright165{ margin-right: 165px ; }
+.igs-marginright166{ margin-right: 166px ; }
+.igs-marginright167{ margin-right: 167px ; }
+.igs-marginright168{ margin-right: 168px ; }
+.igs-marginright169{ margin-right: 169px ; }
+.igs-marginright170{ margin-right: 170px ; }
+.igs-marginright171{ margin-right: 171px ; }
+.igs-marginright172{ margin-right: 172px ; }
+.igs-marginright173{ margin-right: 173px ; }
+.igs-marginright174{ margin-right: 174px ; }
+.igs-marginright175{ margin-right: 175px ; }
+.igs-marginright176{ margin-right: 176px ; }
+.igs-marginright177{ margin-right: 177px ; }
+.igs-marginright178{ margin-right: 178px ; }
+.igs-marginright179{ margin-right: 179px ; }
+.igs-marginright180{ margin-right: 180px ; }
+.igs-marginright181{ margin-right: 181px ; }
+.igs-marginright182{ margin-right: 182px ; }
+.igs-marginright183{ margin-right: 183px ; }
+.igs-marginright184{ margin-right: 184px ; }
+.igs-marginright185{ margin-right: 185px ; }
+.igs-marginright186{ margin-right: 186px ; }
+.igs-marginright187{ margin-right: 187px ; }
+.igs-marginright188{ margin-right: 188px ; }
+.igs-marginright189{ margin-right: 189px ; }
+.igs-marginright190{ margin-right: 190px ; }
+.igs-marginright191{ margin-right: 191px ; }
+.igs-marginright192{ margin-right: 192px ; }
+.igs-marginright193{ margin-right: 193px ; }
+.igs-marginright194{ margin-right: 194px ; }
+.igs-marginright195{ margin-right: 195px ; }
+.igs-marginright196{ margin-right: 196px ; }
+.igs-marginright197{ margin-right: 197px ; }
+.igs-marginright198{ margin-right: 198px ; }
+.igs-marginright199{ margin-right: 199px ; }
+.igs-marginright200{ margin-right: 200px ; }
+.igs-marginright201{ margin-right: 201px ; }
+.igs-marginright202{ margin-right: 202px ; }
+.igs-marginright203{ margin-right: 203px ; }
+.igs-marginright204{ margin-right: 204px ; }
+.igs-marginright205{ margin-right: 205px ; }
+.igs-marginright206{ margin-right: 206px ; }
+.igs-marginright207{ margin-right: 207px ; }
+.igs-marginright208{ margin-right: 208px ; }
+.igs-marginright209{ margin-right: 209px ; }
+.igs-marginright210{ margin-right: 210px ; }
+.igs-marginright211{ margin-right: 211px ; }
+.igs-marginright212{ margin-right: 212px ; }
+.igs-marginright213{ margin-right: 213px ; }
+.igs-marginright214{ margin-right: 214px ; }
+.igs-marginright215{ margin-right: 215px ; }
+.igs-marginright216{ margin-right: 216px ; }
+.igs-marginright217{ margin-right: 217px ; }
+.igs-marginright218{ margin-right: 218px ; }
+.igs-marginright219{ margin-right: 219px ; }
+.igs-marginright220{ margin-right: 220px ; }
+.igs-marginright221{ margin-right: 221px ; }
+.igs-marginright222{ margin-right: 222px ; }
+.igs-marginright223{ margin-right: 223px ; }
+.igs-marginright224{ margin-right: 224px ; }
+.igs-marginright225{ margin-right: 225px ; }
+.igs-marginright226{ margin-right: 226px ; }
+.igs-marginright227{ margin-right: 227px ; }
+.igs-marginright228{ margin-right: 228px ; }
+.igs-marginright229{ margin-right: 229px ; }
+.igs-marginright230{ margin-right: 230px ; }
+.igs-marginright231{ margin-right: 231px ; }
+.igs-marginright232{ margin-right: 232px ; }
+.igs-marginright233{ margin-right: 233px ; }
+.igs-marginright234{ margin-right: 234px ; }
+.igs-marginright235{ margin-right: 235px ; }
+.igs-marginright236{ margin-right: 236px ; }
+.igs-marginright237{ margin-right: 237px ; }
+.igs-marginright238{ margin-right: 238px ; }
+.igs-marginright239{ margin-right: 239px ; }
+.igs-marginright240{ margin-right: 240px ; }
+.igs-marginright241{ margin-right: 241px ; }
+.igs-marginright242{ margin-right: 242px ; }
+.igs-marginright243{ margin-right: 243px ; }
+.igs-marginright244{ margin-right: 244px ; }
+.igs-marginright245{ margin-right: 245px ; }
+.igs-marginright246{ margin-right: 246px ; }
+.igs-marginright247{ margin-right: 247px ; }
+.igs-marginright248{ margin-right: 248px ; }
+.igs-marginright249{ margin-right: 249px ; }
+.igs-marginright250{ margin-right: 250px ; }
+.igs-marginright251{ margin-right: 251px ; }
+.igs-marginright252{ margin-right: 252px ; }
+.igs-marginright253{ margin-right: 253px ; }
+.igs-marginright254{ margin-right: 254px ; }
+.igs-marginright255{ margin-right: 255px ; }
+.igs-marginright256{ margin-right: 256px ; }
+.igs-marginright257{ margin-right: 257px ; }
+.igs-marginright258{ margin-right: 258px ; }
+.igs-marginright259{ margin-right: 259px ; }
+.igs-marginright260{ margin-right: 260px ; }
+.igs-marginright261{ margin-right: 261px ; }
+.igs-marginright262{ margin-right: 262px ; }
+.igs-marginright263{ margin-right: 263px ; }
+.igs-marginright264{ margin-right: 264px ; }
+.igs-marginright265{ margin-right: 265px ; }
+.igs-marginright266{ margin-right: 266px ; }
+.igs-marginright267{ margin-right: 267px ; }
+.igs-marginright268{ margin-right: 268px ; }
+.igs-marginright269{ margin-right: 269px ; }
+.igs-marginright270{ margin-right: 270px ; }
+.igs-marginright271{ margin-right: 271px ; }
+.igs-marginright272{ margin-right: 272px ; }
+.igs-marginright273{ margin-right: 273px ; }
+.igs-marginright274{ margin-right: 274px ; }
+.igs-marginright275{ margin-right: 275px ; }
+.igs-marginright276{ margin-right: 276px ; }
+.igs-marginright277{ margin-right: 277px ; }
+.igs-marginright278{ margin-right: 278px ; }
+.igs-marginright279{ margin-right: 279px ; }
+.igs-marginright280{ margin-right: 280px ; }
+.igs-marginright281{ margin-right: 281px ; }
+.igs-marginright282{ margin-right: 282px ; }
+.igs-marginright283{ margin-right: 283px ; }
+.igs-marginright284{ margin-right: 284px ; }
+.igs-marginright285{ margin-right: 285px ; }
+.igs-marginright286{ margin-right: 286px ; }
+.igs-marginright287{ margin-right: 287px ; }
+.igs-marginright288{ margin-right: 288px ; }
+.igs-marginright289{ margin-right: 289px ; }
+.igs-marginright290{ margin-right: 290px ; }
+.igs-marginright291{ margin-right: 291px ; }
+.igs-marginright292{ margin-right: 292px ; }
+.igs-marginright293{ margin-right: 293px ; }
+.igs-marginright294{ margin-right: 294px ; }
+.igs-marginright295{ margin-right: 295px ; }
+.igs-marginright296{ margin-right: 296px ; }
+.igs-marginright297{ margin-right: 297px ; }
+.igs-marginright298{ margin-right: 298px ; }
+.igs-marginright299{ margin-right: 299px ; }
+
+
+/*width en px*/
+.igs-widthauto{ width: auto ;}
+.igs-width0{ width: 0px; }
+.igs-width1{ width: 1px; }
+.igs-width2{ width: 2px; }
+.igs-width3{ width: 3px; }
+.igs-width4{ width: 4px; }
+.igs-width5{ width: 5px; }
+.igs-width6{ width: 6px; }
+.igs-width7{ width: 7px; }
+.igs-width8{ width: 8px; }
+.igs-width9{ width: 9px; }
+.igs-width10{ width: 10px; }
+.igs-width11{ width: 11px; }
+.igs-width12{ width: 12px; }
+.igs-width13{ width: 13px; }
+.igs-width14{ width: 14px; }
+.igs-width15{ width: 15px; }
+.igs-width16{ width: 16px; }
+.igs-width17{ width: 17px; }
+.igs-width18{ width: 18px; }
+.igs-width19{ width: 19px; }
+.igs-width20{ width: 20px; }
+.igs-width21{ width: 21px; }
+.igs-width22{ width: 22px; }
+.igs-width23{ width: 23px; }
+.igs-width24{ width: 24px; }
+.igs-width25{ width: 25px; }
+.igs-width26{ width: 26px; }
+.igs-width27{ width: 27px; }
+.igs-width28{ width: 28px; }
+.igs-width29{ width: 29px; }
+.igs-width30{ width: 30px; }
+.igs-width31{ width: 31px; }
+.igs-width32{ width: 32px; }
+.igs-width33{ width: 33px; }
+.igs-width34{ width: 34px; }
+.igs-width35{ width: 35px; }
+.igs-width36{ width: 36px; }
+.igs-width37{ width: 37px; }
+.igs-width38{ width: 38px; }
+.igs-width39{ width: 39px; }
+.igs-width40{ width: 40px; }
+.igs-width41{ width: 41px; }
+.igs-width42{ width: 42px; }
+.igs-width43{ width: 43px; }
+.igs-width44{ width: 44px; }
+.igs-width45{ width: 45px; }
+.igs-width46{ width: 46px; }
+.igs-width47{ width: 47px; }
+.igs-width48{ width: 48px; }
+.igs-width49{ width: 49px; }
+.igs-width50{ width: 50px; }
+.igs-width51{ width: 51px; }
+.igs-width52{ width: 52px; }
+.igs-width53{ width: 53px; }
+.igs-width54{ width: 54px; }
+.igs-width55{ width: 55px; }
+.igs-width56{ width: 56px; }
+.igs-width57{ width: 57px; }
+.igs-width58{ width: 58px; }
+.igs-width59{ width: 59px; }
+.igs-width60{ width: 60px; }
+.igs-width61{ width: 61px; }
+.igs-width62{ width: 62px; }
+.igs-width63{ width: 63px; }
+.igs-width64{ width: 64px; }
+.igs-width65{ width: 65px; }
+.igs-width66{ width: 66px; }
+.igs-width67{ width: 67px; }
+.igs-width68{ width: 68px; }
+.igs-width69{ width: 69px; }
+.igs-width70{ width: 70px; }
+.igs-width71{ width: 71px; }
+.igs-width72{ width: 72px; }
+.igs-width73{ width: 73px; }
+.igs-width74{ width: 74px; }
+.igs-width75{ width: 75px; }
+.igs-width76{ width: 76px; }
+.igs-width77{ width: 77px; }
+.igs-width78{ width: 78px; }
+.igs-width79{ width: 79px; }
+.igs-width80{ width: 80px; }
+.igs-width81{ width: 81px; }
+.igs-width82{ width: 82px; }
+.igs-width83{ width: 83px; }
+.igs-width84{ width: 84px; }
+.igs-width85{ width: 85px; }
+.igs-width86{ width: 86px; }
+.igs-width87{ width: 87px; }
+.igs-width88{ width: 88px; }
+.igs-width89{ width: 89px; }
+.igs-width90{ width: 90px; }
+.igs-width91{ width: 91px; }
+.igs-width92{ width: 92px; }
+.igs-width93{ width: 93px; }
+.igs-width94{ width: 94px; }
+.igs-width95{ width: 95px; }
+.igs-width96{ width: 96px; }
+.igs-width97{ width: 97px; }
+.igs-width98{ width: 98px; }
+.igs-width99{ width: 99px; }
+.igs-width100{ width: 100px; }
+.igs-width101{ width: 101px; }
+.igs-width102{ width: 102px; }
+.igs-width103{ width: 103px; }
+.igs-width104{ width: 104px; }
+.igs-width105{ width: 105px; }
+.igs-width106{ width: 106px; }
+.igs-width107{ width: 107px; }
+.igs-width108{ width: 108px; }
+.igs-width109{ width: 109px; }
+.igs-width110{ width: 110px; }
+.igs-width111{ width: 111px; }
+.igs-width112{ width: 112px; }
+.igs-width113{ width: 113px; }
+.igs-width114{ width: 114px; }
+.igs-width115{ width: 115px; }
+.igs-width116{ width: 116px; }
+.igs-width117{ width: 117px; }
+.igs-width118{ width: 118px; }
+.igs-width119{ width: 119px; }
+.igs-width120{ width: 120px; }
+.igs-width121{ width: 121px; }
+.igs-width122{ width: 122px; }
+.igs-width123{ width: 123px; }
+.igs-width124{ width: 124px; }
+.igs-width125{ width: 125px; }
+.igs-width126{ width: 126px; }
+.igs-width127{ width: 127px; }
+.igs-width128{ width: 128px; }
+.igs-width129{ width: 129px; }
+.igs-width130{ width: 130px; }
+.igs-width131{ width: 131px; }
+.igs-width132{ width: 132px; }
+.igs-width133{ width: 133px; }
+.igs-width134{ width: 134px; }
+.igs-width135{ width: 135px; }
+.igs-width136{ width: 136px; }
+.igs-width137{ width: 137px; }
+.igs-width138{ width: 138px; }
+.igs-width139{ width: 139px; }
+.igs-width140{ width: 140px; }
+.igs-width141{ width: 141px; }
+.igs-width142{ width: 142px; }
+.igs-width143{ width: 143px; }
+.igs-width144{ width: 144px; }
+.igs-width145{ width: 145px; }
+.igs-width146{ width: 146px; }
+.igs-width147{ width: 147px; }
+.igs-width148{ width: 148px; }
+.igs-width149{ width: 149px; }
+.igs-width150{ width: 150px; }
+.igs-width151{ width: 151px; }
+.igs-width152{ width: 152px; }
+.igs-width153{ width: 153px; }
+.igs-width154{ width: 154px; }
+.igs-width155{ width: 155px; }
+.igs-width156{ width: 156px; }
+.igs-width157{ width: 157px; }
+.igs-width158{ width: 158px; }
+.igs-width159{ width: 159px; }
+.igs-width160{ width: 160px; }
+.igs-width161{ width: 161px; }
+.igs-width162{ width: 162px; }
+.igs-width163{ width: 163px; }
+.igs-width164{ width: 164px; }
+.igs-width165{ width: 165px; }
+.igs-width166{ width: 166px; }
+.igs-width167{ width: 167px; }
+.igs-width168{ width: 168px; }
+.igs-width169{ width: 169px; }
+.igs-width170{ width: 170px; }
+.igs-width171{ width: 171px; }
+.igs-width172{ width: 172px; }
+.igs-width173{ width: 173px; }
+.igs-width174{ width: 174px; }
+.igs-width175{ width: 175px; }
+.igs-width176{ width: 176px; }
+.igs-width177{ width: 177px; }
+.igs-width178{ width: 178px; }
+.igs-width179{ width: 179px; }
+.igs-width180{ width: 180px; }
+.igs-width181{ width: 181px; }
+.igs-width182{ width: 182px; }
+.igs-width183{ width: 183px; }
+.igs-width184{ width: 184px; }
+.igs-width185{ width: 185px; }
+.igs-width186{ width: 186px; }
+.igs-width187{ width: 187px; }
+.igs-width188{ width: 188px; }
+.igs-width189{ width: 189px; }
+.igs-width190{ width: 190px; }
+.igs-width191{ width: 191px; }
+.igs-width192{ width: 192px; }
+.igs-width193{ width: 193px; }
+.igs-width194{ width: 194px; }
+.igs-width195{ width: 195px; }
+.igs-width196{ width: 196px; }
+.igs-width197{ width: 197px; }
+.igs-width198{ width: 198px; }
+.igs-width199{ width: 199px; }
+.igs-width200{ width: 200px; }
+.igs-width201{ width: 201px; }
+.igs-width202{ width: 202px; }
+.igs-width203{ width: 203px; }
+.igs-width204{ width: 204px; }
+.igs-width205{ width: 205px; }
+.igs-width206{ width: 206px; }
+.igs-width207{ width: 207px; }
+.igs-width208{ width: 208px; }
+.igs-width209{ width: 209px; }
+.igs-width210{ width: 210px; }
+.igs-width211{ width: 211px; }
+.igs-width212{ width: 212px; }
+.igs-width213{ width: 213px; }
+.igs-width214{ width: 214px; }
+.igs-width215{ width: 215px; }
+.igs-width216{ width: 216px; }
+.igs-width217{ width: 217px; }
+.igs-width218{ width: 218px; }
+.igs-width219{ width: 219px; }
+.igs-width220{ width: 220px; }
+.igs-width221{ width: 221px; }
+.igs-width222{ width: 222px; }
+.igs-width223{ width: 223px; }
+.igs-width224{ width: 224px; }
+.igs-width225{ width: 225px; }
+.igs-width226{ width: 226px; }
+.igs-width227{ width: 227px; }
+.igs-width228{ width: 228px; }
+.igs-width229{ width: 229px; }
+.igs-width230{ width: 230px; }
+.igs-width231{ width: 231px; }
+.igs-width232{ width: 232px; }
+.igs-width233{ width: 233px; }
+.igs-width234{ width: 234px; }
+.igs-width235{ width: 235px; }
+.igs-width236{ width: 236px; }
+.igs-width237{ width: 237px; }
+.igs-width238{ width: 238px; }
+.igs-width239{ width: 239px; }
+.igs-width240{ width: 240px; }
+.igs-width241{ width: 241px; }
+.igs-width242{ width: 242px; }
+.igs-width243{ width: 243px; }
+.igs-width244{ width: 244px; }
+.igs-width245{ width: 245px; }
+.igs-width246{ width: 246px; }
+.igs-width247{ width: 247px; }
+.igs-width248{ width: 248px; }
+.igs-width249{ width: 249px; }
+.igs-width250{ width: 250px; }
+.igs-width251{ width: 251px; }
+.igs-width252{ width: 252px; }
+.igs-width253{ width: 253px; }
+.igs-width254{ width: 254px; }
+.igs-width255{ width: 255px; }
+.igs-width256{ width: 256px; }
+.igs-width257{ width: 257px; }
+.igs-width258{ width: 258px; }
+.igs-width259{ width: 259px; }
+.igs-width260{ width: 260px; }
+.igs-width261{ width: 261px; }
+.igs-width262{ width: 262px; }
+.igs-width263{ width: 263px; }
+.igs-width264{ width: 264px; }
+.igs-width265{ width: 265px; }
+.igs-width266{ width: 266px; }
+.igs-width267{ width: 267px; }
+.igs-width268{ width: 268px; }
+.igs-width269{ width: 269px; }
+.igs-width270{ width: 270px; }
+.igs-width271{ width: 271px; }
+.igs-width272{ width: 272px; }
+.igs-width273{ width: 273px; }
+.igs-width274{ width: 274px; }
+.igs-width275{ width: 275px; }
+.igs-width276{ width: 276px; }
+.igs-width277{ width: 277px; }
+.igs-width278{ width: 278px; }
+.igs-width279{ width: 279px; }
+.igs-width280{ width: 280px; }
+.igs-width281{ width: 281px; }
+.igs-width282{ width: 282px; }
+.igs-width283{ width: 283px; }
+.igs-width284{ width: 284px; }
+.igs-width285{ width: 285px; }
+.igs-width286{ width: 286px; }
+.igs-width287{ width: 287px; }
+.igs-width288{ width: 288px; }
+.igs-width289{ width: 289px; }
+.igs-width290{ width: 290px; }
+.igs-width291{ width: 291px; }
+.igs-width292{ width: 292px; }
+.igs-width293{ width: 293px; }
+.igs-width294{ width: 294px; }
+.igs-width295{ width: 295px; }
+.igs-width296{ width: 296px; }
+.igs-width297{ width: 297px; }
+.igs-width298{ width: 298px; }
+.igs-width299{ width: 299px; }
+.igs-width300{ width: 300px; }
+.igs-width301{ width: 301px; }
+.igs-width302{ width: 302px; }
+.igs-width303{ width: 303px; }
+.igs-width304{ width: 304px; }
+.igs-width305{ width: 305px; }
+.igs-width306{ width: 306px; }
+.igs-width307{ width: 307px; }
+.igs-width308{ width: 308px; }
+.igs-width309{ width: 309px; }
+.igs-width310{ width: 310px; }
+.igs-width311{ width: 311px; }
+.igs-width312{ width: 312px; }
+.igs-width313{ width: 313px; }
+.igs-width314{ width: 314px; }
+.igs-width315{ width: 315px; }
+.igs-width316{ width: 316px; }
+.igs-width317{ width: 317px; }
+.igs-width318{ width: 318px; }
+.igs-width319{ width: 319px; }
+.igs-width320{ width: 320px; }
+.igs-width321{ width: 321px; }
+.igs-width322{ width: 322px; }
+.igs-width323{ width: 323px; }
+.igs-width324{ width: 324px; }
+.igs-width325{ width: 325px; }
+.igs-width326{ width: 326px; }
+.igs-width327{ width: 327px; }
+.igs-width328{ width: 328px; }
+.igs-width329{ width: 329px; }
+.igs-width330{ width: 330px; }
+.igs-width331{ width: 331px; }
+.igs-width332{ width: 332px; }
+.igs-width333{ width: 333px; }
+.igs-width334{ width: 334px; }
+.igs-width335{ width: 335px; }
+.igs-width336{ width: 336px; }
+.igs-width337{ width: 337px; }
+.igs-width338{ width: 338px; }
+.igs-width339{ width: 339px; }
+.igs-width340{ width: 340px; }
+.igs-width341{ width: 341px; }
+.igs-width342{ width: 342px; }
+.igs-width343{ width: 343px; }
+.igs-width344{ width: 344px; }
+.igs-width345{ width: 345px; }
+.igs-width346{ width: 346px; }
+.igs-width347{ width: 347px; }
+.igs-width348{ width: 348px; }
+.igs-width349{ width: 349px; }
+.igs-width350{ width: 350px; }
+.igs-width351{ width: 351px; }
+.igs-width352{ width: 352px; }
+.igs-width353{ width: 353px; }
+.igs-width354{ width: 354px; }
+.igs-width355{ width: 355px; }
+.igs-width356{ width: 356px; }
+.igs-width357{ width: 357px; }
+.igs-width358{ width: 358px; }
+.igs-width359{ width: 359px; }
+.igs-width360{ width: 360px; }
+.igs-width361{ width: 361px; }
+.igs-width362{ width: 362px; }
+.igs-width363{ width: 363px; }
+.igs-width364{ width: 364px; }
+.igs-width365{ width: 365px; }
+.igs-width366{ width: 366px; }
+.igs-width367{ width: 367px; }
+.igs-width368{ width: 368px; }
+.igs-width369{ width: 369px; }
+.igs-width370{ width: 370px; }
+.igs-width371{ width: 371px; }
+.igs-width372{ width: 372px; }
+.igs-width373{ width: 373px; }
+.igs-width374{ width: 374px; }
+.igs-width375{ width: 375px; }
+.igs-width376{ width: 376px; }
+.igs-width377{ width: 377px; }
+.igs-width378{ width: 378px; }
+.igs-width379{ width: 379px; }
+.igs-width380{ width: 380px; }
+.igs-width381{ width: 381px; }
+.igs-width382{ width: 382px; }
+.igs-width383{ width: 383px; }
+.igs-width384{ width: 384px; }
+.igs-width385{ width: 385px; }
+.igs-width386{ width: 386px; }
+.igs-width387{ width: 387px; }
+.igs-width388{ width: 388px; }
+.igs-width389{ width: 389px; }
+.igs-width390{ width: 390px; }
+.igs-width391{ width: 391px; }
+.igs-width392{ width: 392px; }
+.igs-width393{ width: 393px; }
+.igs-width394{ width: 394px; }
+.igs-width395{ width: 395px; }
+.igs-width396{ width: 396px; }
+.igs-width397{ width: 397px; }
+.igs-width398{ width: 398px; }
+.igs-width399{ width: 399px; }
+.igs-width400{ width: 400px; }
+.igs-width401{ width: 401px; }
+.igs-width402{ width: 402px; }
+.igs-width403{ width: 403px; }
+.igs-width404{ width: 404px; }
+.igs-width405{ width: 405px; }
+.igs-width406{ width: 406px; }
+.igs-width407{ width: 407px; }
+.igs-width408{ width: 408px; }
+.igs-width409{ width: 409px; }
+.igs-width410{ width: 410px; }
+.igs-width411{ width: 411px; }
+.igs-width412{ width: 412px; }
+.igs-width413{ width: 413px; }
+.igs-width414{ width: 414px; }
+.igs-width415{ width: 415px; }
+.igs-width416{ width: 416px; }
+.igs-width417{ width: 417px; }
+.igs-width418{ width: 418px; }
+.igs-width419{ width: 419px; }
+.igs-width420{ width: 420px; }
+.igs-width421{ width: 421px; }
+.igs-width422{ width: 422px; }
+.igs-width423{ width: 423px; }
+.igs-width424{ width: 424px; }
+.igs-width425{ width: 425px; }
+.igs-width426{ width: 426px; }
+.igs-width427{ width: 427px; }
+.igs-width428{ width: 428px; }
+.igs-width429{ width: 429px; }
+.igs-width430{ width: 430px; }
+.igs-width431{ width: 431px; }
+.igs-width432{ width: 432px; }
+.igs-width433{ width: 433px; }
+.igs-width434{ width: 434px; }
+.igs-width435{ width: 435px; }
+.igs-width436{ width: 436px; }
+.igs-width437{ width: 437px; }
+.igs-width438{ width: 438px; }
+.igs-width439{ width: 439px; }
+.igs-width440{ width: 440px; }
+.igs-width441{ width: 441px; }
+.igs-width442{ width: 442px; }
+.igs-width443{ width: 443px; }
+.igs-width444{ width: 444px; }
+.igs-width445{ width: 445px; }
+.igs-width446{ width: 446px; }
+.igs-width447{ width: 447px; }
+.igs-width448{ width: 448px; }
+.igs-width449{ width: 449px; }
+.igs-width450{ width: 450px; }
+.igs-width451{ width: 451px; }
+.igs-width452{ width: 452px; }
+.igs-width453{ width: 453px; }
+.igs-width454{ width: 454px; }
+.igs-width455{ width: 455px; }
+.igs-width456{ width: 456px; }
+.igs-width457{ width: 457px; }
+.igs-width458{ width: 458px; }
+.igs-width459{ width: 459px; }
+.igs-width460{ width: 460px; }
+.igs-width461{ width: 461px; }
+.igs-width462{ width: 462px; }
+.igs-width463{ width: 463px; }
+.igs-width464{ width: 464px; }
+.igs-width465{ width: 465px; }
+.igs-width466{ width: 466px; }
+.igs-width467{ width: 467px; }
+.igs-width468{ width: 468px; }
+.igs-width469{ width: 469px; }
+.igs-width470{ width: 470px; }
+.igs-width471{ width: 471px; }
+.igs-width472{ width: 472px; }
+.igs-width473{ width: 473px; }
+.igs-width474{ width: 474px; }
+.igs-width475{ width: 475px; }
+.igs-width476{ width: 476px; }
+.igs-width477{ width: 477px; }
+.igs-width478{ width: 478px; }
+.igs-width479{ width: 479px; }
+.igs-width480{ width: 480px; }
+.igs-width481{ width: 481px; }
+.igs-width482{ width: 482px; }
+.igs-width483{ width: 483px; }
+.igs-width484{ width: 484px; }
+.igs-width485{ width: 485px; }
+.igs-width486{ width: 486px; }
+.igs-width487{ width: 487px; }
+.igs-width488{ width: 488px; }
+.igs-width489{ width: 489px; }
+.igs-width490{ width: 490px; }
+.igs-width491{ width: 491px; }
+.igs-width492{ width: 492px; }
+.igs-width493{ width: 493px; }
+.igs-width494{ width: 494px; }
+.igs-width495{ width: 495px; }
+.igs-width496{ width: 496px; }
+.igs-width497{ width: 497px; }
+.igs-width498{ width: 498px; }
+.igs-width499{ width: 499px; }
+.igs-width500{ width: 500px; }
+
+/*width en pourcentage*/
+.igs-width0p{ width: 0% ; }
+.igs-width1p{ width: 1% ; }
+.igs-width2p{ width: 2% ; }
+.igs-width3p{ width: 3% ; }
+.igs-width4p{ width: 4% ; }
+.igs-width5p{ width: 5% ; }
+.igs-width6p{ width: 6% ; }
+.igs-width7p{ width: 7% ; }
+.igs-width8p{ width: 8% ; }
+.igs-width9p{ width: 9% ; }
+.igs-width10p{ width: 10% ; }
+.igs-width11p{ width: 11% ; }
+.igs-width12p{ width: 12% ; }
+.igs-width13p{ width: 13% ; }
+.igs-width14p{ width: 14% ; }
+.igs-width15p{ width: 15% ; }
+.igs-width16p{ width: 16% ; }
+.igs-width17p{ width: 17% ; }
+.igs-width18p{ width: 18% ; }
+.igs-width19p{ width: 19% ; }
+.igs-width20p{ width: 20% ; }
+.igs-width21p{ width: 21% ; }
+.igs-width22p{ width: 22% ; }
+.igs-width23p{ width: 23% ; }
+.igs-width24p{ width: 24% ; }
+.igs-width25p{ width: 25% ; }
+.igs-width26p{ width: 26% ; }
+.igs-width27p{ width: 27% ; }
+.igs-width28p{ width: 28% ; }
+.igs-width29p{ width: 29% ; }
+.igs-width30p{ width: 30% ; }
+.igs-width31p{ width: 31% ; }
+.igs-width32p{ width: 32% ; }
+.igs-width33p{ width: 33% ; }
+.igs-width34p{ width: 34% ; }
+.igs-width35p{ width: 35% ; }
+.igs-width36p{ width: 36% ; }
+.igs-width37p{ width: 37% ; }
+.igs-width38p{ width: 38% ; }
+.igs-width39p{ width: 39% ; }
+.igs-width40p{ width: 40% ; }
+.igs-width41p{ width: 41% ; }
+.igs-width42p{ width: 42% ; }
+.igs-width43p{ width: 43% ; }
+.igs-width44p{ width: 44% ; }
+.igs-width45p{ width: 45% ; }
+.igs-width46p{ width: 46% ; }
+.igs-width47p{ width: 47% ; }
+.igs-width48p{ width: 48% ; }
+.igs-width49p{ width: 49% ; }
+.igs-width50p{ width: 50% ; }
+.igs-width51p{ width: 51% ; }
+.igs-width52p{ width: 52% ; }
+.igs-width53p{ width: 53% ; }
+.igs-width54p{ width: 54% ; }
+.igs-width55p{ width: 55% ; }
+.igs-width56p{ width: 56% ; }
+.igs-width57p{ width: 57% ; }
+.igs-width58p{ width: 58% ; }
+.igs-width59p{ width: 59% ; }
+.igs-width60p{ width: 60% ; }
+.igs-width61p{ width: 61% ; }
+.igs-width62p{ width: 62% ; }
+.igs-width63p{ width: 63% ; }
+.igs-width64p{ width: 64% ; }
+.igs-width65p{ width: 65% ; }
+.igs-width66p{ width: 66% ; }
+.igs-width67p{ width: 67% ; }
+.igs-width68p{ width: 68% ; }
+.igs-width69p{ width: 69% ; }
+.igs-width70p{ width: 70% ; }
+.igs-width71p{ width: 71% ; }
+.igs-width72p{ width: 72% ; }
+.igs-width73p{ width: 73% ; }
+.igs-width74p{ width: 74% ; }
+.igs-width75p{ width: 75% ; }
+.igs-width76p{ width: 76% ; }
+.igs-width77p{ width: 77% ; }
+.igs-width78p{ width: 78% ; }
+.igs-width79p{ width: 79% ; }
+.igs-width80p{ width: 80% ; }
+.igs-width81p{ width: 81% ; }
+.igs-width82p{ width: 82% ; }
+.igs-width83p{ width: 83% ; }
+.igs-width84p{ width: 84% ; }
+.igs-width85p{ width: 85% ; }
+.igs-width86p{ width: 86% ; }
+.igs-width87p{ width: 87% ; }
+.igs-width88p{ width: 88% ; }
+.igs-width89p{ width: 89% ; }
+.igs-width90p{ width: 90% ; }
+.igs-width91p{ width: 91% ; }
+.igs-width92p{ width: 92% ; }
+.igs-width93p{ width: 93% ; }
+.igs-width94p{ width: 94% ; }
+.igs-width95p{ width: 95% ; }
+.igs-width96p{ width: 96% ; }
+.igs-width97p{ width: 97% ; }
+.igs-width98p{ width: 98% ; }
+.igs-width99p{ width: 99% ; }
+.igs-width100p{ width: 100% ; }
+
+
+/* height en px*/
+.igs-height{height: auto;}
+.igs-height0{ height: 0px ; }
+.igs-height1{ height: 1px ; }
+.igs-height2{ height: 2px ; }
+.igs-height3{ height: 3px ; }
+.igs-height4{ height: 4px ; }
+.igs-height5{ height: 5px ; }
+.igs-height6{ height: 6px ; }
+.igs-height7{ height: 7px ; }
+.igs-height8{ height: 8px ; }
+.igs-height9{ height: 9px ; }
+.igs-height10{ height: 10px ; }
+.igs-height11{ height: 11px ; }
+.igs-height12{ height: 12px ; }
+.igs-height13{ height: 13px ; }
+.igs-height14{ height: 14px ; }
+.igs-height15{ height: 15px ; }
+.igs-height16{ height: 16px ; }
+.igs-height17{ height: 17px ; }
+.igs-height18{ height: 18px ; }
+.igs-height19{ height: 19px ; }
+.igs-height20{ height: 20px ; }
+.igs-height21{ height: 21px ; }
+.igs-height22{ height: 22px ; }
+.igs-height23{ height: 23px ; }
+.igs-height24{ height: 24px ; }
+.igs-height25{ height: 25px ; }
+.igs-height26{ height: 26px ; }
+.igs-height27{ height: 27px ; }
+.igs-height28{ height: 28px ; }
+.igs-height29{ height: 29px ; }
+.igs-height30{ height: 30px ; }
+.igs-height31{ height: 31px ; }
+.igs-height32{ height: 32px ; }
+.igs-height33{ height: 33px ; }
+.igs-height34{ height: 34px ; }
+.igs-height35{ height: 35px ; }
+.igs-height36{ height: 36px ; }
+.igs-height37{ height: 37px ; }
+.igs-height38{ height: 38px ; }
+.igs-height39{ height: 39px ; }
+.igs-height40{ height: 40px ; }
+.igs-height41{ height: 41px ; }
+.igs-height42{ height: 42px ; }
+.igs-height43{ height: 43px ; }
+.igs-height44{ height: 44px ; }
+.igs-height45{ height: 45px ; }
+.igs-height46{ height: 46px ; }
+.igs-height47{ height: 47px ; }
+.igs-height48{ height: 48px ; }
+.igs-height49{ height: 49px ; }
+.igs-height50{ height: 50px ; }
+.igs-height51{ height: 51px ; }
+.igs-height52{ height: 52px ; }
+.igs-height53{ height: 53px ; }
+.igs-height54{ height: 54px ; }
+.igs-height55{ height: 55px ; }
+.igs-height56{ height: 56px ; }
+.igs-height57{ height: 57px ; }
+.igs-height58{ height: 58px ; }
+.igs-height59{ height: 59px ; }
+.igs-height60{ height: 60px ; }
+.igs-height61{ height: 61px ; }
+.igs-height62{ height: 62px ; }
+.igs-height63{ height: 63px ; }
+.igs-height64{ height: 64px ; }
+.igs-height65{ height: 65px ; }
+.igs-height66{ height: 66px ; }
+.igs-height67{ height: 67px ; }
+.igs-height68{ height: 68px ; }
+.igs-height69{ height: 69px ; }
+.igs-height70{ height: 70px ; }
+.igs-height71{ height: 71px ; }
+.igs-height72{ height: 72px ; }
+.igs-height73{ height: 73px ; }
+.igs-height74{ height: 74px ; }
+.igs-height75{ height: 75px ; }
+.igs-height76{ height: 76px ; }
+.igs-height77{ height: 77px ; }
+.igs-height78{ height: 78px ; }
+.igs-height79{ height: 79px ; }
+.igs-height80{ height: 80px ; }
+.igs-height81{ height: 81px ; }
+.igs-height82{ height: 82px ; }
+.igs-height83{ height: 83px ; }
+.igs-height84{ height: 84px ; }
+.igs-height85{ height: 85px ; }
+.igs-height86{ height: 86px ; }
+.igs-height87{ height: 87px ; }
+.igs-height88{ height: 88px ; }
+.igs-height89{ height: 89px ; }
+.igs-height90{ height: 90px ; }
+.igs-height91{ height: 91px ; }
+.igs-height92{ height: 92px ; }
+.igs-height93{ height: 93px ; }
+.igs-height94{ height: 94px ; }
+.igs-height95{ height: 95px ; }
+.igs-height96{ height: 96px ; }
+.igs-height97{ height: 97px ; }
+.igs-height98{ height: 98px ; }
+.igs-height99{ height: 99px ; }
+.igs-height100{ height: 100px ; }
+.igs-height101{ height: 101px ; }
+.igs-height102{ height: 102px ; }
+.igs-height103{ height: 103px ; }
+.igs-height104{ height: 104px ; }
+.igs-height105{ height: 105px ; }
+.igs-height106{ height: 106px ; }
+.igs-height107{ height: 107px ; }
+.igs-height108{ height: 108px ; }
+.igs-height109{ height: 109px ; }
+.igs-height110{ height: 110px ; }
+.igs-height111{ height: 111px ; }
+.igs-height112{ height: 112px ; }
+.igs-height113{ height: 113px ; }
+.igs-height114{ height: 114px ; }
+.igs-height115{ height: 115px ; }
+.igs-height116{ height: 116px ; }
+.igs-height117{ height: 117px ; }
+.igs-height118{ height: 118px ; }
+.igs-height119{ height: 119px ; }
+.igs-height120{ height: 120px ; }
+.igs-height121{ height: 121px ; }
+.igs-height122{ height: 122px ; }
+.igs-height123{ height: 123px ; }
+.igs-height124{ height: 124px ; }
+.igs-height125{ height: 125px ; }
+.igs-height126{ height: 126px ; }
+.igs-height127{ height: 127px ; }
+.igs-height128{ height: 128px ; }
+.igs-height129{ height: 129px ; }
+.igs-height130{ height: 130px ; }
+.igs-height131{ height: 131px ; }
+.igs-height132{ height: 132px ; }
+.igs-height133{ height: 133px ; }
+.igs-height134{ height: 134px ; }
+.igs-height135{ height: 135px ; }
+.igs-height136{ height: 136px ; }
+.igs-height137{ height: 137px ; }
+.igs-height138{ height: 138px ; }
+.igs-height139{ height: 139px ; }
+.igs-height140{ height: 140px ; }
+.igs-height141{ height: 141px ; }
+.igs-height142{ height: 142px ; }
+.igs-height143{ height: 143px ; }
+.igs-height144{ height: 144px ; }
+.igs-height145{ height: 145px ; }
+.igs-height146{ height: 146px ; }
+.igs-height147{ height: 147px ; }
+.igs-height148{ height: 148px ; }
+.igs-height149{ height: 149px ; }
+.igs-height150{ height: 150px ; }
+.igs-height151{ height: 151px ; }
+.igs-height152{ height: 152px ; }
+.igs-height153{ height: 153px ; }
+.igs-height154{ height: 154px ; }
+.igs-height155{ height: 155px ; }
+.igs-height156{ height: 156px ; }
+.igs-height157{ height: 157px ; }
+.igs-height158{ height: 158px ; }
+.igs-height159{ height: 159px ; }
+.igs-height160{ height: 160px ; }
+.igs-height161{ height: 161px ; }
+.igs-height162{ height: 162px ; }
+.igs-height163{ height: 163px ; }
+.igs-height164{ height: 164px ; }
+.igs-height165{ height: 165px ; }
+.igs-height166{ height: 166px ; }
+.igs-height167{ height: 167px ; }
+.igs-height168{ height: 168px ; }
+.igs-height169{ height: 169px ; }
+.igs-height170{ height: 170px ; }
+.igs-height171{ height: 171px ; }
+.igs-height172{ height: 172px ; }
+.igs-height173{ height: 173px ; }
+.igs-height174{ height: 174px ; }
+.igs-height175{ height: 175px ; }
+.igs-height176{ height: 176px ; }
+.igs-height177{ height: 177px ; }
+.igs-height178{ height: 178px ; }
+.igs-height179{ height: 179px ; }
+.igs-height180{ height: 180px ; }
+.igs-height181{ height: 181px ; }
+.igs-height182{ height: 182px ; }
+.igs-height183{ height: 183px ; }
+.igs-height184{ height: 184px ; }
+.igs-height185{ height: 185px ; }
+.igs-height186{ height: 186px ; }
+.igs-height187{ height: 187px ; }
+.igs-height188{ height: 188px ; }
+.igs-height189{ height: 189px ; }
+.igs-height190{ height: 190px ; }
+.igs-height191{ height: 191px ; }
+.igs-height192{ height: 192px ; }
+.igs-height193{ height: 193px ; }
+.igs-height194{ height: 194px ; }
+.igs-height195{ height: 195px ; }
+.igs-height196{ height: 196px ; }
+.igs-height197{ height: 197px ; }
+.igs-height198{ height: 198px ; }
+.igs-height199{ height: 199px ; }
+.igs-height200{ height: 200px ; }
+.igs-height201{ height: 201px ; }
+.igs-height202{ height: 202px ; }
+.igs-height203{ height: 203px ; }
+.igs-height204{ height: 204px ; }
+.igs-height205{ height: 205px ; }
+.igs-height206{ height: 206px ; }
+.igs-height207{ height: 207px ; }
+.igs-height208{ height: 208px ; }
+.igs-height209{ height: 209px ; }
+.igs-height210{ height: 210px ; }
+.igs-height211{ height: 211px ; }
+.igs-height212{ height: 212px ; }
+.igs-height213{ height: 213px ; }
+.igs-height214{ height: 214px ; }
+.igs-height215{ height: 215px ; }
+.igs-height216{ height: 216px ; }
+.igs-height217{ height: 217px ; }
+.igs-height218{ height: 218px ; }
+.igs-height219{ height: 219px ; }
+.igs-height220{ height: 220px ; }
+.igs-height221{ height: 221px ; }
+.igs-height222{ height: 222px ; }
+.igs-height223{ height: 223px ; }
+.igs-height224{ height: 224px ; }
+.igs-height225{ height: 225px ; }
+.igs-height226{ height: 226px ; }
+.igs-height227{ height: 227px ; }
+.igs-height228{ height: 228px ; }
+.igs-height229{ height: 229px ; }
+.igs-height230{ height: 230px ; }
+.igs-height231{ height: 231px ; }
+.igs-height232{ height: 232px ; }
+.igs-height233{ height: 233px ; }
+.igs-height234{ height: 234px ; }
+.igs-height235{ height: 235px ; }
+.igs-height236{ height: 236px ; }
+.igs-height237{ height: 237px ; }
+.igs-height238{ height: 238px ; }
+.igs-height239{ height: 239px ; }
+.igs-height240{ height: 240px ; }
+.igs-height241{ height: 241px ; }
+.igs-height242{ height: 242px ; }
+.igs-height243{ height: 243px ; }
+.igs-height244{ height: 244px ; }
+.igs-height245{ height: 245px ; }
+.igs-height246{ height: 246px ; }
+.igs-height247{ height: 247px ; }
+.igs-height248{ height: 248px ; }
+.igs-height249{ height: 249px ; }
+.igs-height250{ height: 250px ; }
+.igs-height251{ height: 251px ; }
+.igs-height252{ height: 252px ; }
+.igs-height253{ height: 253px ; }
+.igs-height254{ height: 254px ; }
+.igs-height255{ height: 255px ; }
+.igs-height256{ height: 256px ; }
+.igs-height257{ height: 257px ; }
+.igs-height258{ height: 258px ; }
+.igs-height259{ height: 259px ; }
+.igs-height260{ height: 260px ; }
+.igs-height261{ height: 261px ; }
+.igs-height262{ height: 262px ; }
+.igs-height263{ height: 263px ; }
+.igs-height264{ height: 264px ; }
+.igs-height265{ height: 265px ; }
+.igs-height266{ height: 266px ; }
+.igs-height267{ height: 267px ; }
+.igs-height268{ height: 268px ; }
+.igs-height269{ height: 269px ; }
+.igs-height270{ height: 270px ; }
+.igs-height271{ height: 271px ; }
+.igs-height272{ height: 272px ; }
+.igs-height273{ height: 273px ; }
+.igs-height274{ height: 274px ; }
+.igs-height275{ height: 275px ; }
+.igs-height276{ height: 276px ; }
+.igs-height277{ height: 277px ; }
+.igs-height278{ height: 278px ; }
+.igs-height279{ height: 279px ; }
+.igs-height280{ height: 280px ; }
+.igs-height281{ height: 281px ; }
+.igs-height282{ height: 282px ; }
+.igs-height283{ height: 283px ; }
+.igs-height284{ height: 284px ; }
+.igs-height285{ height: 285px ; }
+.igs-height286{ height: 286px ; }
+.igs-height287{ height: 287px ; }
+.igs-height288{ height: 288px ; }
+.igs-height289{ height: 289px ; }
+.igs-height290{ height: 290px ; }
+.igs-height291{ height: 291px ; }
+.igs-height292{ height: 292px ; }
+.igs-height293{ height: 293px ; }
+.igs-height294{ height: 294px ; }
+.igs-height295{ height: 295px ; }
+.igs-height296{ height: 296px ; }
+.igs-height297{ height: 297px ; }
+.igs-height298{ height: 298px ; }
+.igs-height299{ height: 299px ; }
+.igs-height300{ height: 300px ; }
+.igs-height301{ height: 301px ; }
+.igs-height302{ height: 302px ; }
+.igs-height303{ height: 303px ; }
+.igs-height304{ height: 304px ; }
+.igs-height305{ height: 305px ; }
+.igs-height306{ height: 306px ; }
+.igs-height307{ height: 307px ; }
+.igs-height308{ height: 308px ; }
+.igs-height309{ height: 309px ; }
+.igs-height310{ height: 310px ; }
+.igs-height311{ height: 311px ; }
+.igs-height312{ height: 312px ; }
+.igs-height313{ height: 313px ; }
+.igs-height314{ height: 314px ; }
+.igs-height315{ height: 315px ; }
+.igs-height316{ height: 316px ; }
+.igs-height317{ height: 317px ; }
+.igs-height318{ height: 318px ; }
+.igs-height319{ height: 319px ; }
+.igs-height320{ height: 320px ; }
+.igs-height321{ height: 321px ; }
+.igs-height322{ height: 322px ; }
+.igs-height323{ height: 323px ; }
+.igs-height324{ height: 324px ; }
+.igs-height325{ height: 325px ; }
+.igs-height326{ height: 326px ; }
+.igs-height327{ height: 327px ; }
+.igs-height328{ height: 328px ; }
+.igs-height329{ height: 329px ; }
+.igs-height330{ height: 330px ; }
+.igs-height331{ height: 331px ; }
+.igs-height332{ height: 332px ; }
+.igs-height333{ height: 333px ; }
+.igs-height334{ height: 334px ; }
+.igs-height335{ height: 335px ; }
+.igs-height336{ height: 336px ; }
+.igs-height337{ height: 337px ; }
+.igs-height338{ height: 338px ; }
+.igs-height339{ height: 339px ; }
+.igs-height340{ height: 340px ; }
+.igs-height341{ height: 341px ; }
+.igs-height342{ height: 342px ; }
+.igs-height343{ height: 343px ; }
+.igs-height344{ height: 344px ; }
+.igs-height345{ height: 345px ; }
+.igs-height346{ height: 346px ; }
+.igs-height347{ height: 347px ; }
+.igs-height348{ height: 348px ; }
+.igs-height349{ height: 349px ; }
+.igs-height350{ height: 350px ; }
+.igs-height351{ height: 351px ; }
+.igs-height352{ height: 352px ; }
+.igs-height353{ height: 353px ; }
+.igs-height354{ height: 354px ; }
+.igs-height355{ height: 355px ; }
+.igs-height356{ height: 356px ; }
+.igs-height357{ height: 357px ; }
+.igs-height358{ height: 358px ; }
+.igs-height359{ height: 359px ; }
+.igs-height360{ height: 360px ; }
+.igs-height361{ height: 361px ; }
+.igs-height362{ height: 362px ; }
+.igs-height363{ height: 363px ; }
+.igs-height364{ height: 364px ; }
+.igs-height365{ height: 365px ; }
+.igs-height366{ height: 366px ; }
+.igs-height367{ height: 367px ; }
+.igs-height368{ height: 368px ; }
+.igs-height369{ height: 369px ; }
+.igs-height370{ height: 370px ; }
+.igs-height371{ height: 371px ; }
+.igs-height372{ height: 372px ; }
+.igs-height373{ height: 373px ; }
+.igs-height374{ height: 374px ; }
+.igs-height375{ height: 375px ; }
+.igs-height376{ height: 376px ; }
+.igs-height377{ height: 377px ; }
+.igs-height378{ height: 378px ; }
+.igs-height379{ height: 379px ; }
+.igs-height380{ height: 380px ; }
+.igs-height381{ height: 381px ; }
+.igs-height382{ height: 382px ; }
+.igs-height383{ height: 383px ; }
+.igs-height384{ height: 384px ; }
+.igs-height385{ height: 385px ; }
+.igs-height386{ height: 386px ; }
+.igs-height387{ height: 387px ; }
+.igs-height388{ height: 388px ; }
+.igs-height389{ height: 389px ; }
+.igs-height390{ height: 390px ; }
+.igs-height391{ height: 391px ; }
+.igs-height392{ height: 392px ; }
+.igs-height393{ height: 393px ; }
+.igs-height394{ height: 394px ; }
+.igs-height395{ height: 395px ; }
+.igs-height396{ height: 396px ; }
+.igs-height397{ height: 397px ; }
+.igs-height398{ height: 398px ; }
+.igs-height399{ height: 399px ; }
+.igs-height400{ height: 400px ; }
+.igs-height401{ height: 401px ; }
+.igs-height402{ height: 402px ; }
+.igs-height403{ height: 403px ; }
+.igs-height404{ height: 404px ; }
+.igs-height405{ height: 405px ; }
+.igs-height406{ height: 406px ; }
+.igs-height407{ height: 407px ; }
+.igs-height408{ height: 408px ; }
+.igs-height409{ height: 409px ; }
+.igs-height410{ height: 410px ; }
+.igs-height411{ height: 411px ; }
+.igs-height412{ height: 412px ; }
+.igs-height413{ height: 413px ; }
+.igs-height414{ height: 414px ; }
+.igs-height415{ height: 415px ; }
+.igs-height416{ height: 416px ; }
+.igs-height417{ height: 417px ; }
+.igs-height418{ height: 418px ; }
+.igs-height419{ height: 419px ; }
+.igs-height420{ height: 420px ; }
+.igs-height421{ height: 421px ; }
+.igs-height422{ height: 422px ; }
+.igs-height423{ height: 423px ; }
+.igs-height424{ height: 424px ; }
+.igs-height425{ height: 425px ; }
+.igs-height426{ height: 426px ; }
+.igs-height427{ height: 427px ; }
+.igs-height428{ height: 428px ; }
+.igs-height429{ height: 429px ; }
+.igs-height430{ height: 430px ; }
+.igs-height431{ height: 431px ; }
+.igs-height432{ height: 432px ; }
+.igs-height433{ height: 433px ; }
+.igs-height434{ height: 434px ; }
+.igs-height435{ height: 435px ; }
+.igs-height436{ height: 436px ; }
+.igs-height437{ height: 437px ; }
+.igs-height438{ height: 438px ; }
+.igs-height439{ height: 439px ; }
+.igs-height440{ height: 440px ; }
+.igs-height441{ height: 441px ; }
+.igs-height442{ height: 442px ; }
+.igs-height443{ height: 443px ; }
+.igs-height444{ height: 444px ; }
+.igs-height445{ height: 445px ; }
+.igs-height446{ height: 446px ; }
+.igs-height447{ height: 447px ; }
+.igs-height448{ height: 448px ; }
+.igs-height449{ height: 449px ; }
+.igs-height450{ height: 450px ; }
+.igs-height451{ height: 451px ; }
+.igs-height452{ height: 452px ; }
+.igs-height453{ height: 453px ; }
+.igs-height454{ height: 454px ; }
+.igs-height455{ height: 455px ; }
+.igs-height456{ height: 456px ; }
+.igs-height457{ height: 457px ; }
+.igs-height458{ height: 458px ; }
+.igs-height459{ height: 459px ; }
+.igs-height460{ height: 460px ; }
+.igs-height461{ height: 461px ; }
+.igs-height462{ height: 462px ; }
+.igs-height463{ height: 463px ; }
+.igs-height464{ height: 464px ; }
+.igs-height465{ height: 465px ; }
+.igs-height466{ height: 466px ; }
+.igs-height467{ height: 467px ; }
+.igs-height468{ height: 468px ; }
+.igs-height469{ height: 469px ; }
+.igs-height470{ height: 470px ; }
+.igs-height471{ height: 471px ; }
+.igs-height472{ height: 472px ; }
+.igs-height473{ height: 473px ; }
+.igs-height474{ height: 474px ; }
+.igs-height475{ height: 475px ; }
+.igs-height476{ height: 476px ; }
+.igs-height477{ height: 477px ; }
+.igs-height478{ height: 478px ; }
+.igs-height479{ height: 479px ; }
+.igs-height480{ height: 480px ; }
+.igs-height481{ height: 481px ; }
+.igs-height482{ height: 482px ; }
+.igs-height483{ height: 483px ; }
+.igs-height484{ height: 484px ; }
+.igs-height485{ height: 485px ; }
+.igs-height486{ height: 486px ; }
+.igs-height487{ height: 487px ; }
+.igs-height488{ height: 488px ; }
+.igs-height489{ height: 489px ; }
+.igs-height490{ height: 490px ; }
+.igs-height491{ height: 491px ; }
+.igs-height492{ height: 492px ; }
+.igs-height493{ height: 493px ; }
+.igs-height494{ height: 494px ; }
+.igs-height495{ height: 495px ; }
+.igs-height496{ height: 496px ; }
+.igs-height497{ height: 497px ; }
+.igs-height498{ height: 498px ; }
+.igs-height499{ height: 499px ; }
+
+/*height pourcentage*/
+
+.igs-height0p{ height: 0%; }
+.igs-height1p{ height: 1%; }
+.igs-height2p{ height: 2%; }
+.igs-height3p{ height: 3%; }
+.igs-height4p{ height: 4%; }
+.igs-height5p{ height: 5%; }
+.igs-height6p{ height: 6%; }
+.igs-height7p{ height: 7%; }
+.igs-height8p{ height: 8%; }
+.igs-height9p{ height: 9%; }
+.igs-height10p{ height: 10%; }
+.igs-height11p{ height: 11%; }
+.igs-height12p{ height: 12%; }
+.igs-height13p{ height: 13%; }
+.igs-height14p{ height: 14%; }
+.igs-height15p{ height: 15%; }
+.igs-height16p{ height: 16%; }
+.igs-height17p{ height: 17%; }
+.igs-height18p{ height: 18%; }
+.igs-height19p{ height: 19%; }
+.igs-height20p{ height: 20%; }
+.igs-height21p{ height: 21%; }
+.igs-height22p{ height: 22%; }
+.igs-height23p{ height: 23%; }
+.igs-height24p{ height: 24%; }
+.igs-height25p{ height: 25%; }
+.igs-height26p{ height: 26%; }
+.igs-height27p{ height: 27%; }
+.igs-height28p{ height: 28%; }
+.igs-height29p{ height: 29%; }
+.igs-height30p{ height: 30%; }
+.igs-height31p{ height: 31%; }
+.igs-height32p{ height: 32%; }
+.igs-height33p{ height: 33%; }
+.igs-height34p{ height: 34%; }
+.igs-height35p{ height: 35%; }
+.igs-height36p{ height: 36%; }
+.igs-height37p{ height: 37%; }
+.igs-height38p{ height: 38%; }
+.igs-height39p{ height: 39%; }
+.igs-height40p{ height: 40%; }
+.igs-height41p{ height: 41%; }
+.igs-height42p{ height: 42%; }
+.igs-height43p{ height: 43%; }
+.igs-height44p{ height: 44%; }
+.igs-height45p{ height: 45%; }
+.igs-height46p{ height: 46%; }
+.igs-height47p{ height: 47%; }
+.igs-height48p{ height: 48%; }
+.igs-height49p{ height: 49%; }
+.igs-height50p{ height: 50%; }
+.igs-height51p{ height: 51%; }
+.igs-height52p{ height: 52%; }
+.igs-height53p{ height: 53%; }
+.igs-height54p{ height: 54%; }
+.igs-height55p{ height: 55%; }
+.igs-height56p{ height: 56%; }
+.igs-height57p{ height: 57%; }
+.igs-height58p{ height: 58%; }
+.igs-height59p{ height: 59%; }
+.igs-height60p{ height: 60%; }
+.igs-height61p{ height: 61%; }
+.igs-height62p{ height: 62%; }
+.igs-height63p{ height: 63%; }
+.igs-height64p{ height: 64%; }
+.igs-height65p{ height: 65%; }
+.igs-height66p{ height: 66%; }
+.igs-height67p{ height: 67%; }
+.igs-height68p{ height: 68%; }
+.igs-height69p{ height: 69%; }
+.igs-height70p{ height: 70%; }
+.igs-height71p{ height: 71%; }
+.igs-height72p{ height: 72%; }
+.igs-height73p{ height: 73%; }
+.igs-height74p{ height: 74%; }
+.igs-height75p{ height: 75%; }
+.igs-height76p{ height: 76%; }
+.igs-height77p{ height: 77%; }
+.igs-height78p{ height: 78%; }
+.igs-height79p{ height: 79%; }
+.igs-height80p{ height: 80%; }
+.igs-height81p{ height: 81%; }
+.igs-height82p{ height: 82%; }
+.igs-height83p{ height: 83%; }
+.igs-height84p{ height: 84%; }
+.igs-height85p{ height: 85%; }
+.igs-height86p{ height: 86%; }
+.igs-height87p{ height: 87%; }
+.igs-height88p{ height: 88%; }
+.igs-height89p{ height: 89%; }
+.igs-height90p{ height: 90%; }
+.igs-height91p{ height: 91%; }
+.igs-height92p{ height: 92%; }
+.igs-height93p{ height: 93%; }
+.igs-height94p{ height: 94%; }
+.igs-height95p{ height: 95%; }
+.igs-height96p{ height: 96%; }
+.igs-height97p{ height: 97%; }
+.igs-height98p{ height: 98%; }
+.igs-height99p{ height: 99%; }
+.igs-height100p{ height: 100%; }
+.igs-height101p{ height: 101%; }
+.igs-height102p{ height: 102%; }
+.igs-height103p{ height: 103%; }
+.igs-height104p{ height: 104%; }
+.igs-height105p{ height: 105%; }
+.igs-height106p{ height: 106%; }
+.igs-height107p{ height: 107%; }
+.igs-height108p{ height: 108%; }
+.igs-height109p{ height: 109%; }
+.igs-height110p{ height: 110%; }
+.igs-height111p{ height: 111%; }
+.igs-height112p{ height: 112%; }
+.igs-height113p{ height: 113%; }
+.igs-height114p{ height: 114%; }
+.igs-height115p{ height: 115%; }
+.igs-height116p{ height: 116%; }
+.igs-height117p{ height: 117%; }
+.igs-height118p{ height: 118%; }
+.igs-height119p{ height: 119%; }
+.igs-height120p{ height: 120%; }
+.igs-height121p{ height: 121%; }
+.igs-height122p{ height: 122%; }
+.igs-height123p{ height: 123%; }
+.igs-height124p{ height: 124%; }
+.igs-height125p{ height: 125%; }
+.igs-height126p{ height: 126%; }
+.igs-height127p{ height: 127%; }
+.igs-height128p{ height: 128%; }
+.igs-height129p{ height: 129%; }
+.igs-height130p{ height: 130%; }
+.igs-height131p{ height: 131%; }
+.igs-height132p{ height: 132%; }
+.igs-height133p{ height: 133%; }
+.igs-height134p{ height: 134%; }
+.igs-height135p{ height: 135%; }
+.igs-height136p{ height: 136%; }
+.igs-height137p{ height: 137%; }
+.igs-height138p{ height: 138%; }
+.igs-height139p{ height: 139%; }
+.igs-height140p{ height: 140%; }
+.igs-height141p{ height: 141%; }
+.igs-height142p{ height: 142%; }
+.igs-height143p{ height: 143%; }
+.igs-height144p{ height: 144%; }
+.igs-height145p{ height: 145%; }
+.igs-height146p{ height: 146%; }
+.igs-height147p{ height: 147%; }
+.igs-height148p{ height: 148%; }
+.igs-height149p{ height: 149%; }
+.igs-height150p{ height: 150%; }
+.igs-height151p{ height: 151%; }
+.igs-height152p{ height: 152%; }
+.igs-height153p{ height: 153%; }
+.igs-height154p{ height: 154%; }
+.igs-height155p{ height: 155%; }
+.igs-height156p{ height: 156%; }
+.igs-height157p{ height: 157%; }
+.igs-height158p{ height: 158%; }
+.igs-height159p{ height: 159%; }
+.igs-height160p{ height: 160%; }
+.igs-height161p{ height: 161%; }
+.igs-height162p{ height: 162%; }
+.igs-height163p{ height: 163%; }
+.igs-height164p{ height: 164%; }
+.igs-height165p{ height: 165%; }
+.igs-height166p{ height: 166%; }
+.igs-height167p{ height: 167%; }
+.igs-height168p{ height: 168%; }
+.igs-height169p{ height: 169%; }
+.igs-height170p{ height: 170%; }
+.igs-height171p{ height: 171%; }
+.igs-height172p{ height: 172%; }
+.igs-height173p{ height: 173%; }
+.igs-height174p{ height: 174%; }
+.igs-height175p{ height: 175%; }
+.igs-height176p{ height: 176%; }
+.igs-height177p{ height: 177%; }
+.igs-height178p{ height: 178%; }
+.igs-height179p{ height: 179%; }
+.igs-height180p{ height: 180%; }
+.igs-height181p{ height: 181%; }
+.igs-height182p{ height: 182%; }
+.igs-height183p{ height: 183%; }
+.igs-height184p{ height: 184%; }
+.igs-height185p{ height: 185%; }
+.igs-height186p{ height: 186%; }
+.igs-height187p{ height: 187%; }
+.igs-height188p{ height: 188%; }
+.igs-height189p{ height: 189%; }
+.igs-height190p{ height: 190%; }
+.igs-height191p{ height: 191%; }
+.igs-height192p{ height: 192%; }
+.igs-height193p{ height: 193%; }
+.igs-height194p{ height: 194%; }
+.igs-height195p{ height: 195%; }
+.igs-height196p{ height: 196%; }
+.igs-height197p{ height: 197%; }
+.igs-height198p{ height: 198%; }
+.igs-height199p{ height: 199%; }
+.igs-height200p{ height: 200%; }
+.igs-height201p{ height: 201%; }
+.igs-height202p{ height: 202%; }
+.igs-height203p{ height: 203%; }
+.igs-height204p{ height: 204%; }
+.igs-height205p{ height: 205%; }
+.igs-height206p{ height: 206%; }
+.igs-height207p{ height: 207%; }
+.igs-height208p{ height: 208%; }
+.igs-height209p{ height: 209%; }
+.igs-height210p{ height: 210%; }
+.igs-height211p{ height: 211%; }
+.igs-height212p{ height: 212%; }
+.igs-height213p{ height: 213%; }
+.igs-height214p{ height: 214%; }
+.igs-height215p{ height: 215%; }
+.igs-height216p{ height: 216%; }
+.igs-height217p{ height: 217%; }
+.igs-height218p{ height: 218%; }
+.igs-height219p{ height: 219%; }
+.igs-height220p{ height: 220%; }
+.igs-height221p{ height: 221%; }
+.igs-height222p{ height: 222%; }
+.igs-height223p{ height: 223%; }
+.igs-height224p{ height: 224%; }
+.igs-height225p{ height: 225%; }
+.igs-height226p{ height: 226%; }
+.igs-height227p{ height: 227%; }
+.igs-height228p{ height: 228%; }
+.igs-height229p{ height: 229%; }
+.igs-height230p{ height: 230%; }
+.igs-height231p{ height: 231%; }
+.igs-height232p{ height: 232%; }
+.igs-height233p{ height: 233%; }
+.igs-height234p{ height: 234%; }
+.igs-height235p{ height: 235%; }
+.igs-height236p{ height: 236%; }
+.igs-height237p{ height: 237%; }
+.igs-height238p{ height: 238%; }
+.igs-height239p{ height: 239%; }
+.igs-height240p{ height: 240%; }
+.igs-height241p{ height: 241%; }
+.igs-height242p{ height: 242%; }
+.igs-height243p{ height: 243%; }
+.igs-height244p{ height: 244%; }
+.igs-height245p{ height: 245%; }
+.igs-height246p{ height: 246%; }
+.igs-height247p{ height: 247%; }
+.igs-height248p{ height: 248%; }
+.igs-height249p{ height: 249%; }
+.igs-height250p{ height: 250%; }
+.igs-height251p{ height: 251%; }
+.igs-height252p{ height: 252%; }
+.igs-height253p{ height: 253%; }
+.igs-height254p{ height: 254%; }
+.igs-height255p{ height: 255%; }
+.igs-height256p{ height: 256%; }
+.igs-height257p{ height: 257%; }
+.igs-height258p{ height: 258%; }
+.igs-height259p{ height: 259%; }
+.igs-height260p{ height: 260%; }
+.igs-height261p{ height: 261%; }
+.igs-height262p{ height: 262%; }
+.igs-height263p{ height: 263%; }
+.igs-height264p{ height: 264%; }
+.igs-height265p{ height: 265%; }
+.igs-height266p{ height: 266%; }
+.igs-height267p{ height: 267%; }
+.igs-height268p{ height: 268%; }
+.igs-height269p{ height: 269%; }
+.igs-height270p{ height: 270%; }
+.igs-height271p{ height: 271%; }
+.igs-height272p{ height: 272%; }
+.igs-height273p{ height: 273%; }
+.igs-height274p{ height: 274%; }
+.igs-height275p{ height: 275%; }
+.igs-height276p{ height: 276%; }
+.igs-height277p{ height: 277%; }
+.igs-height278p{ height: 278%; }
+.igs-height279p{ height: 279%; }
+.igs-height280p{ height: 280%; }
+.igs-height281p{ height: 281%; }
+.igs-height282p{ height: 282%; }
+.igs-height283p{ height: 283%; }
+.igs-height284p{ height: 284%; }
+.igs-height285p{ height: 285%; }
+.igs-height286p{ height: 286%; }
+.igs-height287p{ height: 287%; }
+.igs-height288p{ height: 288%; }
+.igs-height289p{ height: 289%; }
+.igs-height290p{ height: 290%; }
+.igs-height291p{ height: 291%; }
+.igs-height292p{ height: 292%; }
+.igs-height293p{ height: 293%; }
+.igs-height294p{ height: 294%; }
+.igs-height295p{ height: 295%; }
+.igs-height296p{ height: 296%; }
+.igs-height297p{ height: 297%; }
+.igs-height298p{ height: 298%; }
+.igs-height299p{ height: 299%; }
+.igs-height300p{ height: 300%; }
+.igs-height301p{ height: 301%; }
+.igs-height302p{ height: 302%; }
+.igs-height303p{ height: 303%; }
+.igs-height304p{ height: 304%; }
+.igs-height305p{ height: 305%; }
+.igs-height306p{ height: 306%; }
+.igs-height307p{ height: 307%; }
+.igs-height308p{ height: 308%; }
+.igs-height309p{ height: 309%; }
+.igs-height310p{ height: 310%; }
+.igs-height311p{ height: 311%; }
+.igs-height312p{ height: 312%; }
+.igs-height313p{ height: 313%; }
+.igs-height314p{ height: 314%; }
+.igs-height315p{ height: 315%; }
+.igs-height316p{ height: 316%; }
+.igs-height317p{ height: 317%; }
+.igs-height318p{ height: 318%; }
+.igs-height319p{ height: 319%; }
+.igs-height320p{ height: 320%; }
+.igs-height321p{ height: 321%; }
+.igs-height322p{ height: 322%; }
+.igs-height323p{ height: 323%; }
+.igs-height324p{ height: 324%; }
+.igs-height325p{ height: 325%; }
+.igs-height326p{ height: 326%; }
+.igs-height327p{ height: 327%; }
+.igs-height328p{ height: 328%; }
+.igs-height329p{ height: 329%; }
+.igs-height330p{ height: 330%; }
+.igs-height331p{ height: 331%; }
+.igs-height332p{ height: 332%; }
+.igs-height333p{ height: 333%; }
+.igs-height334p{ height: 334%; }
+.igs-height335p{ height: 335%; }
+.igs-height336p{ height: 336%; }
+.igs-height337p{ height: 337%; }
+.igs-height338p{ height: 338%; }
+.igs-height339p{ height: 339%; }
+.igs-height340p{ height: 340%; }
+.igs-height341p{ height: 341%; }
+.igs-height342p{ height: 342%; }
+.igs-height343p{ height: 343%; }
+.igs-height344p{ height: 344%; }
+.igs-height345p{ height: 345%; }
+.igs-height346p{ height: 346%; }
+.igs-height347p{ height: 347%; }
+.igs-height348p{ height: 348%; }
+.igs-height349p{ height: 349%; }
+.igs-height350p{ height: 350%; }
+.igs-height351p{ height: 351%; }
+.igs-height352p{ height: 352%; }
+.igs-height353p{ height: 353%; }
+.igs-height354p{ height: 354%; }
+.igs-height355p{ height: 355%; }
+.igs-height356p{ height: 356%; }
+.igs-height357p{ height: 357%; }
+.igs-height358p{ height: 358%; }
+.igs-height359p{ height: 359%; }
+.igs-height360p{ height: 360%; }
+.igs-height361p{ height: 361%; }
+.igs-height362p{ height: 362%; }
+.igs-height363p{ height: 363%; }
+.igs-height364p{ height: 364%; }
+.igs-height365p{ height: 365%; }
+.igs-height366p{ height: 366%; }
+.igs-height367p{ height: 367%; }
+.igs-height368p{ height: 368%; }
+.igs-height369p{ height: 369%; }
+.igs-height370p{ height: 370%; }
+.igs-height371p{ height: 371%; }
+.igs-height372p{ height: 372%; }
+.igs-height373p{ height: 373%; }
+.igs-height374p{ height: 374%; }
+.igs-height375p{ height: 375%; }
+.igs-height376p{ height: 376%; }
+.igs-height377p{ height: 377%; }
+.igs-height378p{ height: 378%; }
+.igs-height379p{ height: 379%; }
+.igs-height380p{ height: 380%; }
+.igs-height381p{ height: 381%; }
+.igs-height382p{ height: 382%; }
+.igs-height383p{ height: 383%; }
+.igs-height384p{ height: 384%; }
+.igs-height385p{ height: 385%; }
+.igs-height386p{ height: 386%; }
+.igs-height387p{ height: 387%; }
+.igs-height388p{ height: 388%; }
+.igs-height389p{ height: 389%; }
+.igs-height390p{ height: 390%; }
+.igs-height391p{ height: 391%; }
+.igs-height392p{ height: 392%; }
+.igs-height393p{ height: 393%; }
+.igs-height394p{ height: 394%; }
+.igs-height395p{ height: 395%; }
+.igs-height396p{ height: 396%; }
+.igs-height397p{ height: 397%; }
+.igs-height398p{ height: 398%; }
+.igs-height399p{ height: 399%; }
+.igs-height400p{ height: 400%; }
+.igs-height401p{ height: 401%; }
+.igs-height402p{ height: 402%; }
+.igs-height403p{ height: 403%; }
+.igs-height404p{ height: 404%; }
+.igs-height405p{ height: 405%; }
+.igs-height406p{ height: 406%; }
+.igs-height407p{ height: 407%; }
+.igs-height408p{ height: 408%; }
+.igs-height409p{ height: 409%; }
+.igs-height410p{ height: 410%; }
+.igs-height411p{ height: 411%; }
+.igs-height412p{ height: 412%; }
+.igs-height413p{ height: 413%; }
+.igs-height414p{ height: 414%; }
+.igs-height415p{ height: 415%; }
+.igs-height416p{ height: 416%; }
+.igs-height417p{ height: 417%; }
+.igs-height418p{ height: 418%; }
+.igs-height419p{ height: 419%; }
+.igs-height420p{ height: 420%; }
+.igs-height421p{ height: 421%; }
+.igs-height422p{ height: 422%; }
+.igs-height423p{ height: 423%; }
+.igs-height424p{ height: 424%; }
+.igs-height425p{ height: 425%; }
+.igs-height426p{ height: 426%; }
+.igs-height427p{ height: 427%; }
+.igs-height428p{ height: 428%; }
+.igs-height429p{ height: 429%; }
+.igs-height430p{ height: 430%; }
+.igs-height431p{ height: 431%; }
+.igs-height432p{ height: 432%; }
+.igs-height433p{ height: 433%; }
+.igs-height434p{ height: 434%; }
+.igs-height435p{ height: 435%; }
+.igs-height436p{ height: 436%; }
+.igs-height437p{ height: 437%; }
+.igs-height438p{ height: 438%; }
+.igs-height439p{ height: 439%; }
+.igs-height440p{ height: 440%; }
+.igs-height441p{ height: 441%; }
+.igs-height442p{ height: 442%; }
+.igs-height443p{ height: 443%; }
+.igs-height444p{ height: 444%; }
+.igs-height445p{ height: 445%; }
+.igs-height446p{ height: 446%; }
+.igs-height447p{ height: 447%; }
+.igs-height448p{ height: 448%; }
+.igs-height449p{ height: 449%; }
+.igs-height450p{ height: 450%; }
+.igs-height451p{ height: 451%; }
+.igs-height452p{ height: 452%; }
+.igs-height453p{ height: 453%; }
+.igs-height454p{ height: 454%; }
+.igs-height455p{ height: 455%; }
+.igs-height456p{ height: 456%; }
+.igs-height457p{ height: 457%; }
+.igs-height458p{ height: 458%; }
+.igs-height459p{ height: 459%; }
+.igs-height460p{ height: 460%; }
+.igs-height461p{ height: 461%; }
+.igs-height462p{ height: 462%; }
+.igs-height463p{ height: 463%; }
+.igs-height464p{ height: 464%; }
+.igs-height465p{ height: 465%; }
+.igs-height466p{ height: 466%; }
+.igs-height467p{ height: 467%; }
+.igs-height468p{ height: 468%; }
+.igs-height469p{ height: 469%; }
+.igs-height470p{ height: 470%; }
+.igs-height471p{ height: 471%; }
+.igs-height472p{ height: 472%; }
+.igs-height473p{ height: 473%; }
+.igs-height474p{ height: 474%; }
+.igs-height475p{ height: 475%; }
+.igs-height476p{ height: 476%; }
+.igs-height477p{ height: 477%; }
+.igs-height478p{ height: 478%; }
+.igs-height479p{ height: 479%; }
+.igs-height480p{ height: 480%; }
+.igs-height481p{ height: 481%; }
+.igs-height482p{ height: 482%; }
+.igs-height483p{ height: 483%; }
+.igs-height484p{ height: 484%; }
+.igs-height485p{ height: 485%; }
+.igs-height486p{ height: 486%; }
+.igs-height487p{ height: 487%; }
+.igs-height488p{ height: 488%; }
+.igs-height489p{ height: 489%; }
+.igs-height490p{ height: 490%; }
+.igs-height491p{ height: 491%; }
+.igs-height492p{ height: 492%; }
+.igs-height493p{ height: 493%; }
+.igs-height494p{ height: 494%; }
+.igs-height495p{ height: 495%; }
+.igs-height496p{ height: 496%; }
+.igs-height497p{ height: 497%; }
+.igs-height498p{ height: 498%; }
+.igs-height499p{ height: 499%; }
+.igs-height500p{ height: 500%; }
+
+.igs-fontsize0{ font-size: 0px ; }
+.igs-fontsize1{ font-size: 1px ; }
+.igs-fontsize2{ font-size: 2px ; }
+.igs-fontsize3{ font-size: 3px ; }
+.igs-fontsize4{ font-size: 4px ; }
+.igs-fontsize5{ font-size: 5px ; }
+.igs-fontsize6{ font-size: 6px ; }
+.igs-fontsize7{ font-size: 7px ; }
+.igs-fontsize8{ font-size: 8px ; }
+.igs-fontsize9{ font-size: 9px ; }
+.igs-fontsize10{ font-size: 10px ; }
+.igs-fontsize11{ font-size: 11px ; }
+.igs-fontsize12{ font-size: 12px ; }
+.igs-fontsize13{ font-size: 13px ; }
+.igs-fontsize14{ font-size: 14px ; }
+.igs-fontsize15{ font-size: 15px ; }
+.igs-fontsize16{ font-size: 16px ; }
+.igs-fontsize17{ font-size: 17px ; }
+.igs-fontsize18{ font-size: 18px ; }
+.igs-fontsize19{ font-size: 19px ; }
+.igs-fontsize20{ font-size: 20px ; }
+.igs-fontsize21{ font-size: 21px ; }
+.igs-fontsize22{ font-size: 22px ; }
+.igs-fontsize23{ font-size: 23px ; }
+.igs-fontsize24{ font-size: 24px ; }
+.igs-fontsize25{ font-size: 25px ; }
+.igs-fontsize26{ font-size: 26px ; }
+.igs-fontsize27{ font-size: 27px ; }
+.igs-fontsize28{ font-size: 28px ; }
+.igs-fontsize29{ font-size: 29px ; }
+.igs-fontsize30{ font-size: 30px ; }
+.igs-fontsize31{ font-size: 31px ; }
+.igs-fontsize32{ font-size: 32px ; }
+.igs-fontsize33{ font-size: 33px ; }
+.igs-fontsize34{ font-size: 34px ; }
+.igs-fontsize35{ font-size: 35px ; }
+.igs-fontsize36{ font-size: 36px ; }
+.igs-fontsize37{ font-size: 37px ; }
+.igs-fontsize38{ font-size: 38px ; }
+.igs-fontsize39{ font-size: 39px ; }
+.igs-fontsize40{ font-size: 40px ; }
+.igs-fontsize41{ font-size: 41px ; }
+.igs-fontsize42{ font-size: 42px ; }
+.igs-fontsize43{ font-size: 43px ; }
+.igs-fontsize44{ font-size: 44px ; }
+.igs-fontsize45{ font-size: 45px ; }
+.igs-fontsize46{ font-size: 46px ; }
+.igs-fontsize47{ font-size: 47px ; }
+.igs-fontsize48{ font-size: 48px ; }
+.igs-fontsize49{ font-size: 49px ; }
+.igs-fontsize50{ font-size: 50px ; }
+/*media queri*/
+
+.igs-imgwidth{width: 75%;}
+.igs-paddingrespon{padding: 30px;}
+
+
+@media (max-width: 1390px){
+
+    .igs-marginleft250{margin-left: 100px}
+    .igs-paddingrespon{padding-top: 100px;}
+
+
+    
+}
+@media (max-width: 624px){
+
+    .igs-imgwidth{width: 300px}
+    .igs-marginleft250{margin-left:100px}
+    .igs-paddingrespon{padding-top: 150px;}
+    .igs-fontsize50{font-size: 30px}
+}
+
+@media (max-width: 555px){
+
+    .igs-imgwidth{width: 300px}
+    .igs-marginleft250{margin-left:10px}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
